@@ -103,24 +103,18 @@
 
 ## TODO
 
-* all blogs (<https://aws.amazon.com/blogs/>)
-    * template URL - "https://aws.amazon.com/api/dirs/items/search?item.directoryId=blog-posts&sort_by=item.additionalFields.createdDate&sort_order=desc&size=10&item.locale=en_US&page=1"
-* all events content (<https://aws.amazon.com/events/events-content>) page=0...N
-    * template URL "https://aws.amazon.com/api/dirs/items/search?item.directoryId=event-content&sort_by=item.dateCreated&sort_order=desc&size=12&item.locale=en_US&tags.id=GLOBAL%23language%23english&page=1"
-* Builders Library - https://aws.amazon.com/api/dirs/items/search?item.directoryId=amazon-redwood&sort_by=item.additionalFields.customSort&sort_order=asc&size=24&item.locale=en_US
-* whats new, item.directoryId=whats-new
-* item.directoryId=security-bulletins
-* item.directoryId=aws-products
-* item.directoryId=blog-posts
-* item.directoryId=media-resources
-* item.directoryId=free-tier-products
-
-* use <https://lunrjs.com/> for searching
 * step fn processing logic - need to figure out how to not download everything each run.  way to download only new or changed items since last run
     * define work by getting metadata for number results via https://...?item.directoryId=${directoryId}&item.locale=en_US&page=0.  generate singe sqs message for each unique URL
     * use returned `metadata.count` for `size` query string parameter
     * &sort_by=item.[dateCreated|dateUpdated]&sort_order=desc
     * lambda subscription to SQS.  process sequencially.  set batch size to >1 initially to see if throttling.  can always set batch size to 1
+* use <https://lunrjs.com/> for searching
+* all blogs (<https://aws.amazon.com/blogs/>)
+    * template URL - "https://aws.amazon.com/api/dirs/items/search?item.directoryId=blog-posts&sort_by=item.additionalFields.createdDate&sort_order=desc&size=10&item.locale=en_US&page=1"
+* all events content (<https://aws.amazon.com/events/events-content>) page=0...N
+    * template URL "https://aws.amazon.com/api/dirs/items/search?item.directoryId=event-content&sort_by=item.dateCreated&sort_order=desc&size=12&item.locale=en_US&tags.id=GLOBAL%23language%23english&page=1"
+* Builders Library - https://aws.amazon.com/api/dirs/items/search?item.directoryId=amazon-redwood&sort_by=item.additionalFields.customSort&sort_order=asc&size=24&item.locale=en_US
+
 
 ## One-liner to retrieve a list of all AWS products
 
@@ -132,7 +126,6 @@ curl --silent --compressed \
 | jq -r '.items[].item | .additionalFields.productCategory + " | " + .additionalFields.productName' \
 | sort
 ```
-
 
 ## Resources
 
