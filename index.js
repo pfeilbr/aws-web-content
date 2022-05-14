@@ -1,6 +1,7 @@
 // fetch all aws directory api metadata (arch diagrams, products, blog posts, builders library articles, etc.)
 
-import fetch from 'node-fetch';
+import fetch from 'node-fetch'
+import fs from 'fs'
 
 (async () => {
     const directories = [
@@ -102,13 +103,14 @@ import fetch from 'node-fetch';
         //await saveFile();
         //return;
         try {
-            for (const directory of directories.slice(0,1)) {
+            for (const directory of directories /* .slice(0,1) */ ) {
                 const data = await fetchDirectory(directory.directoryId)
                 const totalItems = data.reduce((previous, current) => {
                     return previous + current.items.length;
                 }, 0)
                 l(`directory.directoryId=${directory.directoryId},totalPages=${data.length},totalItems=${totalItems},itemsPerPage=${data[0].metadata.count}`);
                 //await sleep(1000)
+                fs.writeFileSync(`data/${directory.directoryId}.json`, JSON.stringify(data, null, 2));
             }        
         } catch (e) {
             console.log(e)
