@@ -116,12 +116,14 @@ import lunr from 'lunr';
 
             const idx = lunr(function () {
                 this.ref('id')
+                this.field('directoryId')
                 this.field('name')
                 this.field('description')
                 this.field('dateCreated')
                 this.field('dateUpdated')
             
                 items.forEach(function (item) {
+                    item.directoryId = directoryId;
                   this.add(item)
                 }, this)
               })
