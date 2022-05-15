@@ -125,7 +125,7 @@ import lunr from 'lunr';
             const relativePath = `${relativeDirPath}/${fileName}`;
             const basename = path.basename(fileName, '.json');
             const directoryId = basename
-            const titleFieldName = getDirectoryTitleFieldNameByDirectoryId(directoryId)
+            const titleFieldName = await getDirectoryTitleFieldNameByDirectoryId(directoryId)
             l(`relativePath=${relativePath},directoryId=${directoryId}`)
 
             const pages = JSON.parse(fs.readFileSync(relativePath, {encoding: 'utf-8'}))
@@ -137,6 +137,7 @@ import lunr from 'lunr';
                 this.ref('id')
                 this.field('directoryId')
                 this.field('name')
+                this.field('title')
                 this.field('description')
                 this.field('dateCreated')
                 this.field('dateUpdated')

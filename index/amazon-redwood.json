@@ -3,6 +3,7 @@
   "fields": [
     "directoryId",
     "name",
+    "title",
     "description",
     "dateCreated",
     "dateUpdated"
@@ -39,6 +40,10 @@
         10,
         1.924
       ]
+    ],
+    [
+      "title/amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes",
+      []
     ],
     [
       "description/amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes",
@@ -95,6 +100,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#video-architecting-and-operating-resilient-serverless-systems-at-scale",
+      []
+    ],
+    [
       "description/amazon-redwood#video-architecting-and-operating-resilient-serverless-systems-at-scale",
       []
     ],
@@ -145,6 +154,10 @@
         28,
         2.411
       ]
+    ],
+    [
+      "title/amazon-redwood#video-amazon-approach-to-security-during-development",
+      []
     ],
     [
       "description/amazon-redwood#video-amazon-approach-to-security-during-development",
@@ -199,6 +212,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#video-amazon-approach-to-high-availability-deployment",
+      []
+    ],
+    [
       "description/amazon-redwood#video-amazon-approach-to-high-availability-deployment",
       []
     ],
@@ -247,6 +264,10 @@
         36,
         2.634
       ]
+    ],
+    [
+      "title/amazon-redwood#video-amazon-approach-to-failing-successfully",
+      []
     ],
     [
       "description/amazon-redwood#video-amazon-approach-to-failing-successfully",
@@ -301,6 +322,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#video-amazon-approach-to-building-resilient-services",
+      []
+    ],
+    [
       "description/amazon-redwood#video-amazon-approach-to-building-resilient-services",
       []
     ],
@@ -345,6 +370,10 @@
         45,
         2.283
       ]
+    ],
+    [
+      "title/amazon-redwood#upgrading-software-safely",
+      []
     ],
     [
       "description/amazon-redwood#upgrading-software-safely",
@@ -393,6 +422,10 @@
         53,
         2.902
       ]
+    ],
+    [
+      "title/amazon-redwood#timeouts-retries-and-backoff-with-jitter",
+      []
     ],
     [
       "description/amazon-redwood#timeouts-retries-and-backoff-with-jitter",
@@ -445,6 +478,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#static-stability-using-availability-zones",
+      []
+    ],
+    [
       "description/amazon-redwood#static-stability-using-availability-zones",
       []
     ],
@@ -487,6 +524,10 @@
         63,
         3.643
       ]
+    ],
+    [
+      "title/amazon-redwood#shuffle-sharding",
+      []
     ],
     [
       "description/amazon-redwood#shuffle-sharding",
@@ -533,6 +574,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#scale-inversion",
+      []
+    ],
+    [
       "description/amazon-redwood#scale-inversion",
       []
     ],
@@ -577,6 +622,10 @@
         72,
         3.23
       ]
+    ],
+    [
+      "title/amazon-redwood#reliability-and-constant-work",
+      []
     ],
     [
       "description/amazon-redwood#reliability-and-constant-work",
@@ -629,6 +678,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#minimizing-correlated-failures-in-distributed-systems",
+      []
+    ],
+    [
       "description/amazon-redwood#minimizing-correlated-failures-in-distributed-systems",
       []
     ],
@@ -679,6 +732,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#making-retries-safe-with-idempotent-apis",
+      []
+    ],
+    [
       "description/amazon-redwood#making-retries-safe-with-idempotent-apis",
       []
     ],
@@ -727,6 +784,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#load-shedding-for-overload-protection",
+      []
+    ],
+    [
       "description/amazon-redwood#load-shedding-for-overload-protection",
       []
     ],
@@ -769,6 +830,10 @@
         96,
         3.643
       ]
+    ],
+    [
+      "title/amazon-redwood#leader-election",
+      []
     ],
     [
       "description/amazon-redwood#leader-election",
@@ -817,6 +882,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#instrumentation-for-operational-visibility",
+      []
+    ],
+    [
       "description/amazon-redwood#instrumentation-for-operational-visibility",
       []
     ],
@@ -861,6 +930,10 @@
         105,
         3.23
       ]
+    ],
+    [
+      "title/amazon-redwood#implementing-health-checks",
+      []
     ],
     [
       "description/amazon-redwood#implementing-health-checks",
@@ -911,6 +984,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#going-faster-continous-delivery",
+      []
+    ],
+    [
       "description/amazon-redwood#going-faster-continous-delivery",
       []
     ],
@@ -959,6 +1036,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#fairness-in-multi-tenant-systems",
+      []
+    ],
+    [
       "description/amazon-redwood#fairness-in-multi-tenant-systems",
       []
     ],
@@ -1005,6 +1086,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#challenges-with-distributed-systems",
+      []
+    ],
+    [
       "description/amazon-redwood#challenges-with-distributed-systems",
       []
     ],
@@ -1045,6 +1130,10 @@
         122,
         4.176
       ]
+    ],
+    [
+      "title/amazon-redwood#caching",
+      []
     ],
     [
       "description/amazon-redwood#caching",
@@ -1095,6 +1184,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#building-dashboards-for-operational-visibility",
+      []
+    ],
+    [
       "description/amazon-redwood#building-dashboards-for-operational-visibility",
       []
     ],
@@ -1141,6 +1234,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#avoiding-queue-backlogs",
+      []
+    ],
+    [
       "description/amazon-redwood#avoiding-queue-backlogs",
       []
     ],
@@ -1183,6 +1280,10 @@
         133,
         3.643
       ]
+    ],
+    [
+      "title/amazon-redwood#avoiding-fallback",
+      []
     ],
     [
       "description/amazon-redwood#avoiding-fallback",
@@ -1233,6 +1334,10 @@
       ]
     ],
     [
+      "title/amazon-redwood#automating-safe-hands-off-deployments",
+      []
+    ],
+    [
       "description/amazon-redwood#automating-safe-hands-off-deployments",
       []
     ],
@@ -1266,6 +1371,7 @@
         "_index": 86,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#making-retries-safe-with-idempotent-apis": {}
@@ -1279,6 +1385,7 @@
         "_index": 73,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#reliability-and-constant-work": {},
@@ -1295,6 +1402,7 @@
         "_index": 15,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1332,6 +1440,7 @@
         "_index": 138,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#automating-safe-hands-off-deployments": {}
@@ -1345,6 +1454,7 @@
         "_index": 68,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#scale-inversion": {}
@@ -1358,6 +1468,7 @@
         "_index": 126,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#building-dashboards-for-operational-visibility": {}
@@ -1371,6 +1482,7 @@
         "_index": 37,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#video-amazon-approach-to-failing-successfully": {}
@@ -1384,6 +1496,7 @@
         "_index": 33,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#video-amazon-approach-to-high-availability-deployment": {}
@@ -1397,6 +1510,7 @@
         "_index": 41,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#video-amazon-approach-to-building-resilient-services": {}
@@ -1410,6 +1524,7 @@
         "_index": 29,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#video-amazon-approach-to-security-during-development": {}
@@ -1423,6 +1538,7 @@
         "_index": 23,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#video-architecting-and-operating-resilient-serverless-systems-at-scale": {}
@@ -1436,6 +1552,7 @@
         "_index": 13,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {}
@@ -1449,6 +1566,7 @@
         "_index": 131,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#avoiding-queue-backlogs": {}
@@ -1462,6 +1580,7 @@
         "_index": 48,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#upgrading-software-safely": {}
@@ -1475,6 +1594,7 @@
         "_index": 60,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#static-stability-using-availability-zones": {}
@@ -1488,6 +1608,7 @@
         "_index": 117,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#fairness-in-multi-tenant-systems": {}
@@ -1501,6 +1622,7 @@
         "_index": 134,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#avoiding-fallback": {}
@@ -1514,6 +1636,7 @@
         "_index": 123,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#caching": {}
@@ -1527,6 +1650,7 @@
         "_index": 97,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#leader-election": {}
@@ -1540,6 +1664,7 @@
         "_index": 54,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#timeouts-retries-and-backoff-with-jitter": {}
@@ -1553,6 +1678,7 @@
         "_index": 93,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#load-shedding-for-overload-protection": {}
@@ -1566,6 +1692,7 @@
         "_index": 120,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#challenges-with-distributed-systems": {}
@@ -1579,6 +1706,7 @@
         "_index": 101,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#instrumentation-for-operational-visibility": {}
@@ -1592,6 +1720,7 @@
         "_index": 106,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#implementing-health-checks": {}
@@ -1605,6 +1734,7 @@
         "_index": 12,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {},
@@ -1624,6 +1754,7 @@
         "_index": 67,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#scale-inversion": {}
@@ -1637,6 +1768,7 @@
         "_index": 47,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#upgrading-software-safely": {},
@@ -1663,6 +1795,7 @@
         "_index": 81,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#minimizing-correlated-failures-in-distributed-systems": {}
@@ -1676,6 +1809,7 @@
         "_index": 82,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1689,6 +1823,7 @@
         "_index": 87,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#making-retries-safe-with-idempotent-apis": {}
@@ -1702,6 +1837,7 @@
         "_index": 139,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#automating-safe-hands-off-deployments": {}
@@ -1715,6 +1851,7 @@
         "_index": 74,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#reliability-and-constant-work": {}
@@ -1728,6 +1865,7 @@
         "_index": 46,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#upgrading-software-safely": {},
@@ -1754,6 +1892,7 @@
         "_index": 11,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {},
@@ -1775,6 +1914,7 @@
         "_index": 14,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#reliability-and-constant-work": {},
@@ -1815,6 +1955,7 @@
         "_index": 80,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#minimizing-correlated-failures-in-distributed-systems": {}
@@ -1830,6 +1971,7 @@
         "_index": 75,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1843,6 +1985,7 @@
         "_index": 88,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1856,6 +1999,7 @@
         "_index": 69,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1869,6 +2013,7 @@
         "_index": 16,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1882,6 +2027,7 @@
         "_index": 24,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1895,6 +2041,7 @@
         "_index": 30,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1908,6 +2055,7 @@
         "_index": 42,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1921,6 +2069,7 @@
         "_index": 34,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1934,6 +2083,7 @@
         "_index": 38,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1947,6 +2097,7 @@
         "_index": 127,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1960,6 +2111,7 @@
         "_index": 140,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1973,6 +2125,7 @@
         "_index": 113,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1986,6 +2139,7 @@
         "_index": 65,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -1999,6 +2153,7 @@
         "_index": 107,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2012,6 +2167,7 @@
         "_index": 102,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2025,6 +2181,7 @@
         "_index": 121,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2038,6 +2195,7 @@
         "_index": 94,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2051,6 +2209,7 @@
         "_index": 55,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2064,6 +2223,7 @@
         "_index": 98,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2077,6 +2237,7 @@
         "_index": 124,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2090,6 +2251,7 @@
         "_index": 135,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2103,6 +2265,7 @@
         "_index": 118,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2116,6 +2279,7 @@
         "_index": 61,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2129,6 +2293,7 @@
         "_index": 49,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2142,6 +2307,7 @@
         "_index": 132,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {
@@ -2155,6 +2321,7 @@
         "_index": 64,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#shuffle-sharding": {}
@@ -2168,6 +2335,7 @@
         "_index": 112,
         "directoryId": {},
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {
           "amazon-redwood#going-faster-continous-delivery": {}
@@ -2183,6 +2351,7 @@
         "name": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2226,6 +2395,7 @@
           "amazon-redwood#video-amazon-approach-to-failing-successfully": {},
           "amazon-redwood#video-amazon-approach-to-building-resilient-services": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2239,6 +2409,7 @@
         "name": {
           "amazon-redwood#making-retries-safe-with-idempotent-apis": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2255,6 +2426,7 @@
           "amazon-redwood#video-amazon-approach-to-failing-successfully": {},
           "amazon-redwood#video-amazon-approach-to-building-resilient-services": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2268,6 +2440,7 @@
         "name": {
           "amazon-redwood#video-architecting-and-operating-resilient-serverless-systems-at-scale": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2281,6 +2454,7 @@
         "name": {
           "amazon-redwood#automating-safe-hands-off-deployments": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2296,6 +2470,7 @@
           "amazon-redwood#video-amazon-approach-to-high-availability-deployment": {},
           "amazon-redwood#static-stability-using-availability-zones": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2310,6 +2485,7 @@
           "amazon-redwood#avoiding-queue-backlogs": {},
           "amazon-redwood#avoiding-fallback": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2323,6 +2499,7 @@
         "name": {
           "amazon-redwood#avoiding-queue-backlogs": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2336,6 +2513,7 @@
         "name": {
           "amazon-redwood#timeouts-retries-and-backoff-with-jitter": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2349,6 +2527,7 @@
         "name": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2363,6 +2542,7 @@
           "amazon-redwood#video-amazon-approach-to-building-resilient-services": {},
           "amazon-redwood#building-dashboards-for-operational-visibility": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2376,6 +2556,7 @@
         "name": {
           "amazon-redwood#caching": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2389,6 +2570,7 @@
         "name": {
           "amazon-redwood#challenges-with-distributed-systems": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2402,6 +2584,7 @@
         "name": {
           "amazon-redwood#implementing-health-checks": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2415,6 +2598,7 @@
         "name": {
           "amazon-redwood#reliability-and-constant-work": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2428,6 +2612,7 @@
         "name": {
           "amazon-redwood#going-faster-continous-delivery": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2441,6 +2626,7 @@
         "name": {
           "amazon-redwood#minimizing-correlated-failures-in-distributed-systems": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2454,6 +2640,7 @@
         "name": {
           "amazon-redwood#building-dashboards-for-operational-visibility": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2467,6 +2654,7 @@
         "name": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2480,6 +2668,7 @@
         "name": {
           "amazon-redwood#going-faster-continous-delivery": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2494,6 +2683,7 @@
           "amazon-redwood#video-amazon-approach-to-high-availability-deployment": {},
           "amazon-redwood#automating-safe-hands-off-deployments": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2507,6 +2697,7 @@
         "name": {
           "amazon-redwood#video-amazon-approach-to-security-during-development": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2521,6 +2712,7 @@
           "amazon-redwood#minimizing-correlated-failures-in-distributed-systems": {},
           "amazon-redwood#challenges-with-distributed-systems": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2534,6 +2726,7 @@
         "name": {
           "amazon-redwood#video-amazon-approach-to-security-during-development": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2547,6 +2740,7 @@
         "name": {
           "amazon-redwood#leader-election": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2560,6 +2754,7 @@
         "name": {
           "amazon-redwood#video-amazon-approach-to-failing-successfully": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2573,6 +2768,7 @@
         "name": {
           "amazon-redwood#minimizing-correlated-failures-in-distributed-systems": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2586,6 +2782,7 @@
         "name": {
           "amazon-redwood#fairness-in-multi-tenant-systems": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2599,6 +2796,7 @@
         "name": {
           "amazon-redwood#avoiding-fallback": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2612,6 +2810,7 @@
         "name": {
           "amazon-redwood#going-faster-continous-delivery": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2625,6 +2824,7 @@
         "name": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2638,6 +2838,7 @@
         "name": {
           "amazon-redwood#going-faster-continous-delivery": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2651,6 +2852,7 @@
         "name": {
           "amazon-redwood#automating-safe-hands-off-deployments": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2664,6 +2866,7 @@
         "name": {
           "amazon-redwood#implementing-health-checks": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2677,6 +2880,7 @@
         "name": {
           "amazon-redwood#video-amazon-approach-to-high-availability-deployment": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2690,6 +2894,7 @@
         "name": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2703,6 +2908,7 @@
         "name": {
           "amazon-redwood#making-retries-safe-with-idempotent-apis": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2716,6 +2922,7 @@
         "name": {
           "amazon-redwood#implementing-health-checks": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2729,6 +2936,7 @@
         "name": {
           "amazon-redwood#instrumentation-for-operational-visibility": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2742,6 +2950,7 @@
         "name": {
           "amazon-redwood#scale-inversion": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2755,6 +2964,7 @@
         "name": {
           "amazon-redwood#timeouts-retries-and-backoff-with-jitter": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2768,6 +2978,7 @@
         "name": {
           "amazon-redwood#leader-election": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2781,6 +2992,7 @@
         "name": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2794,6 +3006,7 @@
         "name": {
           "amazon-redwood#load-shedding-for-overload-protection": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2807,6 +3020,7 @@
         "name": {
           "amazon-redwood#making-retries-safe-with-idempotent-apis": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2820,6 +3034,7 @@
         "name": {
           "amazon-redwood#minimizing-correlated-failures-in-distributed-systems": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2833,6 +3048,7 @@
         "name": {
           "amazon-redwood#fairness-in-multi-tenant-systems": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2848,6 +3064,7 @@
           "amazon-redwood#instrumentation-for-operational-visibility": {},
           "amazon-redwood#building-dashboards-for-operational-visibility": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2861,6 +3078,7 @@
         "name": {
           "amazon-redwood#load-shedding-for-overload-protection": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2874,6 +3092,7 @@
         "name": {
           "amazon-redwood#video-beyond-five-9s-lessons-from-our-highest-available-data-planes": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2887,6 +3106,7 @@
         "name": {
           "amazon-redwood#load-shedding-for-overload-protection": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2900,6 +3120,7 @@
         "name": {
           "amazon-redwood#avoiding-queue-backlogs": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2938,6 +3159,7 @@
           "amazon-redwood#automating-safe-hands-off-deployments": {}
         },
         "name": {},
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2951,6 +3173,7 @@
         "name": {
           "amazon-redwood#reliability-and-constant-work": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2965,6 +3188,7 @@
           "amazon-redwood#video-architecting-and-operating-resilient-serverless-systems-at-scale": {},
           "amazon-redwood#video-amazon-approach-to-building-resilient-services": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2979,6 +3203,7 @@
           "amazon-redwood#timeouts-retries-and-backoff-with-jitter": {},
           "amazon-redwood#making-retries-safe-with-idempotent-apis": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -2994,6 +3219,7 @@
           "amazon-redwood#making-retries-safe-with-idempotent-apis": {},
           "amazon-redwood#automating-safe-hands-off-deployments": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3008,6 +3234,7 @@
           "amazon-redwood#video-architecting-and-operating-resilient-serverless-systems-at-scale": {},
           "amazon-redwood#scale-inversion": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3021,6 +3248,7 @@
         "name": {
           "amazon-redwood#video-amazon-approach-to-security-during-development": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3034,6 +3262,7 @@
         "name": {
           "amazon-redwood#video-architecting-and-operating-resilient-serverless-systems-at-scale": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3047,6 +3276,7 @@
         "name": {
           "amazon-redwood#video-amazon-approach-to-building-resilient-services": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3060,6 +3290,7 @@
         "name": {
           "amazon-redwood#shuffle-sharding": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3073,6 +3304,7 @@
         "name": {
           "amazon-redwood#load-shedding-for-overload-protection": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3086,6 +3318,7 @@
         "name": {
           "amazon-redwood#shuffle-sharding": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3099,6 +3332,7 @@
         "name": {
           "amazon-redwood#upgrading-software-safely": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3112,6 +3346,7 @@
         "name": {
           "amazon-redwood#static-stability-using-availability-zones": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3125,6 +3360,7 @@
         "name": {
           "amazon-redwood#static-stability-using-availability-zones": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3138,6 +3374,7 @@
         "name": {
           "amazon-redwood#video-amazon-approach-to-failing-successfully": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3154,6 +3391,7 @@
           "amazon-redwood#fairness-in-multi-tenant-systems": {},
           "amazon-redwood#challenges-with-distributed-systems": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3167,6 +3405,7 @@
         "name": {
           "amazon-redwood#fairness-in-multi-tenant-systems": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3180,6 +3419,7 @@
         "name": {
           "amazon-redwood#timeouts-retries-and-backoff-with-jitter": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3193,6 +3433,7 @@
         "name": {
           "amazon-redwood#upgrading-software-safely": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3206,6 +3447,7 @@
         "name": {
           "amazon-redwood#static-stability-using-availability-zones": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3224,6 +3466,7 @@
           "amazon-redwood#video-amazon-approach-to-failing-successfully": {},
           "amazon-redwood#video-amazon-approach-to-building-resilient-services": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3238,6 +3481,7 @@
           "amazon-redwood#instrumentation-for-operational-visibility": {},
           "amazon-redwood#building-dashboards-for-operational-visibility": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3251,6 +3495,7 @@
         "name": {
           "amazon-redwood#reliability-and-constant-work": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
@@ -3264,6 +3509,7 @@
         "name": {
           "amazon-redwood#static-stability-using-availability-zones": {}
         },
+        "title": {},
         "description": {},
         "dateCreated": {},
         "dateUpdated": {}
