@@ -183,12 +183,13 @@ import lunr from 'lunr';
         const items = await loadDirectoryAsItems(directoryId)
         const idx = lunr.Index.load(JSON.parse(fs.readFileSync(`index/${directoryId}.json`, {encoding: 'utf-8'})))
         const searchResults = idx.search(query)
-        const results = searchResults.map(e => items.find(i => i.id === e.ref)).map(e => ({"title": e.title, "dateUpdated": e.dateUpdated}))
+        const results = searchResults.map(e => items.find(i => i.id === e.ref)).map(e => ({"title": e.title, "dateUpdated": e.dateUpdated, "dateCreated": e.dateCreated}))
+        const sortFieldname = "dateCreated" // "dateUpdated"
         const sortedResultsDesc = results.sort((a, b) => {
-            if (a.dateUpdated < b.dateUpdated) {
+            if (a[sortFieldname] < b[sortFieldname]) {
                 return -1;
               }
-              if (a.dateUpdated > b.dateUpdated) {
+              if (a[sortFieldname] > b[sortFieldname]) {
                 return 1;
               }
             
