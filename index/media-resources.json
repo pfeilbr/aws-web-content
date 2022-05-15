@@ -1,0 +1,4231 @@
+{
+  "version": "2.3.9",
+  "fields": [
+    "name",
+    "description",
+    "dateCreated",
+    "dateUpdated"
+  ],
+  "fieldVectors": [
+    [
+      "name/media-resources#windows-migration-for-media-and-entertainment",
+      [
+        0,
+        3.629,
+        1,
+        3.055,
+        2,
+        1.681,
+        3,
+        3.629
+      ]
+    ],
+    [
+      "description/media-resources#windows-migration-for-media-and-entertainment",
+      []
+    ],
+    [
+      "dateCreated/media-resources#windows-migration-for-media-and-entertainment",
+      [
+        4,
+        0.323,
+        5,
+        1.195,
+        6,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#windows-migration-for-media-and-entertainment",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        9,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#video-processing-and-delivery-moves-to-the-cloud",
+      [
+        10,
+        1.238,
+        11,
+        2.818,
+        12,
+        2.47,
+        13,
+        3.347,
+        14,
+        1.829
+      ]
+    ],
+    [
+      "description/media-resources#video-processing-and-delivery-moves-to-the-cloud",
+      []
+    ],
+    [
+      "dateCreated/media-resources#video-processing-and-delivery-moves-to-the-cloud",
+      [
+        4,
+        0.323,
+        8,
+        0.068,
+        15,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#video-processing-and-delivery-moves-to-the-cloud",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        16,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#video-origination-services-options-trade-offs-how-to-choose",
+      [
+        10,
+        1.004,
+        17,
+        2.715,
+        18,
+        2.003,
+        19,
+        2.715,
+        20,
+        2.715,
+        21,
+        2.715,
+        22,
+        1.624,
+        23,
+        2.715
+      ]
+    ],
+    [
+      "description/media-resources#video-origination-services-options-trade-offs-how-to-choose",
+      []
+    ],
+    [
+      "dateCreated/media-resources#video-origination-services-options-trade-offs-how-to-choose",
+      [
+        24,
+        1.035,
+        25,
+        1.766,
+        26,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#video-origination-services-options-trade-offs-how-to-choose",
+      [
+        24,
+        1.035,
+        25,
+        1.766,
+        27,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#use-the-cloud-to-deliver-great-fan-experiences",
+      [
+        14,
+        1.697,
+        28,
+        2.292,
+        29,
+        3.106,
+        30,
+        2.615,
+        31,
+        3.106,
+        32,
+        3.106
+      ]
+    ],
+    [
+      "description/media-resources#use-the-cloud-to-deliver-great-fan-experiences",
+      []
+    ],
+    [
+      "dateCreated/media-resources#use-the-cloud-to-deliver-great-fan-experiences",
+      [
+        4,
+        0.323,
+        8,
+        0.068,
+        33,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#use-the-cloud-to-deliver-great-fan-experiences",
+      [
+        7,
+        0.097,
+        34,
+        2.134,
+        35,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#the-practical-guide-to-aws-media-services",
+      [
+        2,
+        1.551,
+        18,
+        2.47,
+        36,
+        3.347,
+        37,
+        3.347,
+        38,
+        1.436
+      ]
+    ],
+    [
+      "description/media-resources#the-practical-guide-to-aws-media-services",
+      []
+    ],
+    [
+      "dateCreated/media-resources#the-practical-guide-to-aws-media-services",
+      [
+        4,
+        0.323,
+        8,
+        0.068,
+        39,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#the-practical-guide-to-aws-media-services",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        40,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes",
+      [
+        41,
+        2.898,
+        42,
+        2.898,
+        43,
+        1.583,
+        44,
+        2.898,
+        45,
+        1.583,
+        46,
+        2.898,
+        47,
+        2.898
+      ]
+    ],
+    [
+      "description/media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes",
+      []
+    ],
+    [
+      "dateCreated/media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        48,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        49,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#server-side-ad-insertion",
+      [
+        50,
+        3.629,
+        51,
+        3.629,
+        52,
+        3.629,
+        53,
+        3.629
+      ]
+    ],
+    [
+      "description/media-resources#server-side-ad-insertion",
+      []
+    ],
+    [
+      "dateCreated/media-resources#server-side-ad-insertion",
+      [
+        4,
+        0.323,
+        54,
+        1.112,
+        55,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#server-side-ad-insertion",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        56,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#security-for-content-media-workflows",
+      [
+        2,
+        1.551,
+        22,
+        2.002,
+        57,
+        3.347,
+        58,
+        2.818,
+        59,
+        2.47
+      ]
+    ],
+    [
+      "description/media-resources#security-for-content-media-workflows",
+      []
+    ],
+    [
+      "dateCreated/media-resources#security-for-content-media-workflows",
+      [
+        24,
+        1.035,
+        25,
+        1.766,
+        60,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#security-for-content-media-workflows",
+      [
+        24,
+        1.035,
+        25,
+        1.766,
+        61,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#publishing-innovation-day-online",
+      [
+        62,
+        3.629,
+        63,
+        3.055,
+        64,
+        3.055,
+        65,
+        3.055
+      ]
+    ],
+    [
+      "description/media-resources#publishing-innovation-day-online",
+      []
+    ],
+    [
+      "dateCreated/media-resources#publishing-innovation-day-online",
+      [
+        24,
+        1.035,
+        66,
+        2.721,
+        67,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#publishing-innovation-day-online",
+      [
+        24,
+        1.035,
+        54,
+        1.112,
+        68,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#over-the-top-the-cloud-based-path-to-innovation",
+      [
+        14,
+        1.697,
+        63,
+        2.615,
+        69,
+        3.106,
+        70,
+        3.106,
+        71,
+        2.615,
+        72,
+        3.106
+      ]
+    ],
+    [
+      "description/media-resources#over-the-top-the-cloud-based-path-to-innovation",
+      []
+    ],
+    [
+      "dateCreated/media-resources#over-the-top-the-cloud-based-path-to-innovation",
+      [
+        4,
+        0.323,
+        5,
+        1.195,
+        73,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#over-the-top-the-cloud-based-path-to-innovation",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        74,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#modernize-your-media-workloads",
+      [
+        2,
+        1.836,
+        75,
+        3.962,
+        76,
+        3.962
+      ]
+    ],
+    [
+      "description/media-resources#modernize-your-media-workloads",
+      []
+    ],
+    [
+      "dateCreated/media-resources#modernize-your-media-workloads",
+      [
+        4,
+        0.323,
+        5,
+        1.195,
+        77,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#modernize-your-media-workloads",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        78,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#machine-learning-fundamentals-for-corporate-streaming-video",
+      [
+        10,
+        1.149,
+        45,
+        1.697,
+        79,
+        2.292,
+        80,
+        2.05,
+        81,
+        3.106,
+        82,
+        3.106
+      ]
+    ],
+    [
+      "description/media-resources#machine-learning-fundamentals-for-corporate-streaming-video",
+      []
+    ],
+    [
+      "dateCreated/media-resources#machine-learning-fundamentals-for-corporate-streaming-video",
+      [
+        4,
+        0.323,
+        54,
+        1.112,
+        83,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#machine-learning-fundamentals-for-corporate-streaming-video",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        84,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#machine-learning-for-m-e-ebook",
+      [
+        79,
+        2.678,
+        80,
+        2.395,
+        85,
+        3.629,
+        86,
+        3.055
+      ]
+    ],
+    [
+      "description/media-resources#machine-learning-for-m-e-ebook",
+      []
+    ],
+    [
+      "dateCreated/media-resources#machine-learning-for-m-e-ebook",
+      [
+        24,
+        1.035,
+        87,
+        3.232,
+        88,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#machine-learning-for-m-e-ebook",
+      [
+        24,
+        1.035,
+        54,
+        1.112,
+        89,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#live-video-delivery-from-the-cloud",
+      [
+        10,
+        1.342,
+        12,
+        2.678,
+        14,
+        1.983,
+        43,
+        1.983
+      ]
+    ],
+    [
+      "description/media-resources#live-video-delivery-from-the-cloud",
+      []
+    ],
+    [
+      "dateCreated/media-resources#live-video-delivery-from-the-cloud",
+      [
+        4,
+        0.323,
+        8,
+        0.068,
+        90,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#live-video-delivery-from-the-cloud",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        91,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day",
+      [
+        18,
+        2.138,
+        38,
+        1.243,
+        64,
+        2.44,
+        92,
+        2.898,
+        93,
+        2.44,
+        94,
+        2.898,
+        95,
+        2.898
+      ]
+    ],
+    [
+      "description/media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day",
+      []
+    ],
+    [
+      "dateCreated/media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day",
+      [
+        4,
+        0.323,
+        96,
+        2.385,
+        97,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        98,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control",
+      [
+        99,
+        2.898,
+        100,
+        2.898,
+        101,
+        2.138,
+        102,
+        2.898,
+        103,
+        2.898,
+        104,
+        2.898,
+        105,
+        2.898
+      ]
+    ],
+    [
+      "description/media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control",
+      []
+    ],
+    [
+      "dateCreated/media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control",
+      [
+        4,
+        0.323,
+        54,
+        1.112,
+        106,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control",
+      [
+        24,
+        1.035,
+        25,
+        1.766,
+        107,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions",
+      [
+        2,
+        1.343,
+        10,
+        1.072,
+        28,
+        2.138,
+        38,
+        1.243,
+        93,
+        2.44,
+        108,
+        2.898,
+        109,
+        1.913
+      ]
+    ],
+    [
+      "description/media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions",
+      []
+    ],
+    [
+      "dateCreated/media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions",
+      [
+        4,
+        0.323,
+        5,
+        1.195,
+        110,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        111,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions",
+      [
+        38,
+        1.436,
+        43,
+        1.829,
+        45,
+        1.829,
+        109,
+        2.21,
+        112,
+        3.347
+      ]
+    ],
+    [
+      "description/media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions",
+      []
+    ],
+    [
+      "dateCreated/media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions",
+      [
+        4,
+        0.323,
+        5,
+        1.195,
+        113,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        114,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#hevc-the-past-present-future-explained",
+      [
+        22,
+        1.858,
+        115,
+        2.615,
+        116,
+        3.106,
+        117,
+        3.106,
+        118,
+        3.106,
+        119,
+        3.106
+      ]
+    ],
+    [
+      "description/media-resources#hevc-the-past-present-future-explained",
+      []
+    ],
+    [
+      "dateCreated/media-resources#hevc-the-past-present-future-explained",
+      [
+        4,
+        0.323,
+        54,
+        1.112,
+        120,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#hevc-the-past-present-future-explained",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        121,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#hevc-migration-fragmented-mp4-and-cmaf",
+      [
+        1,
+        2.818,
+        115,
+        2.818,
+        122,
+        3.347,
+        123,
+        3.347,
+        124,
+        3.347
+      ]
+    ],
+    [
+      "description/media-resources#hevc-migration-fragmented-mp4-and-cmaf",
+      []
+    ],
+    [
+      "dateCreated/media-resources#hevc-migration-fragmented-mp4-and-cmaf",
+      [
+        4,
+        0.323,
+        54,
+        1.112,
+        125,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#hevc-migration-fragmented-mp4-and-cmaf",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        126,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws",
+      [
+        10,
+        0.892,
+        22,
+        1.442,
+        28,
+        1.779,
+        38,
+        1.034,
+        80,
+        1.592,
+        127,
+        2.412,
+        128,
+        2.412,
+        129,
+        2.412,
+        130,
+        2.412,
+        131,
+        2.412
+      ]
+    ],
+    [
+      "description/media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws",
+      []
+    ],
+    [
+      "dateCreated/media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws",
+      [
+        4,
+        0.323,
+        8,
+        0.068,
+        132,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        133,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#foundational-concepts-video-compression-processing-and-delivery",
+      [
+        10,
+        1.149,
+        11,
+        2.615,
+        12,
+        2.292,
+        134,
+        3.106,
+        135,
+        3.106,
+        136,
+        3.106
+      ]
+    ],
+    [
+      "description/media-resources#foundational-concepts-video-compression-processing-and-delivery",
+      []
+    ],
+    [
+      "dateCreated/media-resources#foundational-concepts-video-compression-processing-and-delivery",
+      [
+        4,
+        0.323,
+        54,
+        1.112,
+        137,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#foundational-concepts-video-compression-processing-and-delivery",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        138,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#digital-content-creation-on-aws",
+      [
+        38,
+        1.557,
+        58,
+        3.055,
+        139,
+        3.629,
+        140,
+        3.629
+      ]
+    ],
+    [
+      "description/media-resources#digital-content-creation-on-aws",
+      []
+    ],
+    [
+      "dateCreated/media-resources#digital-content-creation-on-aws",
+      [
+        5,
+        1.195,
+        7,
+        0.097,
+        141,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#digital-content-creation-on-aws",
+      [
+        5,
+        1.195,
+        7,
+        0.097,
+        142,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#cloud-based-dvr-technical-overview",
+      [
+        14,
+        1.829,
+        71,
+        2.818,
+        143,
+        3.347,
+        144,
+        3.347,
+        145,
+        3.347
+      ]
+    ],
+    [
+      "description/media-resources#cloud-based-dvr-technical-overview",
+      []
+    ],
+    [
+      "dateCreated/media-resources#cloud-based-dvr-technical-overview",
+      [
+        4,
+        0.323,
+        96,
+        2.385,
+        146,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#cloud-based-dvr-technical-overview",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        147,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#building-resilient-high-quality-live-video-workflow",
+      [
+        10,
+        1.072,
+        43,
+        1.583,
+        59,
+        2.138,
+        101,
+        2.138,
+        148,
+        2.44,
+        149,
+        2.44,
+        150,
+        2.898
+      ]
+    ],
+    [
+      "description/media-resources#building-resilient-high-quality-live-video-workflow",
+      []
+    ],
+    [
+      "dateCreated/media-resources#building-resilient-high-quality-live-video-workflow",
+      [
+        4,
+        0.323,
+        54,
+        1.112,
+        151,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#building-resilient-high-quality-live-video-workflow",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        152,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#building-implementing-scalable-affordable-vod-solutions",
+      [
+        22,
+        1.733,
+        109,
+        1.913,
+        148,
+        2.44,
+        153,
+        2.898,
+        154,
+        2.898,
+        155,
+        2.898,
+        156,
+        2.898
+      ]
+    ],
+    [
+      "description/media-resources#building-implementing-scalable-affordable-vod-solutions",
+      []
+    ],
+    [
+      "dateCreated/media-resources#building-implementing-scalable-affordable-vod-solutions",
+      [
+        4,
+        0.323,
+        5,
+        1.195,
+        157,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#building-implementing-scalable-affordable-vod-solutions",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        158,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#broadcast-transformation-ebook",
+      [
+        86,
+        3.336,
+        159,
+        2.924,
+        160,
+        3.962
+      ]
+    ],
+    [
+      "description/media-resources#broadcast-transformation-ebook",
+      []
+    ],
+    [
+      "dateCreated/media-resources#broadcast-transformation-ebook",
+      [
+        24,
+        1.035,
+        66,
+        2.721,
+        161,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#broadcast-transformation-ebook",
+      [
+        24,
+        1.035,
+        54,
+        1.112,
+        162,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#broadcast-in-the-cloud",
+      [
+        14,
+        2.165,
+        159,
+        2.924,
+        163,
+        2.616
+      ]
+    ],
+    [
+      "description/media-resources#broadcast-in-the-cloud",
+      []
+    ],
+    [
+      "dateCreated/media-resources#broadcast-in-the-cloud",
+      [
+        24,
+        1.035,
+        25,
+        1.766,
+        164,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#broadcast-in-the-cloud",
+      [
+        24,
+        1.035,
+        54,
+        1.112,
+        165,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#behind-the-stream",
+      [
+        45,
+        2.384,
+        166,
+        4.363
+      ]
+    ],
+    [
+      "description/media-resources#behind-the-stream",
+      []
+    ],
+    [
+      "dateCreated/media-resources#behind-the-stream",
+      [
+        4,
+        0.323,
+        96,
+        2.385,
+        167,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#behind-the-stream",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        168,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#aws-media-solutions-webcast-series",
+      [
+        2,
+        1.551,
+        38,
+        1.436,
+        109,
+        2.21,
+        163,
+        2.21,
+        169,
+        2.47
+      ]
+    ],
+    [
+      "description/media-resources#aws-media-solutions-webcast-series",
+      []
+    ],
+    [
+      "dateCreated/media-resources#aws-media-solutions-webcast-series",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        170,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#aws-media-solutions-webcast-series",
+      [
+        5,
+        1.195,
+        7,
+        0.097,
+        171,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#aws-media-insights-webcast-series",
+      [
+        2,
+        1.551,
+        38,
+        1.436,
+        163,
+        2.21,
+        169,
+        2.47,
+        172,
+        2.818
+      ]
+    ],
+    [
+      "description/media-resources#aws-media-insights-webcast-series",
+      []
+    ],
+    [
+      "dateCreated/media-resources#aws-media-insights-webcast-series",
+      [
+        5,
+        1.195,
+        7,
+        0.097,
+        173,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#aws-media-insights-webcast-series",
+      [
+        5,
+        1.195,
+        7,
+        0.097,
+        174,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#aws-insights-online-conference",
+      [
+        38,
+        1.557,
+        65,
+        3.055,
+        172,
+        3.055,
+        175,
+        3.629
+      ]
+    ],
+    [
+      "description/media-resources#aws-insights-online-conference",
+      []
+    ],
+    [
+      "dateCreated/media-resources#aws-insights-online-conference",
+      [
+        4,
+        0.323,
+        8,
+        0.068,
+        176,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#aws-insights-online-conference",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        177,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning",
+      [
+        10,
+        1.004,
+        79,
+        2.003,
+        80,
+        1.792,
+        178,
+        2.715,
+        179,
+        2.715,
+        180,
+        2.715,
+        181,
+        2.715,
+        182,
+        2.715
+      ]
+    ],
+    [
+      "description/media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning",
+      []
+    ],
+    [
+      "dateCreated/media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning",
+      [
+        4,
+        0.323,
+        54,
+        1.112,
+        183,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        184,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#achieving-great-video-quality-without-breaking-the-bank",
+      [
+        10,
+        1.072,
+        30,
+        2.44,
+        101,
+        2.138,
+        185,
+        2.44,
+        186,
+        2.898,
+        187,
+        2.898,
+        188,
+        2.898
+      ]
+    ],
+    [
+      "description/media-resources#achieving-great-video-quality-without-breaking-the-bank",
+      []
+    ],
+    [
+      "dateCreated/media-resources#achieving-great-video-quality-without-breaking-the-bank",
+      [
+        4,
+        0.323,
+        34,
+        2.134,
+        189,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#achieving-great-video-quality-without-breaking-the-bank",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        190,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#achieving-broadcast-grade-low-latency-in-live-streaming",
+      [
+        43,
+        1.583,
+        45,
+        1.583,
+        159,
+        2.138,
+        185,
+        2.44,
+        191,
+        2.898,
+        192,
+        2.898,
+        193,
+        2.898
+      ]
+    ],
+    [
+      "description/media-resources#achieving-broadcast-grade-low-latency-in-live-streaming",
+      []
+    ],
+    [
+      "dateCreated/media-resources#achieving-broadcast-grade-low-latency-in-live-streaming",
+      [
+        4,
+        0.323,
+        34,
+        2.134,
+        194,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#achieving-broadcast-grade-low-latency-in-live-streaming",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        195,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#accelerate-your-media-workflows",
+      [
+        2,
+        1.836,
+        59,
+        2.924,
+        196,
+        3.962
+      ]
+    ],
+    [
+      "description/media-resources#accelerate-your-media-workflows",
+      []
+    ],
+    [
+      "dateCreated/media-resources#accelerate-your-media-workflows",
+      [
+        4,
+        0.323,
+        8,
+        0.068,
+        197,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#accelerate-your-media-workflows",
+      [
+        7,
+        0.097,
+        34,
+        2.134,
+        198,
+        3.232
+      ]
+    ],
+    [
+      "name/media-resources#3-part-webcast-series-resilient-live-streaming-video",
+      [
+        10,
+        1.004,
+        43,
+        1.483,
+        45,
+        1.483,
+        149,
+        2.286,
+        163,
+        1.792,
+        169,
+        2.003,
+        199,
+        2.715,
+        200,
+        2.715
+      ]
+    ],
+    [
+      "description/media-resources#3-part-webcast-series-resilient-live-streaming-video",
+      []
+    ],
+    [
+      "dateCreated/media-resources#3-part-webcast-series-resilient-live-streaming-video",
+      [
+        4,
+        0.323,
+        8,
+        0.068,
+        201,
+        3.232
+      ]
+    ],
+    [
+      "dateUpdated/media-resources#3-part-webcast-series-resilient-live-streaming-video",
+      [
+        7,
+        0.097,
+        8,
+        0.068,
+        202,
+        3.232
+      ]
+    ]
+  ],
+  "invertedIndex": [
+    [
+      "",
+      {
+        "_index": 22,
+        "name": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {},
+          "media-resources#security-for-content-media-workflows": {},
+          "media-resources#hevc-the-past-present-future-explained": {},
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {},
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "01t17:24:55+0000",
+      {
+        "_index": 161,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#broadcast-transformation-ebook": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "01t17:41:34+0000",
+      {
+        "_index": 67,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#publishing-innovation-day-online": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "02",
+      {
+        "_index": 25,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {},
+          "media-resources#security-for-content-media-workflows": {},
+          "media-resources#broadcast-in-the-cloud": {}
+        },
+        "dateUpdated": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {},
+          "media-resources#security-for-content-media-workflows": {},
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {}
+        }
+      }
+    ],
+    [
+      "03",
+      {
+        "_index": 87,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#machine-learning-for-m-e-ebook": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "03t20:25:48+0000",
+      {
+        "_index": 198,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#accelerate-your-media-workflows": {}
+        }
+      }
+    ],
+    [
+      "03t20:43:56+0000",
+      {
+        "_index": 35,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {}
+        }
+      }
+    ],
+    [
+      "03t22:09:53+0000",
+      {
+        "_index": 77,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#modernize-your-media-workloads": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "03t22:10:41+0000",
+      {
+        "_index": 113,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "03t22:11:15+0000",
+      {
+        "_index": 157,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "03t22:12:32+0000",
+      {
+        "_index": 110,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04",
+      {
+        "_index": 66,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#publishing-innovation-day-online": {},
+          "media-resources#broadcast-transformation-ebook": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t19:15:02+0000",
+      {
+        "_index": 55,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#server-side-ad-insertion": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t19:16:11+0000",
+      {
+        "_index": 83,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t19:17:47+0000",
+      {
+        "_index": 151,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#building-resilient-high-quality-live-video-workflow": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t19:22:19+0000",
+      {
+        "_index": 106,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t19:27:32+0000",
+      {
+        "_index": 137,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t19:28:39+0000",
+      {
+        "_index": 88,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#machine-learning-for-m-e-ebook": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t19:40:33+0000",
+      {
+        "_index": 120,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#hevc-the-past-present-future-explained": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t19:41:19+0000",
+      {
+        "_index": 125,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t19:42:03+0000",
+      {
+        "_index": 183,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "05t19:59:36+0000",
+      {
+        "_index": 6,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#windows-migration-for-media-and-entertainment": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "07",
+      {
+        "_index": 8,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {},
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {},
+          "media-resources#the-practical-guide-to-aws-media-services": {},
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {},
+          "media-resources#live-video-delivery-from-the-cloud": {},
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {},
+          "media-resources#aws-media-solutions-webcast-series": {},
+          "media-resources#aws-insights-online-conference": {},
+          "media-resources#accelerate-your-media-workflows": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "dateUpdated": {
+          "media-resources#windows-migration-for-media-and-entertainment": {},
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {},
+          "media-resources#the-practical-guide-to-aws-media-services": {},
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {},
+          "media-resources#server-side-ad-insertion": {},
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {},
+          "media-resources#modernize-your-media-workloads": {},
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {},
+          "media-resources#live-video-delivery-from-the-cloud": {},
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {},
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {},
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {},
+          "media-resources#hevc-the-past-present-future-explained": {},
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {},
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {},
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {},
+          "media-resources#cloud-based-dvr-technical-overview": {},
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {},
+          "media-resources#behind-the-stream": {},
+          "media-resources#aws-insights-online-conference": {},
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {},
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {},
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        }
+      }
+    ],
+    [
+      "08t23:06:34+0000",
+      {
+        "_index": 189,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t23:08:19+0000",
+      {
+        "_index": 194,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "09",
+      {
+        "_index": 5,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#windows-migration-for-media-and-entertainment": {},
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {},
+          "media-resources#modernize-your-media-workloads": {},
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {},
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {},
+          "media-resources#digital-content-creation-on-aws": {},
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {},
+          "media-resources#aws-media-insights-webcast-series": {}
+        },
+        "dateUpdated": {
+          "media-resources#digital-content-creation-on-aws": {},
+          "media-resources#aws-media-solutions-webcast-series": {},
+          "media-resources#aws-media-insights-webcast-series": {}
+        }
+      }
+    ],
+    [
+      "10",
+      {
+        "_index": 96,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {},
+          "media-resources#cloud-based-dvr-technical-overview": {},
+          "media-resources#behind-the-stream": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "11",
+      {
+        "_index": 34,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {},
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {}
+        },
+        "dateUpdated": {
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {},
+          "media-resources#accelerate-your-media-workflows": {}
+        }
+      }
+    ],
+    [
+      "11t05:20:27+0000",
+      {
+        "_index": 173,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#aws-media-insights-webcast-series": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "11t05:25:13+0000",
+      {
+        "_index": 141,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#digital-content-creation-on-aws": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "11t05:29:31+0000",
+      {
+        "_index": 171,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#aws-media-solutions-webcast-series": {}
+        }
+      }
+    ],
+    [
+      "11t05:29:51+0000",
+      {
+        "_index": 142,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#digital-content-creation-on-aws": {}
+        }
+      }
+    ],
+    [
+      "11t05:32:08+0000",
+      {
+        "_index": 174,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#aws-media-insights-webcast-series": {}
+        }
+      }
+    ],
+    [
+      "12",
+      {
+        "_index": 54,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#server-side-ad-insertion": {},
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {},
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {},
+          "media-resources#hevc-the-past-present-future-explained": {},
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {},
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {},
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        },
+        "dateUpdated": {
+          "media-resources#publishing-innovation-day-online": {},
+          "media-resources#machine-learning-for-m-e-ebook": {},
+          "media-resources#broadcast-transformation-ebook": {},
+          "media-resources#broadcast-in-the-cloud": {}
+        }
+      }
+    ],
+    [
+      "14t00:15:02+0000",
+      {
+        "_index": 162,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#broadcast-transformation-ebook": {}
+        }
+      }
+    ],
+    [
+      "14t00:16:59+0000",
+      {
+        "_index": 89,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#machine-learning-for-m-e-ebook": {}
+        }
+      }
+    ],
+    [
+      "17t19:27:21+0000",
+      {
+        "_index": 165,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#broadcast-in-the-cloud": {}
+        }
+      }
+    ],
+    [
+      "17t19:28:00+0000",
+      {
+        "_index": 68,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#publishing-innovation-day-online": {}
+        }
+      }
+    ],
+    [
+      "18t19:39:54+0000",
+      {
+        "_index": 146,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#cloud-based-dvr-technical-overview": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "18t19:43:58+0000",
+      {
+        "_index": 97,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "2019",
+      {
+        "_index": 4,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#windows-migration-for-media-and-entertainment": {},
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {},
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {},
+          "media-resources#the-practical-guide-to-aws-media-services": {},
+          "media-resources#server-side-ad-insertion": {},
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {},
+          "media-resources#modernize-your-media-workloads": {},
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {},
+          "media-resources#live-video-delivery-from-the-cloud": {},
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {},
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {},
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {},
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {},
+          "media-resources#hevc-the-past-present-future-explained": {},
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {},
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {},
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {},
+          "media-resources#cloud-based-dvr-technical-overview": {},
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {},
+          "media-resources#behind-the-stream": {},
+          "media-resources#aws-insights-online-conference": {},
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {},
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {},
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {},
+          "media-resources#accelerate-your-media-workflows": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "2020",
+      {
+        "_index": 7,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {},
+          "media-resources#digital-content-creation-on-aws": {},
+          "media-resources#aws-media-solutions-webcast-series": {},
+          "media-resources#aws-media-insights-webcast-series": {}
+        },
+        "dateUpdated": {
+          "media-resources#windows-migration-for-media-and-entertainment": {},
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {},
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {},
+          "media-resources#the-practical-guide-to-aws-media-services": {},
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {},
+          "media-resources#server-side-ad-insertion": {},
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {},
+          "media-resources#modernize-your-media-workloads": {},
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {},
+          "media-resources#live-video-delivery-from-the-cloud": {},
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {},
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {},
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {},
+          "media-resources#hevc-the-past-present-future-explained": {},
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {},
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {},
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {},
+          "media-resources#digital-content-creation-on-aws": {},
+          "media-resources#cloud-based-dvr-technical-overview": {},
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {},
+          "media-resources#behind-the-stream": {},
+          "media-resources#aws-media-solutions-webcast-series": {},
+          "media-resources#aws-media-insights-webcast-series": {},
+          "media-resources#aws-insights-online-conference": {},
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {},
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {},
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {},
+          "media-resources#accelerate-your-media-workflows": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        }
+      }
+    ],
+    [
+      "2021",
+      {
+        "_index": 24,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {},
+          "media-resources#security-for-content-media-workflows": {},
+          "media-resources#publishing-innovation-day-online": {},
+          "media-resources#machine-learning-for-m-e-ebook": {},
+          "media-resources#broadcast-transformation-ebook": {},
+          "media-resources#broadcast-in-the-cloud": {}
+        },
+        "dateUpdated": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {},
+          "media-resources#security-for-content-media-workflows": {},
+          "media-resources#publishing-innovation-day-online": {},
+          "media-resources#machine-learning-for-m-e-ebook": {},
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {},
+          "media-resources#broadcast-transformation-ebook": {},
+          "media-resources#broadcast-in-the-cloud": {}
+        }
+      }
+    ],
+    [
+      "22t02:54:22+0000",
+      {
+        "_index": 107,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {}
+        }
+      }
+    ],
+    [
+      "22t03:10:32+0000",
+      {
+        "_index": 60,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#security-for-content-media-workflows": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "22t03:13:59+0000",
+      {
+        "_index": 61,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#security-for-content-media-workflows": {}
+        }
+      }
+    ],
+    [
+      "22t03:18:36+0000",
+      {
+        "_index": 26,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "22t03:22:26+0000",
+      {
+        "_index": 27,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {}
+        }
+      }
+    ],
+    [
+      "22t03:25:24+0000",
+      {
+        "_index": 164,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#broadcast-in-the-cloud": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "22t18:42:47+0000",
+      {
+        "_index": 184,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        }
+      }
+    ],
+    [
+      "22t18:42:49+0000",
+      {
+        "_index": 126,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {}
+        }
+      }
+    ],
+    [
+      "22t18:42:51+0000",
+      {
+        "_index": 121,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#hevc-the-past-present-future-explained": {}
+        }
+      }
+    ],
+    [
+      "22t18:42:54+0000",
+      {
+        "_index": 138,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:06+0000",
+      {
+        "_index": 152,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#building-resilient-high-quality-live-video-workflow": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:08+0000",
+      {
+        "_index": 84,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:10+0000",
+      {
+        "_index": 56,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#server-side-ad-insertion": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:15+0000",
+      {
+        "_index": 195,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:17+0000",
+      {
+        "_index": 190,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:19+0000",
+      {
+        "_index": 168,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#behind-the-stream": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:22+0000",
+      {
+        "_index": 98,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:24+0000",
+      {
+        "_index": 147,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#cloud-based-dvr-technical-overview": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:27+0000",
+      {
+        "_index": 74,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:29+0000",
+      {
+        "_index": 9,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#windows-migration-for-media-and-entertainment": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:31+0000",
+      {
+        "_index": 111,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:33+0000",
+      {
+        "_index": 158,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:36+0000",
+      {
+        "_index": 114,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:38+0000",
+      {
+        "_index": 78,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#modernize-your-media-workloads": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:40+0000",
+      {
+        "_index": 133,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:43+0000",
+      {
+        "_index": 202,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:45+0000",
+      {
+        "_index": 177,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#aws-insights-online-conference": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:47+0000",
+      {
+        "_index": 40,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#the-practical-guide-to-aws-media-services": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:50+0000",
+      {
+        "_index": 91,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#live-video-delivery-from-the-cloud": {}
+        }
+      }
+    ],
+    [
+      "22t18:43:56+0000",
+      {
+        "_index": 16,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {}
+        }
+      }
+    ],
+    [
+      "24t17:51:30+0000",
+      {
+        "_index": 167,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#behind-the-stream": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "3",
+      {
+        "_index": 199,
+        "name": {
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t17:00:32+0000",
+      {
+        "_index": 48,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t17:05:14+0000",
+      {
+        "_index": 49,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {}
+        }
+      }
+    ],
+    [
+      "30t17:13:52+0000",
+      {
+        "_index": 170,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#aws-media-solutions-webcast-series": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:06:21+0000",
+      {
+        "_index": 15,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:36:06+0000",
+      {
+        "_index": 197,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#accelerate-your-media-workflows": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:37:00+0000",
+      {
+        "_index": 33,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:38:06+0000",
+      {
+        "_index": 90,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#live-video-delivery-from-the-cloud": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:40:44+0000",
+      {
+        "_index": 39,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#the-practical-guide-to-aws-media-services": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:44:17+0000",
+      {
+        "_index": 176,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#aws-insights-online-conference": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:45:12+0000",
+      {
+        "_index": 201,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:46:07+0000",
+      {
+        "_index": 132,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t22:41:43+0000",
+      {
+        "_index": 73,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "acceler",
+      {
+        "_index": 196,
+        "name": {
+          "media-resources#accelerate-your-media-workflows": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "achiev",
+      {
+        "_index": 185,
+        "name": {
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {},
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ad",
+      {
+        "_index": 52,
+        "name": {
+          "media-resources#server-side-ad-insertion": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "afford",
+      {
+        "_index": 155,
+        "name": {
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "analysi",
+      {
+        "_index": 182,
+        "name": {
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "augment",
+      {
+        "_index": 178,
+        "name": {
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "avoid",
+      {
+        "_index": 46,
+        "name": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "aw",
+      {
+        "_index": 38,
+        "name": {
+          "media-resources#the-practical-guide-to-aws-media-services": {},
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {},
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {},
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {},
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {},
+          "media-resources#digital-content-creation-on-aws": {},
+          "media-resources#aws-media-solutions-webcast-series": {},
+          "media-resources#aws-media-insights-webcast-series": {},
+          "media-resources#aws-insights-online-conference": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "bank",
+      {
+        "_index": 188,
+        "name": {
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "base",
+      {
+        "_index": 71,
+        "name": {
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {},
+          "media-resources#cloud-based-dvr-technical-overview": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "behind",
+      {
+        "_index": 166,
+        "name": {
+          "media-resources#behind-the-stream": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "bitrat",
+      {
+        "_index": 104,
+        "name": {
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "break",
+      {
+        "_index": 187,
+        "name": {
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "broadcast",
+      {
+        "_index": 159,
+        "name": {
+          "media-resources#broadcast-transformation-ebook": {},
+          "media-resources#broadcast-in-the-cloud": {},
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "build",
+      {
+        "_index": 148,
+        "name": {
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "choos",
+      {
+        "_index": 23,
+        "name": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "cloud",
+      {
+        "_index": 14,
+        "name": {
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {},
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {},
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {},
+          "media-resources#live-video-delivery-from-the-cloud": {},
+          "media-resources#cloud-based-dvr-technical-overview": {},
+          "media-resources#broadcast-in-the-cloud": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "cmaf",
+      {
+        "_index": 124,
+        "name": {
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "compress",
+      {
+        "_index": 136,
+        "name": {
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "concept",
+      {
+        "_index": 135,
+        "name": {
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "confer",
+      {
+        "_index": 175,
+        "name": {
+          "media-resources#aws-insights-online-conference": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "content",
+      {
+        "_index": 58,
+        "name": {
+          "media-resources#security-for-content-media-workflows": {},
+          "media-resources#digital-content-creation-on-aws": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "control",
+      {
+        "_index": 105,
+        "name": {
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "corpor",
+      {
+        "_index": 82,
+        "name": {
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "creation",
+      {
+        "_index": 140,
+        "name": {
+          "media-resources#digital-content-creation-on-aws": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "day",
+      {
+        "_index": 64,
+        "name": {
+          "media-resources#publishing-innovation-day-online": {},
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "defin",
+      {
+        "_index": 102,
+        "name": {
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "deliv",
+      {
+        "_index": 29,
+        "name": {
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "deliveri",
+      {
+        "_index": 12,
+        "name": {
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {},
+          "media-resources#live-video-delivery-from-the-cloud": {},
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "deploy",
+      {
+        "_index": 131,
+        "name": {
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "digit",
+      {
+        "_index": 139,
+        "name": {
+          "media-resources#digital-content-creation-on-aws": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "dvr",
+      {
+        "_index": 143,
+        "name": {
+          "media-resources#cloud-based-dvr-technical-overview": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ebook",
+      {
+        "_index": 86,
+        "name": {
+          "media-resources#machine-learning-for-m-e-ebook": {},
+          "media-resources#broadcast-transformation-ebook": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "entertain",
+      {
+        "_index": 3,
+        "name": {
+          "media-resources#windows-migration-for-media-and-entertainment": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "event",
+      {
+        "_index": 44,
+        "name": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "experi",
+      {
+        "_index": 32,
+        "name": {
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "expert",
+      {
+        "_index": 128,
+        "name": {
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "explain",
+      {
+        "_index": 119,
+        "name": {
+          "media-resources#hevc-the-past-present-future-explained": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "fan",
+      {
+        "_index": 31,
+        "name": {
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "foundat",
+      {
+        "_index": 134,
+        "name": {
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "fragment",
+      {
+        "_index": 122,
+        "name": {
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "full",
+      {
+        "_index": 179,
+        "name": {
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "fundament",
+      {
+        "_index": 81,
+        "name": {
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "futur",
+      {
+        "_index": 118,
+        "name": {
+          "media-resources#hevc-the-past-present-future-explained": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "grade",
+      {
+        "_index": 191,
+        "name": {
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "great",
+      {
+        "_index": 30,
+        "name": {
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {},
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "guid",
+      {
+        "_index": 37,
+        "name": {
+          "media-resources#the-practical-guide-to-aws-media-services": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "hear",
+      {
+        "_index": 127,
+        "name": {
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "hevc",
+      {
+        "_index": 115,
+        "name": {
+          "media-resources#hevc-the-past-present-future-explained": {},
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "high",
+      {
+        "_index": 150,
+        "name": {
+          "media-resources#building-resilient-high-quality-live-video-workflow": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "implement",
+      {
+        "_index": 153,
+        "name": {
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "innov",
+      {
+        "_index": 63,
+        "name": {
+          "media-resources#publishing-innovation-day-online": {},
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "insert",
+      {
+        "_index": 53,
+        "name": {
+          "media-resources#server-side-ad-insertion": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "insight",
+      {
+        "_index": 172,
+        "name": {
+          "media-resources#aws-media-insights-webcast-series": {},
+          "media-resources#aws-insights-online-conference": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "intro",
+      {
+        "_index": 99,
+        "name": {
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "latenc",
+      {
+        "_index": 193,
+        "name": {
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "latest",
+      {
+        "_index": 129,
+        "name": {
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "launch",
+      {
+        "_index": 92,
+        "name": {
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "learn",
+      {
+        "_index": 80,
+        "name": {
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {},
+          "media-resources#machine-learning-for-m-e-ebook": {},
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {},
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "littl",
+      {
+        "_index": 94,
+        "name": {
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "live",
+      {
+        "_index": 43,
+        "name": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {},
+          "media-resources#live-video-delivery-from-the-cloud": {},
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {},
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "low",
+      {
+        "_index": 192,
+        "name": {
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "m&e",
+      {
+        "_index": 85,
+        "name": {
+          "media-resources#machine-learning-for-m-e-ebook": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "machin",
+      {
+        "_index": 79,
+        "name": {
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {},
+          "media-resources#machine-learning-for-m-e-ebook": {},
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "media",
+      {
+        "_index": 2,
+        "name": {
+          "media-resources#windows-migration-for-media-and-entertainment": {},
+          "media-resources#the-practical-guide-to-aws-media-services": {},
+          "media-resources#security-for-content-media-workflows": {},
+          "media-resources#modernize-your-media-workloads": {},
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {},
+          "media-resources#aws-media-solutions-webcast-series": {},
+          "media-resources#aws-media-insights-webcast-series": {},
+          "media-resources#accelerate-your-media-workflows": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "migrat",
+      {
+        "_index": 1,
+        "name": {
+          "media-resources#windows-migration-for-media-and-entertainment": {},
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "mistak",
+      {
+        "_index": 47,
+        "name": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "modern",
+      {
+        "_index": 75,
+        "name": {
+          "media-resources#modernize-your-media-workloads": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "monet",
+      {
+        "_index": 108,
+        "name": {
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "motion",
+      {
+        "_index": 180,
+        "name": {
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "move",
+      {
+        "_index": 13,
+        "name": {
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "mp4",
+      {
+        "_index": 123,
+        "name": {
+          "media-resources#hevc-migration-fragmented-mp4-and-cmaf": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "off",
+      {
+        "_index": 21,
+        "name": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "on",
+      {
+        "_index": 95,
+        "name": {
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "onlin",
+      {
+        "_index": 65,
+        "name": {
+          "media-resources#publishing-innovation-day-online": {},
+          "media-resources#aws-insights-online-conference": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "option",
+      {
+        "_index": 19,
+        "name": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "origin",
+      {
+        "_index": 17,
+        "name": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ott",
+      {
+        "_index": 93,
+        "name": {
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {},
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "out",
+      {
+        "_index": 112,
+        "name": {
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "over",
+      {
+        "_index": 69,
+        "name": {
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "overview",
+      {
+        "_index": 145,
+        "name": {
+          "media-resources#cloud-based-dvr-technical-overview": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "part",
+      {
+        "_index": 200,
+        "name": {
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "past",
+      {
+        "_index": 116,
+        "name": {
+          "media-resources#hevc-the-past-present-future-explained": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "path",
+      {
+        "_index": 72,
+        "name": {
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ped",
+      {
+        "_index": 181,
+        "name": {
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "practic",
+      {
+        "_index": 36,
+        "name": {
+          "media-resources#the-practical-guide-to-aws-media-services": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "present",
+      {
+        "_index": 117,
+        "name": {
+          "media-resources#hevc-the-past-present-future-explained": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "process",
+      {
+        "_index": 11,
+        "name": {
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {},
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "publish",
+      {
+        "_index": 62,
+        "name": {
+          "media-resources#publishing-innovation-day-online": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "qualiti",
+      {
+        "_index": 101,
+        "name": {
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {},
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "qvbr",
+      {
+        "_index": 100,
+        "name": {
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "resili",
+      {
+        "_index": 149,
+        "name": {
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "scalabl",
+      {
+        "_index": 154,
+        "name": {
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "secur",
+      {
+        "_index": 57,
+        "name": {
+          "media-resources#security-for-content-media-workflows": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "seri",
+      {
+        "_index": 169,
+        "name": {
+          "media-resources#aws-media-solutions-webcast-series": {},
+          "media-resources#aws-media-insights-webcast-series": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "server",
+      {
+        "_index": 50,
+        "name": {
+          "media-resources#server-side-ad-insertion": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "servic",
+      {
+        "_index": 18,
+        "name": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {},
+          "media-resources#the-practical-guide-to-aws-media-services": {},
+          "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "side",
+      {
+        "_index": 51,
+        "name": {
+          "media-resources#server-side-ad-insertion": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "solut",
+      {
+        "_index": 109,
+        "name": {
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {},
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {},
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {},
+          "media-resources#aws-media-solutions-webcast-series": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "strategi",
+      {
+        "_index": 41,
+        "name": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "stream",
+      {
+        "_index": 45,
+        "name": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {},
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {},
+          "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions": {},
+          "media-resources#behind-the-stream": {},
+          "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "success",
+      {
+        "_index": 42,
+        "name": {
+          "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "technic",
+      {
+        "_index": 144,
+        "name": {
+          "media-resources#cloud-based-dvr-technical-overview": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "top",
+      {
+        "_index": 70,
+        "name": {
+          "media-resources#over-the-top-the-cloud-based-path-to-innovation": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "trade",
+      {
+        "_index": 20,
+        "name": {
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "transform",
+      {
+        "_index": 160,
+        "name": {
+          "media-resources#broadcast-transformation-ebook": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "trend",
+      {
+        "_index": 130,
+        "name": {
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "us",
+      {
+        "_index": 28,
+        "name": {
+          "media-resources#use-the-cloud-to-deliver-great-fan-experiences": {},
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {},
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "variabl",
+      {
+        "_index": 103,
+        "name": {
+          "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "video",
+      {
+        "_index": 10,
+        "name": {
+          "media-resources#video-processing-and-delivery-moves-to-the-cloud": {},
+          "media-resources#video-origination-services-options-trade-offs-how-to-choose": {},
+          "media-resources#machine-learning-fundamentals-for-corporate-streaming-video": {},
+          "media-resources#live-video-delivery-from-the-cloud": {},
+          "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions": {},
+          "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws": {},
+          "media-resources#foundational-concepts-video-compression-processing-and-delivery": {},
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning": {},
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "vod",
+      {
+        "_index": 156,
+        "name": {
+          "media-resources#building-implementing-scalable-affordable-vod-solutions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "webcast",
+      {
+        "_index": 163,
+        "name": {
+          "media-resources#broadcast-in-the-cloud": {},
+          "media-resources#aws-media-solutions-webcast-series": {},
+          "media-resources#aws-media-insights-webcast-series": {},
+          "media-resources#3-part-webcast-series-resilient-live-streaming-video": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "window",
+      {
+        "_index": 0,
+        "name": {
+          "media-resources#windows-migration-for-media-and-entertainment": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "without",
+      {
+        "_index": 186,
+        "name": {
+          "media-resources#achieving-great-video-quality-without-breaking-the-bank": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "workflow",
+      {
+        "_index": 59,
+        "name": {
+          "media-resources#security-for-content-media-workflows": {},
+          "media-resources#building-resilient-high-quality-live-video-workflow": {},
+          "media-resources#accelerate-your-media-workflows": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "workload",
+      {
+        "_index": 76,
+        "name": {
+          "media-resources#modernize-your-media-workloads": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ]
+  ],
+  "pipeline": [
+    "stemmer"
+  ]
+}

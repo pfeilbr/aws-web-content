@@ -2,6 +2,8 @@
 
 import fetch from 'node-fetch'
 import fs from 'fs'
+import path from 'path'
+import lunr from 'lunr';
 
 (async () => {
     const directories = [
@@ -97,11 +99,41 @@ import fs from 'fs'
           // close the file and write the contents to disk.
           await writableStream.close();
     }
-    
+
+    const createIndex = async () => {
+        const relativeDirPath = 'data';
+        const fileNames = fs.readdirSync(relativeDirPath);
+        for (const fileName of fileNames) {
+            const relativePath = `${relativeDirPath}/${fileName}`;
+            const basename = path.basename(fileName, '.json');
+            const directoryId = basename
+            l(`relativePath=${relativePath},directoryId=${directoryId}`)
+
+            const pages = JSON.parse(fs.readFileSync(relativePath, {encoding: 'utf-8'}))
+
+            const items = pages.map(p => p.items.map(i => i.item)).flat()
+            //l(items)
+
+            const idx = lunr(function () {
+                this.ref('id')
+                this.field('name')
+                this.field('description')
+                this.field('dateCreated')
+                this.field('dateUpdated')
+            
+                items.forEach(function (item) {
+                  this.add(item)
+                }, this)
+              })
+            fs.writeFileSync(`index/${directoryId}.json`, JSON.stringify(idx, null, 2));
+        }
+    }
 
     const main = async () => {
         //await saveFile();
         //return;
+        await createIndex();
+        return;
         try {
             for (const directory of directories /* .slice(0,1) */ ) {
                 const data = await fetchDirectory(directory.directoryId)

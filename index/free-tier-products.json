@@ -1,0 +1,8034 @@
+{
+  "version": "2.3.9",
+  "fields": [
+    "name",
+    "description",
+    "dateCreated",
+    "dateUpdated"
+  ],
+  "fieldVectors": [
+    [
+      "name/free-tier-products#migration-evaluator",
+      [
+        0,
+        3.107,
+        1,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#migration-evaluator",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#migration-evaluator",
+      [
+        2,
+        2.249,
+        3,
+        2.551,
+        4,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#migration-evaluator",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        7,
+        2.551
+      ]
+    ],
+    [
+      "name/free-tier-products#elastic-load-balancing",
+      [
+        8,
+        3.226,
+        9,
+        4.021,
+        10,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#elastic-load-balancing",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#elastic-load-balancing",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        13,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#elastic-load-balancing",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#dynamodb",
+      [
+        15,
+        5.72
+      ]
+    ],
+    [
+      "description/free-tier-products#dynamodb",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#dynamodb",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        16,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#dynamodb",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#cloudendure-migration",
+      [
+        0,
+        3.107,
+        17,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#cloudendure-migration",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#cloudendure-migration",
+      [
+        18,
+        1.274,
+        19,
+        2.82,
+        20,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#cloudendure-migration",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-x-ray",
+      [
+        22,
+        0.862,
+        23,
+        4.021,
+        24,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-x-ray",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-x-ray",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        25,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-x-ray",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-well-architected-tool",
+      [
+        22,
+        0.75,
+        27,
+        3.501,
+        28,
+        3.501,
+        29,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-well-architected-tool",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-well-architected-tool",
+      [
+        30,
+        2.249,
+        31,
+        1.578,
+        32,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-well-architected-tool",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-waf",
+      [
+        22,
+        1.012,
+        34,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-waf",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-waf",
+      [
+        2,
+        2.249,
+        35,
+        2.987,
+        36,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-waf",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-systems-manager",
+      [
+        22,
+        0.862,
+        38,
+        4.021,
+        39,
+        2.511
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-systems-manager",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-systems-manager",
+      [
+        18,
+        1.274,
+        40,
+        2.34,
+        41,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-systems-manager",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-storage-gateway",
+      [
+        22,
+        0.862,
+        42,
+        3.541,
+        43,
+        3.541
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-storage-gateway",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-storage-gateway",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        44,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-storage-gateway",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-step-functions",
+      [
+        22,
+        0.862,
+        45,
+        4.021,
+        46,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-step-functions",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-step-functions",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        47,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-step-functions",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-service-catalog",
+      [
+        22,
+        0.862,
+        48,
+        2.289,
+        49,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-service-catalog",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-service-catalog",
+      [
+        18,
+        1.274,
+        19,
+        2.82,
+        50,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-service-catalog",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-server-migration-service",
+      [
+        0,
+        2.303,
+        22,
+        0.75,
+        48,
+        1.993,
+        51,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-server-migration-service",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-server-migration-service",
+      [
+        18,
+        1.274,
+        19,
+        2.82,
+        52,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-server-migration-service",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-security-hub",
+      [
+        22,
+        0.862,
+        53,
+        4.021,
+        54,
+        3.226
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-security-hub",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-security-hub",
+      [
+        18,
+        1.274,
+        55,
+        2.551,
+        56,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-security-hub",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-secrets-manager",
+      [
+        22,
+        0.862,
+        39,
+        2.511,
+        57,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-secrets-manager",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-secrets-manager",
+      [
+        2,
+        2.249,
+        58,
+        3.439,
+        59,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-secrets-manager",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        7,
+        2.551
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-robomaker",
+      [
+        22,
+        1.012,
+        60,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-robomaker",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-robomaker",
+      [
+        30,
+        2.249,
+        31,
+        1.578,
+        61,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-robomaker",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-resilience-hub",
+      [
+        22,
+        0.862,
+        54,
+        3.226,
+        62,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-resilience-hub",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-resilience-hub",
+      [
+        2,
+        2.249,
+        31,
+        1.578,
+        63,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-resilience-hub",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        7,
+        2.551
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-re-post",
+      [
+        22,
+        1.012,
+        64,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-re-post",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-re-post",
+      [
+        2,
+        2.249,
+        31,
+        1.578,
+        65,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-re-post",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        7,
+        2.551
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-organizations",
+      [
+        22,
+        1.012,
+        66,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-organizations",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-organizations",
+      [
+        18,
+        1.274,
+        40,
+        2.34,
+        67,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-organizations",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-opsworks-for-puppet-enterprise",
+      [
+        22,
+        0.75,
+        68,
+        3.083,
+        69,
+        3.501,
+        70,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-opsworks-for-puppet-enterprise",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-opsworks-for-puppet-enterprise",
+      [
+        11,
+        0.731,
+        31,
+        1.578,
+        71,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-opsworks-for-puppet-enterprise",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-opsworks-for-chef-automate",
+      [
+        22,
+        0.75,
+        68,
+        3.083,
+        72,
+        3.501,
+        73,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-opsworks-for-chef-automate",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-opsworks-for-chef-automate",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        74,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-opsworks-for-chef-automate",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-neptune",
+      [
+        75,
+        0.649,
+        76,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-neptune",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-neptune",
+      [
+        5,
+        0.022,
+        55,
+        2.551,
+        77,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-neptune",
+      [
+        5,
+        0.022,
+        55,
+        2.551,
+        78,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-migration-hub",
+      [
+        0,
+        2.645,
+        22,
+        0.862,
+        54,
+        3.226
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-migration-hub",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-migration-hub",
+      [
+        18,
+        1.274,
+        19,
+        2.82,
+        79,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-migration-hub",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-license-manager",
+      [
+        22,
+        0.862,
+        39,
+        2.511,
+        80,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-license-manager",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-license-manager",
+      [
+        30,
+        2.249,
+        31,
+        1.578,
+        81,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-license-manager",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-lambda",
+      [
+        22,
+        1.012,
+        82,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-lambda",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-lambda",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        83,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-lambda",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-key-management-service",
+      [
+        22,
+        0.75,
+        39,
+        2.186,
+        48,
+        1.993,
+        84,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-key-management-service",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-key-management-service",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        85,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-key-management-service",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-iot-events",
+      [
+        22,
+        0.862,
+        87,
+        3.226,
+        88,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-iot-events",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-iot-events",
+      [
+        3,
+        2.551,
+        89,
+        4.286,
+        90,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-iot-events",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-iot-device-management",
+      [
+        22,
+        0.75,
+        39,
+        2.186,
+        87,
+        2.809,
+        91,
+        3.083
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-iot-device-management",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-iot-device-management",
+      [
+        11,
+        0.731,
+        31,
+        1.578,
+        92,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-iot-device-management",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-iot",
+      [
+        22,
+        0.862,
+        87,
+        3.226,
+        93,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-iot",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-iot",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        94,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-iot",
+      [
+        5,
+        0.022,
+        35,
+        2.987,
+        95,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-greengrass",
+      [
+        22,
+        1.012,
+        96,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-greengrass",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-greengrass",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        97,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-greengrass",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-glue",
+      [
+        22,
+        1.012,
+        98,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-glue",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-glue",
+      [
+        11,
+        0.731,
+        40,
+        2.34,
+        99,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-glue",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-device-farm",
+      [
+        22,
+        0.862,
+        91,
+        3.541,
+        100,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-device-farm",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-device-farm",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        101,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-device-farm",
+      [
+        3,
+        2.551,
+        5,
+        0.022,
+        102,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-deepracer",
+      [
+        22,
+        1.012,
+        103,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-deepracer",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-deepracer",
+      [
+        18,
+        1.274,
+        31,
+        1.578,
+        104,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-deepracer",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-database-migration-service",
+      [
+        0,
+        2.303,
+        22,
+        0.75,
+        48,
+        1.993,
+        105,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-database-migration-service",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-database-migration-service",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        106,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-database-migration-service",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-data-pipeline",
+      [
+        22,
+        0.862,
+        107,
+        3.541,
+        108,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-data-pipeline",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-data-pipeline",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        109,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-data-pipeline",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-data-exchange",
+      [
+        22,
+        0.862,
+        107,
+        3.541,
+        110,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-data-exchange",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-data-exchange",
+      [
+        5,
+        0.022,
+        111,
+        3.775,
+        112,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-data-exchange",
+      [
+        5,
+        0.022,
+        111,
+        3.775,
+        113,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-control-tower",
+      [
+        22,
+        0.862,
+        114,
+        4.021,
+        115,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-control-tower",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-control-tower",
+      [
+        18,
+        1.274,
+        40,
+        2.34,
+        116,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-control-tower",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-codepipeline",
+      [
+        22,
+        1.012,
+        117,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-codepipeline",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-codepipeline",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        118,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-codepipeline",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-codecommit",
+      [
+        22,
+        1.012,
+        119,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-codecommit",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-codecommit",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        120,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-codecommit",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-codebuild",
+      [
+        22,
+        1.012,
+        121,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-codebuild",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-codebuild",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        122,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-codebuild",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-codeartifact",
+      [
+        22,
+        1.012,
+        123,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-codeartifact",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-codeartifact",
+      [
+        3,
+        2.551,
+        18,
+        1.274,
+        124,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-codeartifact",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-cloudtrail",
+      [
+        22,
+        1.012,
+        125,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-cloudtrail",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-cloudtrail",
+      [
+        18,
+        1.274,
+        40,
+        2.34,
+        126,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-cloudtrail",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-cloudformation",
+      [
+        22,
+        1.012,
+        127,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-cloudformation",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-cloudformation",
+      [
+        18,
+        1.274,
+        40,
+        2.34,
+        128,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-cloudformation",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-certificate-manager-private-ca",
+      [
+        22,
+        0.664,
+        39,
+        1.936,
+        129,
+        3.1,
+        130,
+        3.1,
+        131,
+        3.1
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-certificate-manager-private-ca",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-certificate-manager-private-ca",
+      [
+        2,
+        2.249,
+        58,
+        3.439,
+        132,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-certificate-manager-private-ca",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        7,
+        2.551
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-audit-manager",
+      [
+        22,
+        0.862,
+        39,
+        2.511,
+        133,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-audit-manager",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-audit-manager",
+      [
+        18,
+        1.274,
+        134,
+        3.187,
+        135,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-audit-manager",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-appsync",
+      [
+        22,
+        1.012,
+        136,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-appsync",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-appsync",
+      [
+        18,
+        1.274,
+        40,
+        2.34,
+        137,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-appsync",
+      [
+        3,
+        2.551,
+        5,
+        0.022,
+        138,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-application-migration-service",
+      [
+        0,
+        2.303,
+        22,
+        0.75,
+        48,
+        1.993,
+        139,
+        3.083
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-application-migration-service",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-application-migration-service",
+      [
+        2,
+        2.249,
+        3,
+        2.551,
+        140,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-application-migration-service",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        7,
+        2.551
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-application-discovery-service",
+      [
+        22,
+        0.75,
+        48,
+        1.993,
+        139,
+        3.083,
+        141,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-application-discovery-service",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-application-discovery-service",
+      [
+        18,
+        1.274,
+        19,
+        2.82,
+        142,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-application-discovery-service",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#aws-amplify-console",
+      [
+        22,
+        0.862,
+        143,
+        4.021,
+        144,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#aws-amplify-console",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#aws-amplify-console",
+      [
+        30,
+        2.249,
+        31,
+        1.578,
+        145,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#aws-amplify-console",
+      [
+        3,
+        2.551,
+        5,
+        0.022,
+        146,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-workdocs-workspaces-bundle",
+      [
+        75,
+        0.481,
+        147,
+        3.083,
+        148,
+        3.501,
+        149,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-workdocs-workspaces-bundle",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-workdocs-workspaces-bundle",
+      [
+        30,
+        2.249,
+        150,
+        3.775,
+        151,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-workdocs-workspaces-bundle",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-workdocs",
+      [
+        75,
+        0.649,
+        147,
+        4.159
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-workdocs",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-workdocs",
+      [
+        30,
+        2.249,
+        150,
+        3.775,
+        152,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-workdocs",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-translate",
+      [
+        75,
+        0.649,
+        153,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-translate",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-translate",
+      [
+        11,
+        0.731,
+        31,
+        1.578,
+        154,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-translate",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-transcribe",
+      [
+        75,
+        0.649,
+        155,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-transcribe",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-transcribe",
+      [
+        11,
+        0.731,
+        31,
+        1.578,
+        156,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-transcribe",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-textract",
+      [
+        75,
+        0.649,
+        157,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-textract",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-textract",
+      [
+        18,
+        1.274,
+        31,
+        1.578,
+        158,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-textract",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-swf",
+      [
+        75,
+        0.649,
+        159,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-swf",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-swf",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        160,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-swf",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-sqs",
+      [
+        75,
+        0.649,
+        161,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-sqs",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-sqs",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        162,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-sqs",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-sns",
+      [
+        75,
+        0.649,
+        163,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-sns",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-sns",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        164,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-sns",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-ses",
+      [
+        75,
+        0.649,
+        165,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-ses",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-ses",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        166,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-ses",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-sagemaker-ground-truth",
+      [
+        75,
+        0.481,
+        167,
+        3.083,
+        168,
+        3.501,
+        169,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-sagemaker-ground-truth",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-sagemaker-ground-truth",
+      [
+        30,
+        2.249,
+        31,
+        1.578,
+        170,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-sagemaker-ground-truth",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-sagemaker",
+      [
+        75,
+        0.649,
+        167,
+        4.159
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-sagemaker",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-sagemaker",
+      [
+        11,
+        0.731,
+        31,
+        1.578,
+        171,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-sagemaker",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-s3",
+      [
+        75,
+        0.649,
+        172,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-s3",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-s3",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        173,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-s3",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-rekognition",
+      [
+        75,
+        0.649,
+        174,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-rekognition",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-rekognition",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        175,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-rekognition",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-redshift",
+      [
+        75,
+        0.649,
+        176,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-redshift",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-redshift",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        177,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-redshift",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        178,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-rds",
+      [
+        75,
+        0.649,
+        179,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-rds",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-rds",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        180,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-rds",
+      [
+        5,
+        0.022,
+        35,
+        2.987,
+        181,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-quicksight",
+      [
+        75,
+        0.649,
+        182,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-quicksight",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-quicksight",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        183,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-quicksight",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-polly",
+      [
+        75,
+        0.649,
+        184,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-polly",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-polly",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        185,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-polly",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-pinpoint",
+      [
+        75,
+        0.649,
+        186,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-pinpoint",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-pinpoint",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        187,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-pinpoint",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-personalize",
+      [
+        75,
+        0.649,
+        188,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-personalize",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-personalize",
+      [
+        18,
+        1.274,
+        31,
+        1.578,
+        189,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-personalize",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-mq",
+      [
+        75,
+        0.649,
+        190,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-mq",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-mq",
+      [
+        11,
+        0.731,
+        31,
+        1.578,
+        191,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-mq",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-memorydb-for-redis",
+      [
+        75,
+        0.552,
+        192,
+        4.021,
+        193,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-memorydb-for-redis",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-memorydb-for-redis",
+      [
+        2,
+        2.249,
+        134,
+        3.187,
+        194,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-memorydb-for-redis",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        7,
+        2.551
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-macie",
+      [
+        75,
+        0.649,
+        195,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-macie",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-macie",
+      [
+        11,
+        0.731,
+        40,
+        2.34,
+        196,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-macie",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-lookout-for-vision",
+      [
+        75,
+        0.552,
+        197,
+        3.541,
+        198,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-lookout-for-vision",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-lookout-for-vision",
+      [
+        18,
+        1.274,
+        134,
+        3.187,
+        199,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-lookout-for-vision",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-lookout-for-metrics",
+      [
+        200,
+        5.72
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-lookout-for-metrics",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-lookout-for-metrics",
+      [
+        2,
+        2.249,
+        40,
+        2.34,
+        201,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-lookout-for-metrics",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        7,
+        2.551
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-lookout-for-equipment",
+      [
+        75,
+        0.552,
+        197,
+        3.541,
+        202,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-lookout-for-equipment",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-lookout-for-equipment",
+      [
+        2,
+        2.249,
+        55,
+        2.551,
+        203,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-lookout-for-equipment",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-location-service",
+      [
+        48,
+        2.289,
+        75,
+        0.552,
+        204,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-location-service",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-location-service",
+      [
+        18,
+        1.274,
+        31,
+        1.578,
+        205,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-location-service",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-lightsail",
+      [
+        75,
+        0.649,
+        206,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-lightsail",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-lightsail",
+      [
+        30,
+        2.249,
+        58,
+        3.439,
+        207,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-lightsail",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        208,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-lex",
+      [
+        75,
+        0.649,
+        209,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-lex",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-lex",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        210,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-lex",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-keyspaces-apachecassandra",
+      [
+        75,
+        0.552,
+        211,
+        4.021,
+        212,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-keyspaces-apachecassandra",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-keyspaces-apachecassandra",
+      [
+        18,
+        1.274,
+        55,
+        2.551,
+        213,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-keyspaces-apachecassandra",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-kendra",
+      [
+        75,
+        0.649,
+        214,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-kendra",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-kendra",
+      [
+        18,
+        1.274,
+        31,
+        1.578,
+        215,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-kendra",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-interactive-video-service",
+      [
+        48,
+        1.993,
+        75,
+        0.481,
+        216,
+        3.501,
+        217,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-interactive-video-service",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-interactive-video-service",
+      [
+        18,
+        1.274,
+        19,
+        2.82,
+        218,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-interactive-video-service",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-inspector",
+      [
+        75,
+        0.649,
+        219,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-inspector",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-inspector",
+      [
+        30,
+        2.249,
+        35,
+        2.987,
+        220,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-inspector",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-honeycode",
+      [
+        75,
+        0.649,
+        221,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-honeycode",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-honeycode",
+      [
+        12,
+        0.896,
+        18,
+        1.274,
+        222,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-honeycode",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-guardduty",
+      [
+        75,
+        0.649,
+        223,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-guardduty",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-guardduty",
+      [
+        3,
+        2.551,
+        30,
+        2.249,
+        224,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-guardduty",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        225,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-gamelift",
+      [
+        75,
+        0.649,
+        226,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-gamelift",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-gamelift",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        227,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-gamelift",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-fraud-detector",
+      [
+        75,
+        0.552,
+        228,
+        4.021,
+        229,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-fraud-detector",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-fraud-detector",
+      [
+        18,
+        1.274,
+        31,
+        1.578,
+        230,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-fraud-detector",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-forecast",
+      [
+        75,
+        0.649,
+        231,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-forecast",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-forecast",
+      [
+        18,
+        1.274,
+        31,
+        1.578,
+        232,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-forecast",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-elasticsearch-service",
+      [
+        48,
+        2.289,
+        75,
+        0.552,
+        233,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-elasticsearch-service",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-elasticsearch-service",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        234,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-elasticsearch-service",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        235,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-elasticache",
+      [
+        75,
+        0.649,
+        236,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-elasticache",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-elasticache",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        237,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-elasticache",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-elastic-transcoder",
+      [
+        8,
+        3.226,
+        75,
+        0.552,
+        238,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-elastic-transcoder",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-elastic-transcoder",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        239,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-elastic-transcoder",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-elastic-block-storage",
+      [
+        8,
+        2.809,
+        42,
+        3.083,
+        75,
+        0.481,
+        240,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-elastic-block-storage",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-elastic-block-storage",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        241,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-elastic-block-storage",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-efs",
+      [
+        75,
+        0.649,
+        242,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-efs",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-efs",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        243,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-efs",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-ecs-anywhere",
+      [
+        75,
+        0.552,
+        244,
+        4.021,
+        245,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-ecs-anywhere",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-ecs-anywhere",
+      [
+        2,
+        2.249,
+        55,
+        2.551,
+        246,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-ecs-anywhere",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-ec2-container-registry",
+      [
+        75,
+        0.481,
+        247,
+        3.083,
+        248,
+        3.501,
+        249,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-ec2-container-registry",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-ec2-container-registry",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        250,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-ec2-container-registry",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-ec2",
+      [
+        75,
+        0.649,
+        247,
+        4.159
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-ec2",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-ec2",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        251,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-ec2",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-documentdb",
+      [
+        75,
+        0.649,
+        252,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-documentdb",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-documentdb",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        253,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-documentdb",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        254,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-devops-guru",
+      [
+        75,
+        0.552,
+        255,
+        4.021,
+        256,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-devops-guru",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-devops-guru",
+      [
+        18,
+        1.274,
+        134,
+        3.187,
+        257,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-devops-guru",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        37,
+        1.774
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-detective",
+      [
+        75,
+        0.649,
+        258,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-detective",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-detective",
+      [
+        18,
+        1.274,
+        55,
+        2.551,
+        259,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-detective",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-connect",
+      [
+        75,
+        0.649,
+        260,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-connect",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-connect",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        261,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-connect",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        26,
+        2.249
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-comprehend-medical",
+      [
+        75,
+        0.552,
+        262,
+        3.541,
+        263,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-comprehend-medical",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-comprehend-medical",
+      [
+        30,
+        2.249,
+        31,
+        1.578,
+        264,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-comprehend-medical",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-comprehend",
+      [
+        75,
+        0.649,
+        262,
+        4.159
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-comprehend",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-comprehend",
+      [
+        11,
+        0.731,
+        31,
+        1.578,
+        265,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-comprehend",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        33,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-cognito",
+      [
+        75,
+        0.649,
+        266,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-cognito",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-cognito",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        267,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-cognito",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-cloudwatch",
+      [
+        75,
+        0.649,
+        268,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-cloudwatch",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-cloudwatch",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        269,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-cloudwatch",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        270,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-cloudfront",
+      [
+        75,
+        0.649,
+        271,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-cloudfront",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-cloudfront",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        272,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-cloudfront",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        14,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-chimepro",
+      [
+        75,
+        0.649,
+        273,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-chimepro",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-chimepro",
+      [
+        18,
+        1.274,
+        35,
+        2.987,
+        274,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-chimepro",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-chime",
+      [
+        75,
+        0.649,
+        275,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-chime",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-chime",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        276,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-chime",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        277,
+        4.286
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-braket",
+      [
+        75,
+        0.649,
+        278,
+        4.722
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-braket",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-braket",
+      [
+        18,
+        1.274,
+        40,
+        2.34,
+        279,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-braket",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-augmented-ai",
+      [
+        75,
+        0.552,
+        280,
+        4.021,
+        281,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-augmented-ai",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-augmented-ai",
+      [
+        18,
+        1.274,
+        55,
+        2.551,
+        282,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-augmented-ai",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        21,
+        1.951
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-appstream-2-0",
+      [
+        75,
+        0.481,
+        283,
+        3.501,
+        284,
+        3.501,
+        285,
+        3.501
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-appstream-2-0",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-appstream-2-0",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        286,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-appstream-2-0",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ],
+    [
+      "name/free-tier-products#amazon-api-gateway",
+      [
+        43,
+        3.541,
+        75,
+        0.552,
+        287,
+        4.021
+      ]
+    ],
+    [
+      "description/free-tier-products#amazon-api-gateway",
+      []
+    ],
+    [
+      "dateCreated/free-tier-products#amazon-api-gateway",
+      [
+        11,
+        0.731,
+        12,
+        0.896,
+        288,
+        4.286
+      ]
+    ],
+    [
+      "dateUpdated/free-tier-products#amazon-api-gateway",
+      [
+        5,
+        0.022,
+        6,
+        0.061,
+        86,
+        2.017
+      ]
+    ]
+  ],
+  "invertedIndex": [
+    [
+      "0",
+      {
+        "_index": 285,
+        "name": {
+          "free-tier-products#amazon-appstream-2-0": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "01",
+      {
+        "_index": 6,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-documentdb": {}
+        },
+        "dateUpdated": {
+          "free-tier-products#migration-evaluator": {},
+          "free-tier-products#elastic-load-balancing": {},
+          "free-tier-products#dynamodb": {},
+          "free-tier-products#cloudendure-migration": {},
+          "free-tier-products#aws-x-ray": {},
+          "free-tier-products#aws-well-architected-tool": {},
+          "free-tier-products#aws-waf": {},
+          "free-tier-products#aws-systems-manager": {},
+          "free-tier-products#aws-storage-gateway": {},
+          "free-tier-products#aws-step-functions": {},
+          "free-tier-products#aws-service-catalog": {},
+          "free-tier-products#aws-server-migration-service": {},
+          "free-tier-products#aws-security-hub": {},
+          "free-tier-products#aws-secrets-manager": {},
+          "free-tier-products#aws-robomaker": {},
+          "free-tier-products#aws-resilience-hub": {},
+          "free-tier-products#aws-re-post": {},
+          "free-tier-products#aws-organizations": {},
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {},
+          "free-tier-products#aws-opsworks-for-chef-automate": {},
+          "free-tier-products#aws-migration-hub": {},
+          "free-tier-products#aws-license-manager": {},
+          "free-tier-products#aws-lambda": {},
+          "free-tier-products#aws-key-management-service": {},
+          "free-tier-products#aws-iot-events": {},
+          "free-tier-products#aws-iot-device-management": {},
+          "free-tier-products#aws-greengrass": {},
+          "free-tier-products#aws-glue": {},
+          "free-tier-products#aws-deepracer": {},
+          "free-tier-products#aws-database-migration-service": {},
+          "free-tier-products#aws-data-pipeline": {},
+          "free-tier-products#aws-control-tower": {},
+          "free-tier-products#aws-codepipeline": {},
+          "free-tier-products#aws-codecommit": {},
+          "free-tier-products#aws-codebuild": {},
+          "free-tier-products#aws-codeartifact": {},
+          "free-tier-products#aws-cloudtrail": {},
+          "free-tier-products#aws-cloudformation": {},
+          "free-tier-products#aws-certificate-manager-private-ca": {},
+          "free-tier-products#aws-audit-manager": {},
+          "free-tier-products#aws-application-migration-service": {},
+          "free-tier-products#aws-application-discovery-service": {},
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {},
+          "free-tier-products#amazon-workdocs": {},
+          "free-tier-products#amazon-translate": {},
+          "free-tier-products#amazon-transcribe": {},
+          "free-tier-products#amazon-textract": {},
+          "free-tier-products#amazon-swf": {},
+          "free-tier-products#amazon-sqs": {},
+          "free-tier-products#amazon-sns": {},
+          "free-tier-products#amazon-ses": {},
+          "free-tier-products#amazon-sagemaker-ground-truth": {},
+          "free-tier-products#amazon-sagemaker": {},
+          "free-tier-products#amazon-s3": {},
+          "free-tier-products#amazon-rekognition": {},
+          "free-tier-products#amazon-redshift": {},
+          "free-tier-products#amazon-quicksight": {},
+          "free-tier-products#amazon-polly": {},
+          "free-tier-products#amazon-pinpoint": {},
+          "free-tier-products#amazon-personalize": {},
+          "free-tier-products#amazon-mq": {},
+          "free-tier-products#amazon-memorydb-for-redis": {},
+          "free-tier-products#amazon-macie": {},
+          "free-tier-products#amazon-lookout-for-vision": {},
+          "free-tier-products#amazon-lookout-for-metrics": {},
+          "free-tier-products#amazon-lookout-for-equipment": {},
+          "free-tier-products#amazon-location-service": {},
+          "free-tier-products#amazon-lightsail": {},
+          "free-tier-products#amazon-lex": {},
+          "free-tier-products#amazon-keyspaces-apachecassandra": {},
+          "free-tier-products#amazon-kendra": {},
+          "free-tier-products#amazon-interactive-video-service": {},
+          "free-tier-products#amazon-inspector": {},
+          "free-tier-products#amazon-honeycode": {},
+          "free-tier-products#amazon-guardduty": {},
+          "free-tier-products#amazon-gamelift": {},
+          "free-tier-products#amazon-fraud-detector": {},
+          "free-tier-products#amazon-forecast": {},
+          "free-tier-products#amazon-elasticsearch-service": {},
+          "free-tier-products#amazon-elasticache": {},
+          "free-tier-products#amazon-elastic-transcoder": {},
+          "free-tier-products#amazon-elastic-block-storage": {},
+          "free-tier-products#amazon-efs": {},
+          "free-tier-products#amazon-ecs-anywhere": {},
+          "free-tier-products#amazon-ec2-container-registry": {},
+          "free-tier-products#amazon-ec2": {},
+          "free-tier-products#amazon-documentdb": {},
+          "free-tier-products#amazon-devops-guru": {},
+          "free-tier-products#amazon-detective": {},
+          "free-tier-products#amazon-connect": {},
+          "free-tier-products#amazon-comprehend-medical": {},
+          "free-tier-products#amazon-comprehend": {},
+          "free-tier-products#amazon-cognito": {},
+          "free-tier-products#amazon-cloudwatch": {},
+          "free-tier-products#amazon-cloudfront": {},
+          "free-tier-products#amazon-chimepro": {},
+          "free-tier-products#amazon-chime": {},
+          "free-tier-products#amazon-braket": {},
+          "free-tier-products#amazon-augmented-ai": {},
+          "free-tier-products#amazon-appstream-2-0": {},
+          "free-tier-products#amazon-api-gateway": {}
+        }
+      }
+    ],
+    [
+      "01t17:51:51+0000",
+      {
+        "_index": 194,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-memorydb-for-redis": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "02",
+      {
+        "_index": 111,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-data-exchange": {}
+        },
+        "dateUpdated": {
+          "free-tier-products#aws-data-exchange": {}
+        }
+      }
+    ],
+    [
+      "03",
+      {
+        "_index": 35,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-waf": {},
+          "free-tier-products#amazon-inspector": {},
+          "free-tier-products#amazon-chimepro": {}
+        },
+        "dateUpdated": {
+          "free-tier-products#aws-iot": {},
+          "free-tier-products#amazon-rds": {}
+        }
+      }
+    ],
+    [
+      "03t22:42:36+0000",
+      {
+        "_index": 205,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-location-service": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04",
+      {
+        "_index": 55,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-security-hub": {},
+          "free-tier-products#aws-neptune": {},
+          "free-tier-products#amazon-lookout-for-equipment": {},
+          "free-tier-products#amazon-keyspaces-apachecassandra": {},
+          "free-tier-products#amazon-ecs-anywhere": {},
+          "free-tier-products#amazon-detective": {},
+          "free-tier-products#amazon-augmented-ai": {}
+        },
+        "dateUpdated": {
+          "free-tier-products#aws-neptune": {}
+        }
+      }
+    ],
+    [
+      "04t22:12:20+0000",
+      {
+        "_index": 207,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-lightsail": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t22:57:33+0000",
+      {
+        "_index": 135,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-audit-manager": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "04t23:40:03+0000",
+      {
+        "_index": 140,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-application-migration-service": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "05",
+      {
+        "_index": 3,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#migration-evaluator": {},
+          "free-tier-products#aws-iot-events": {},
+          "free-tier-products#aws-codeartifact": {},
+          "free-tier-products#aws-application-migration-service": {},
+          "free-tier-products#amazon-guardduty": {}
+        },
+        "dateUpdated": {
+          "free-tier-products#aws-device-farm": {},
+          "free-tier-products#aws-appsync": {},
+          "free-tier-products#aws-amplify-console": {}
+        }
+      }
+    ],
+    [
+      "06",
+      {
+        "_index": 12,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#elastic-load-balancing": {},
+          "free-tier-products#dynamodb": {},
+          "free-tier-products#aws-x-ray": {},
+          "free-tier-products#aws-storage-gateway": {},
+          "free-tier-products#aws-step-functions": {},
+          "free-tier-products#aws-opsworks-for-chef-automate": {},
+          "free-tier-products#aws-lambda": {},
+          "free-tier-products#aws-key-management-service": {},
+          "free-tier-products#aws-iot": {},
+          "free-tier-products#aws-greengrass": {},
+          "free-tier-products#aws-device-farm": {},
+          "free-tier-products#aws-database-migration-service": {},
+          "free-tier-products#aws-data-pipeline": {},
+          "free-tier-products#aws-codepipeline": {},
+          "free-tier-products#aws-codecommit": {},
+          "free-tier-products#aws-codebuild": {},
+          "free-tier-products#amazon-swf": {},
+          "free-tier-products#amazon-sqs": {},
+          "free-tier-products#amazon-sns": {},
+          "free-tier-products#amazon-ses": {},
+          "free-tier-products#amazon-s3": {},
+          "free-tier-products#amazon-rekognition": {},
+          "free-tier-products#amazon-redshift": {},
+          "free-tier-products#amazon-rds": {},
+          "free-tier-products#amazon-quicksight": {},
+          "free-tier-products#amazon-polly": {},
+          "free-tier-products#amazon-pinpoint": {},
+          "free-tier-products#amazon-lex": {},
+          "free-tier-products#amazon-honeycode": {},
+          "free-tier-products#amazon-gamelift": {},
+          "free-tier-products#amazon-elasticsearch-service": {},
+          "free-tier-products#amazon-elasticache": {},
+          "free-tier-products#amazon-elastic-transcoder": {},
+          "free-tier-products#amazon-elastic-block-storage": {},
+          "free-tier-products#amazon-efs": {},
+          "free-tier-products#amazon-ec2-container-registry": {},
+          "free-tier-products#amazon-ec2": {},
+          "free-tier-products#amazon-connect": {},
+          "free-tier-products#amazon-cognito": {},
+          "free-tier-products#amazon-cloudwatch": {},
+          "free-tier-products#amazon-cloudfront": {},
+          "free-tier-products#amazon-chime": {},
+          "free-tier-products#amazon-appstream-2-0": {},
+          "free-tier-products#amazon-api-gateway": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t01:14:33+0000",
+      {
+        "_index": 137,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-appsync": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t16:00:38+0000",
+      {
+        "_index": 132,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-certificate-manager-private-ca": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t16:24:39+0000",
+      {
+        "_index": 59,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-secrets-manager": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t18:29:15+0000",
+      {
+        "_index": 253,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-documentdb": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t19:47:25+0000",
+      {
+        "_index": 146,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-amplify-console": {}
+        }
+      }
+    ],
+    [
+      "06t22:33:00+0000",
+      {
+        "_index": 158,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-textract": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t22:38:38+0000",
+      {
+        "_index": 215,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-kendra": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t22:59:42+0000",
+      {
+        "_index": 104,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-deepracer": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t23:11:33+0000",
+      {
+        "_index": 189,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-personalize": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t23:18:39+0000",
+      {
+        "_index": 232,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-forecast": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t23:23:04+0000",
+      {
+        "_index": 230,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-fraud-detector": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t23:40:03+0000",
+      {
+        "_index": 79,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-migration-hub": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "06t23:49:08+0000",
+      {
+        "_index": 142,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-application-discovery-service": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "07",
+      {
+        "_index": 19,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#cloudendure-migration": {},
+          "free-tier-products#aws-service-catalog": {},
+          "free-tier-products#aws-server-migration-service": {},
+          "free-tier-products#aws-migration-hub": {},
+          "free-tier-products#aws-application-discovery-service": {},
+          "free-tier-products#amazon-interactive-video-service": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "07t16:24:21+0000",
+      {
+        "_index": 20,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#cloudendure-migration": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "07t16:31:08+0000",
+      {
+        "_index": 50,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-service-catalog": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "07t16:37:48+0000",
+      {
+        "_index": 52,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-server-migration-service": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "07t17:19:51+0000",
+      {
+        "_index": 224,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-guardduty": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "07t19:06:49+0000",
+      {
+        "_index": 203,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-lookout-for-equipment": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08",
+      {
+        "_index": 40,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-systems-manager": {},
+          "free-tier-products#aws-organizations": {},
+          "free-tier-products#aws-glue": {},
+          "free-tier-products#aws-control-tower": {},
+          "free-tier-products#aws-cloudtrail": {},
+          "free-tier-products#aws-cloudformation": {},
+          "free-tier-products#aws-appsync": {},
+          "free-tier-products#amazon-macie": {},
+          "free-tier-products#amazon-lookout-for-metrics": {},
+          "free-tier-products#amazon-braket": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:09+0000",
+      {
+        "_index": 44,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-storage-gateway": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:10+0000",
+      {
+        "_index": 261,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-connect": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:12+0000",
+      {
+        "_index": 227,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-gamelift": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:14+0000",
+      {
+        "_index": 106,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-database-migration-service": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:15+0000",
+      {
+        "_index": 187,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-pinpoint": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:16+0000",
+      {
+        "_index": 25,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-x-ray": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:18+0000",
+      {
+        "_index": 74,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-opsworks-for-chef-automate": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:23+0000",
+      {
+        "_index": 47,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-step-functions": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:24+0000",
+      {
+        "_index": 122,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-codebuild": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:26+0000",
+      {
+        "_index": 183,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-quicksight": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:27+0000",
+      {
+        "_index": 185,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-polly": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:29+0000",
+      {
+        "_index": 175,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-rekognition": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:30+0000",
+      {
+        "_index": 210,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-lex": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:32+0000",
+      {
+        "_index": 276,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-chime": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:33+0000",
+      {
+        "_index": 160,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-swf": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:35+0000",
+      {
+        "_index": 162,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-sqs": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:36+0000",
+      {
+        "_index": 166,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-ses": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:38+0000",
+      {
+        "_index": 239,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-elastic-transcoder": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:39+0000",
+      {
+        "_index": 286,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-appstream-2-0": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:40+0000",
+      {
+        "_index": 288,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-api-gateway": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:43+0000",
+      {
+        "_index": 269,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-cloudwatch": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:45+0000",
+      {
+        "_index": 118,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-codepipeline": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:46+0000",
+      {
+        "_index": 120,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-codecommit": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:47+0000",
+      {
+        "_index": 164,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-sns": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:50+0000",
+      {
+        "_index": 101,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-device-farm": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:51+0000",
+      {
+        "_index": 267,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-cognito": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:53+0000",
+      {
+        "_index": 234,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-elasticsearch-service": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:55+0000",
+      {
+        "_index": 85,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-key-management-service": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:57+0000",
+      {
+        "_index": 109,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-data-pipeline": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:58+0000",
+      {
+        "_index": 177,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-redshift": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:33:59+0000",
+      {
+        "_index": 237,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-elasticache": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:01+0000",
+      {
+        "_index": 241,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-elastic-block-storage": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:02+0000",
+      {
+        "_index": 272,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-cloudfront": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:03+0000",
+      {
+        "_index": 16,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#dynamodb": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:05+0000",
+      {
+        "_index": 13,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#elastic-load-balancing": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:06+0000",
+      {
+        "_index": 83,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-lambda": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:07+0000",
+      {
+        "_index": 250,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-ec2-container-registry": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:09+0000",
+      {
+        "_index": 94,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-iot": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:10+0000",
+      {
+        "_index": 180,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-rds": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:13+0000",
+      {
+        "_index": 243,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-efs": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:14+0000",
+      {
+        "_index": 173,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-s3": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t19:34:16+0000",
+      {
+        "_index": 251,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-ec2": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "08t20:35:54+0000",
+      {
+        "_index": 257,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-devops-guru": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "09",
+      {
+        "_index": 150,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {},
+          "free-tier-products#amazon-workdocs": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "10",
+      {
+        "_index": 58,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-secrets-manager": {},
+          "free-tier-products#aws-certificate-manager-private-ca": {},
+          "free-tier-products#amazon-lightsail": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "10t17:49:48+0000",
+      {
+        "_index": 201,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-lookout-for-metrics": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "11",
+      {
+        "_index": 31,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-well-architected-tool": {},
+          "free-tier-products#aws-robomaker": {},
+          "free-tier-products#aws-resilience-hub": {},
+          "free-tier-products#aws-re-post": {},
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {},
+          "free-tier-products#aws-license-manager": {},
+          "free-tier-products#aws-iot-device-management": {},
+          "free-tier-products#aws-deepracer": {},
+          "free-tier-products#aws-amplify-console": {},
+          "free-tier-products#amazon-translate": {},
+          "free-tier-products#amazon-transcribe": {},
+          "free-tier-products#amazon-textract": {},
+          "free-tier-products#amazon-sagemaker-ground-truth": {},
+          "free-tier-products#amazon-sagemaker": {},
+          "free-tier-products#amazon-personalize": {},
+          "free-tier-products#amazon-mq": {},
+          "free-tier-products#amazon-location-service": {},
+          "free-tier-products#amazon-kendra": {},
+          "free-tier-products#amazon-fraud-detector": {},
+          "free-tier-products#amazon-forecast": {},
+          "free-tier-products#amazon-comprehend-medical": {},
+          "free-tier-products#amazon-comprehend": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "11t22:46:55+0000",
+      {
+        "_index": 102,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-device-farm": {}
+        }
+      }
+    ],
+    [
+      "11t22:47:58+0000",
+      {
+        "_index": 138,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-appsync": {}
+        }
+      }
+    ],
+    [
+      "12",
+      {
+        "_index": 134,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-audit-manager": {},
+          "free-tier-products#amazon-memorydb-for-redis": {},
+          "free-tier-products#amazon-lookout-for-vision": {},
+          "free-tier-products#amazon-devops-guru": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "12t19:05:54+0000",
+      {
+        "_index": 7,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#migration-evaluator": {},
+          "free-tier-products#aws-secrets-manager": {},
+          "free-tier-products#aws-resilience-hub": {},
+          "free-tier-products#aws-re-post": {},
+          "free-tier-products#aws-certificate-manager-private-ca": {},
+          "free-tier-products#aws-application-migration-service": {},
+          "free-tier-products#amazon-memorydb-for-redis": {},
+          "free-tier-products#amazon-lookout-for-metrics": {}
+        }
+      }
+    ],
+    [
+      "12t19:05:55+0000",
+      {
+        "_index": 37,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-waf": {},
+          "free-tier-products#aws-systems-manager": {},
+          "free-tier-products#aws-organizations": {},
+          "free-tier-products#aws-deepracer": {},
+          "free-tier-products#aws-control-tower": {},
+          "free-tier-products#aws-cloudtrail": {},
+          "free-tier-products#aws-cloudformation": {},
+          "free-tier-products#aws-audit-manager": {},
+          "free-tier-products#amazon-textract": {},
+          "free-tier-products#amazon-personalize": {},
+          "free-tier-products#amazon-lookout-for-vision": {},
+          "free-tier-products#amazon-lookout-for-equipment": {},
+          "free-tier-products#amazon-location-service": {},
+          "free-tier-products#amazon-kendra": {},
+          "free-tier-products#amazon-fraud-detector": {},
+          "free-tier-products#amazon-forecast": {},
+          "free-tier-products#amazon-ecs-anywhere": {},
+          "free-tier-products#amazon-devops-guru": {}
+        }
+      }
+    ],
+    [
+      "12t19:05:56+0000",
+      {
+        "_index": 21,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#cloudendure-migration": {},
+          "free-tier-products#aws-service-catalog": {},
+          "free-tier-products#aws-server-migration-service": {},
+          "free-tier-products#aws-security-hub": {},
+          "free-tier-products#aws-migration-hub": {},
+          "free-tier-products#aws-iot-events": {},
+          "free-tier-products#aws-codeartifact": {},
+          "free-tier-products#aws-application-discovery-service": {},
+          "free-tier-products#amazon-keyspaces-apachecassandra": {},
+          "free-tier-products#amazon-interactive-video-service": {},
+          "free-tier-products#amazon-honeycode": {},
+          "free-tier-products#amazon-detective": {},
+          "free-tier-products#amazon-chimepro": {},
+          "free-tier-products#amazon-braket": {},
+          "free-tier-products#amazon-augmented-ai": {}
+        }
+      }
+    ],
+    [
+      "12t19:05:57+0000",
+      {
+        "_index": 33,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-well-architected-tool": {},
+          "free-tier-products#aws-robomaker": {},
+          "free-tier-products#aws-license-manager": {},
+          "free-tier-products#aws-iot-device-management": {},
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {},
+          "free-tier-products#amazon-workdocs": {},
+          "free-tier-products#amazon-translate": {},
+          "free-tier-products#amazon-transcribe": {},
+          "free-tier-products#amazon-sagemaker-ground-truth": {},
+          "free-tier-products#amazon-sagemaker": {},
+          "free-tier-products#amazon-mq": {},
+          "free-tier-products#amazon-inspector": {},
+          "free-tier-products#amazon-comprehend-medical": {},
+          "free-tier-products#amazon-comprehend": {}
+        }
+      }
+    ],
+    [
+      "12t19:05:58+0000",
+      {
+        "_index": 14,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#elastic-load-balancing": {},
+          "free-tier-products#dynamodb": {},
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {},
+          "free-tier-products#aws-lambda": {},
+          "free-tier-products#aws-greengrass": {},
+          "free-tier-products#aws-glue": {},
+          "free-tier-products#amazon-s3": {},
+          "free-tier-products#amazon-macie": {},
+          "free-tier-products#amazon-elasticache": {},
+          "free-tier-products#amazon-elastic-block-storage": {},
+          "free-tier-products#amazon-efs": {},
+          "free-tier-products#amazon-ec2-container-registry": {},
+          "free-tier-products#amazon-ec2": {},
+          "free-tier-products#amazon-cloudfront": {}
+        }
+      }
+    ],
+    [
+      "12t19:05:59+0000",
+      {
+        "_index": 86,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-key-management-service": {},
+          "free-tier-products#aws-data-pipeline": {},
+          "free-tier-products#aws-codepipeline": {},
+          "free-tier-products#aws-codecommit": {},
+          "free-tier-products#amazon-swf": {},
+          "free-tier-products#amazon-sqs": {},
+          "free-tier-products#amazon-sns": {},
+          "free-tier-products#amazon-ses": {},
+          "free-tier-products#amazon-rekognition": {},
+          "free-tier-products#amazon-lex": {},
+          "free-tier-products#amazon-elastic-transcoder": {},
+          "free-tier-products#amazon-cognito": {},
+          "free-tier-products#amazon-appstream-2-0": {},
+          "free-tier-products#amazon-api-gateway": {}
+        }
+      }
+    ],
+    [
+      "12t19:06:00+0000",
+      {
+        "_index": 26,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-x-ray": {},
+          "free-tier-products#aws-storage-gateway": {},
+          "free-tier-products#aws-step-functions": {},
+          "free-tier-products#aws-opsworks-for-chef-automate": {},
+          "free-tier-products#aws-database-migration-service": {},
+          "free-tier-products#aws-codebuild": {},
+          "free-tier-products#amazon-quicksight": {},
+          "free-tier-products#amazon-polly": {},
+          "free-tier-products#amazon-pinpoint": {},
+          "free-tier-products#amazon-gamelift": {},
+          "free-tier-products#amazon-connect": {}
+        }
+      }
+    ],
+    [
+      "12t23:17:52+0000",
+      {
+        "_index": 246,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-ecs-anywhere": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "14t15:10:43+0000",
+      {
+        "_index": 99,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-glue": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "14t15:12:51+0000",
+      {
+        "_index": 196,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-macie": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "14t21:57:05+0000",
+      {
+        "_index": 56,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-security-hub": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "15t21:49:24+0000",
+      {
+        "_index": 95,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-iot": {}
+        }
+      }
+    ],
+    [
+      "16t18:27:17+0000",
+      {
+        "_index": 71,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "17t23:52:55+0000",
+      {
+        "_index": 274,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-chimepro": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "18t17:49:28+0000",
+      {
+        "_index": 199,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-lookout-for-vision": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "18t21:07:57+0000",
+      {
+        "_index": 279,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-braket": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "18t22:25:58+0000",
+      {
+        "_index": 235,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#amazon-elasticsearch-service": {}
+        }
+      }
+    ],
+    [
+      "18t22:26:00+0000",
+      {
+        "_index": 277,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#amazon-chime": {}
+        }
+      }
+    ],
+    [
+      "18t22:26:08+0000",
+      {
+        "_index": 208,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#amazon-lightsail": {}
+        }
+      }
+    ],
+    [
+      "18t22:26:12+0000",
+      {
+        "_index": 225,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#amazon-guardduty": {}
+        }
+      }
+    ],
+    [
+      "18t22:27:11+0000",
+      {
+        "_index": 270,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#amazon-cloudwatch": {}
+        }
+      }
+    ],
+    [
+      "19t23:30:32+0000",
+      {
+        "_index": 63,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-resilience-hub": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "2",
+      {
+        "_index": 284,
+        "name": {
+          "free-tier-products#amazon-appstream-2-0": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "2017",
+      {
+        "_index": 11,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#elastic-load-balancing": {},
+          "free-tier-products#dynamodb": {},
+          "free-tier-products#aws-x-ray": {},
+          "free-tier-products#aws-storage-gateway": {},
+          "free-tier-products#aws-step-functions": {},
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {},
+          "free-tier-products#aws-opsworks-for-chef-automate": {},
+          "free-tier-products#aws-lambda": {},
+          "free-tier-products#aws-key-management-service": {},
+          "free-tier-products#aws-iot-device-management": {},
+          "free-tier-products#aws-iot": {},
+          "free-tier-products#aws-greengrass": {},
+          "free-tier-products#aws-glue": {},
+          "free-tier-products#aws-device-farm": {},
+          "free-tier-products#aws-database-migration-service": {},
+          "free-tier-products#aws-data-pipeline": {},
+          "free-tier-products#aws-codepipeline": {},
+          "free-tier-products#aws-codecommit": {},
+          "free-tier-products#aws-codebuild": {},
+          "free-tier-products#amazon-translate": {},
+          "free-tier-products#amazon-transcribe": {},
+          "free-tier-products#amazon-swf": {},
+          "free-tier-products#amazon-sqs": {},
+          "free-tier-products#amazon-sns": {},
+          "free-tier-products#amazon-ses": {},
+          "free-tier-products#amazon-sagemaker": {},
+          "free-tier-products#amazon-s3": {},
+          "free-tier-products#amazon-rekognition": {},
+          "free-tier-products#amazon-redshift": {},
+          "free-tier-products#amazon-rds": {},
+          "free-tier-products#amazon-quicksight": {},
+          "free-tier-products#amazon-polly": {},
+          "free-tier-products#amazon-pinpoint": {},
+          "free-tier-products#amazon-mq": {},
+          "free-tier-products#amazon-macie": {},
+          "free-tier-products#amazon-lex": {},
+          "free-tier-products#amazon-gamelift": {},
+          "free-tier-products#amazon-elasticsearch-service": {},
+          "free-tier-products#amazon-elasticache": {},
+          "free-tier-products#amazon-elastic-transcoder": {},
+          "free-tier-products#amazon-elastic-block-storage": {},
+          "free-tier-products#amazon-efs": {},
+          "free-tier-products#amazon-ec2-container-registry": {},
+          "free-tier-products#amazon-ec2": {},
+          "free-tier-products#amazon-connect": {},
+          "free-tier-products#amazon-comprehend": {},
+          "free-tier-products#amazon-cognito": {},
+          "free-tier-products#amazon-cloudwatch": {},
+          "free-tier-products#amazon-cloudfront": {},
+          "free-tier-products#amazon-chime": {},
+          "free-tier-products#amazon-appstream-2-0": {},
+          "free-tier-products#amazon-api-gateway": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "2018",
+      {
+        "_index": 30,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-well-architected-tool": {},
+          "free-tier-products#aws-robomaker": {},
+          "free-tier-products#aws-license-manager": {},
+          "free-tier-products#aws-amplify-console": {},
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {},
+          "free-tier-products#amazon-workdocs": {},
+          "free-tier-products#amazon-sagemaker-ground-truth": {},
+          "free-tier-products#amazon-lightsail": {},
+          "free-tier-products#amazon-inspector": {},
+          "free-tier-products#amazon-guardduty": {},
+          "free-tier-products#amazon-comprehend-medical": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "2019",
+      {
+        "_index": 89,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-iot-events": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "2020",
+      {
+        "_index": 18,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#cloudendure-migration": {},
+          "free-tier-products#aws-systems-manager": {},
+          "free-tier-products#aws-service-catalog": {},
+          "free-tier-products#aws-server-migration-service": {},
+          "free-tier-products#aws-security-hub": {},
+          "free-tier-products#aws-organizations": {},
+          "free-tier-products#aws-migration-hub": {},
+          "free-tier-products#aws-deepracer": {},
+          "free-tier-products#aws-control-tower": {},
+          "free-tier-products#aws-codeartifact": {},
+          "free-tier-products#aws-cloudtrail": {},
+          "free-tier-products#aws-cloudformation": {},
+          "free-tier-products#aws-audit-manager": {},
+          "free-tier-products#aws-appsync": {},
+          "free-tier-products#aws-application-discovery-service": {},
+          "free-tier-products#amazon-textract": {},
+          "free-tier-products#amazon-personalize": {},
+          "free-tier-products#amazon-lookout-for-vision": {},
+          "free-tier-products#amazon-location-service": {},
+          "free-tier-products#amazon-keyspaces-apachecassandra": {},
+          "free-tier-products#amazon-kendra": {},
+          "free-tier-products#amazon-interactive-video-service": {},
+          "free-tier-products#amazon-honeycode": {},
+          "free-tier-products#amazon-fraud-detector": {},
+          "free-tier-products#amazon-forecast": {},
+          "free-tier-products#amazon-devops-guru": {},
+          "free-tier-products#amazon-detective": {},
+          "free-tier-products#amazon-chimepro": {},
+          "free-tier-products#amazon-braket": {},
+          "free-tier-products#amazon-augmented-ai": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "2021",
+      {
+        "_index": 2,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#migration-evaluator": {},
+          "free-tier-products#aws-waf": {},
+          "free-tier-products#aws-secrets-manager": {},
+          "free-tier-products#aws-resilience-hub": {},
+          "free-tier-products#aws-re-post": {},
+          "free-tier-products#aws-certificate-manager-private-ca": {},
+          "free-tier-products#aws-application-migration-service": {},
+          "free-tier-products#amazon-memorydb-for-redis": {},
+          "free-tier-products#amazon-lookout-for-metrics": {},
+          "free-tier-products#amazon-lookout-for-equipment": {},
+          "free-tier-products#amazon-ecs-anywhere": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "2022",
+      {
+        "_index": 5,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-neptune": {},
+          "free-tier-products#aws-data-exchange": {},
+          "free-tier-products#amazon-documentdb": {}
+        },
+        "dateUpdated": {
+          "free-tier-products#migration-evaluator": {},
+          "free-tier-products#elastic-load-balancing": {},
+          "free-tier-products#dynamodb": {},
+          "free-tier-products#cloudendure-migration": {},
+          "free-tier-products#aws-x-ray": {},
+          "free-tier-products#aws-well-architected-tool": {},
+          "free-tier-products#aws-waf": {},
+          "free-tier-products#aws-systems-manager": {},
+          "free-tier-products#aws-storage-gateway": {},
+          "free-tier-products#aws-step-functions": {},
+          "free-tier-products#aws-service-catalog": {},
+          "free-tier-products#aws-server-migration-service": {},
+          "free-tier-products#aws-security-hub": {},
+          "free-tier-products#aws-secrets-manager": {},
+          "free-tier-products#aws-robomaker": {},
+          "free-tier-products#aws-resilience-hub": {},
+          "free-tier-products#aws-re-post": {},
+          "free-tier-products#aws-organizations": {},
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {},
+          "free-tier-products#aws-opsworks-for-chef-automate": {},
+          "free-tier-products#aws-neptune": {},
+          "free-tier-products#aws-migration-hub": {},
+          "free-tier-products#aws-license-manager": {},
+          "free-tier-products#aws-lambda": {},
+          "free-tier-products#aws-key-management-service": {},
+          "free-tier-products#aws-iot-events": {},
+          "free-tier-products#aws-iot-device-management": {},
+          "free-tier-products#aws-iot": {},
+          "free-tier-products#aws-greengrass": {},
+          "free-tier-products#aws-glue": {},
+          "free-tier-products#aws-device-farm": {},
+          "free-tier-products#aws-deepracer": {},
+          "free-tier-products#aws-database-migration-service": {},
+          "free-tier-products#aws-data-pipeline": {},
+          "free-tier-products#aws-data-exchange": {},
+          "free-tier-products#aws-control-tower": {},
+          "free-tier-products#aws-codepipeline": {},
+          "free-tier-products#aws-codecommit": {},
+          "free-tier-products#aws-codebuild": {},
+          "free-tier-products#aws-codeartifact": {},
+          "free-tier-products#aws-cloudtrail": {},
+          "free-tier-products#aws-cloudformation": {},
+          "free-tier-products#aws-certificate-manager-private-ca": {},
+          "free-tier-products#aws-audit-manager": {},
+          "free-tier-products#aws-appsync": {},
+          "free-tier-products#aws-application-migration-service": {},
+          "free-tier-products#aws-application-discovery-service": {},
+          "free-tier-products#aws-amplify-console": {},
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {},
+          "free-tier-products#amazon-workdocs": {},
+          "free-tier-products#amazon-translate": {},
+          "free-tier-products#amazon-transcribe": {},
+          "free-tier-products#amazon-textract": {},
+          "free-tier-products#amazon-swf": {},
+          "free-tier-products#amazon-sqs": {},
+          "free-tier-products#amazon-sns": {},
+          "free-tier-products#amazon-ses": {},
+          "free-tier-products#amazon-sagemaker-ground-truth": {},
+          "free-tier-products#amazon-sagemaker": {},
+          "free-tier-products#amazon-s3": {},
+          "free-tier-products#amazon-rekognition": {},
+          "free-tier-products#amazon-redshift": {},
+          "free-tier-products#amazon-rds": {},
+          "free-tier-products#amazon-quicksight": {},
+          "free-tier-products#amazon-polly": {},
+          "free-tier-products#amazon-pinpoint": {},
+          "free-tier-products#amazon-personalize": {},
+          "free-tier-products#amazon-mq": {},
+          "free-tier-products#amazon-memorydb-for-redis": {},
+          "free-tier-products#amazon-macie": {},
+          "free-tier-products#amazon-lookout-for-vision": {},
+          "free-tier-products#amazon-lookout-for-metrics": {},
+          "free-tier-products#amazon-lookout-for-equipment": {},
+          "free-tier-products#amazon-location-service": {},
+          "free-tier-products#amazon-lightsail": {},
+          "free-tier-products#amazon-lex": {},
+          "free-tier-products#amazon-keyspaces-apachecassandra": {},
+          "free-tier-products#amazon-kendra": {},
+          "free-tier-products#amazon-interactive-video-service": {},
+          "free-tier-products#amazon-inspector": {},
+          "free-tier-products#amazon-honeycode": {},
+          "free-tier-products#amazon-guardduty": {},
+          "free-tier-products#amazon-gamelift": {},
+          "free-tier-products#amazon-fraud-detector": {},
+          "free-tier-products#amazon-forecast": {},
+          "free-tier-products#amazon-elasticsearch-service": {},
+          "free-tier-products#amazon-elasticache": {},
+          "free-tier-products#amazon-elastic-transcoder": {},
+          "free-tier-products#amazon-elastic-block-storage": {},
+          "free-tier-products#amazon-efs": {},
+          "free-tier-products#amazon-ecs-anywhere": {},
+          "free-tier-products#amazon-ec2-container-registry": {},
+          "free-tier-products#amazon-ec2": {},
+          "free-tier-products#amazon-documentdb": {},
+          "free-tier-products#amazon-devops-guru": {},
+          "free-tier-products#amazon-detective": {},
+          "free-tier-products#amazon-connect": {},
+          "free-tier-products#amazon-comprehend-medical": {},
+          "free-tier-products#amazon-comprehend": {},
+          "free-tier-products#amazon-cognito": {},
+          "free-tier-products#amazon-cloudwatch": {},
+          "free-tier-products#amazon-cloudfront": {},
+          "free-tier-products#amazon-chimepro": {},
+          "free-tier-products#amazon-chime": {},
+          "free-tier-products#amazon-braket": {},
+          "free-tier-products#amazon-augmented-ai": {},
+          "free-tier-products#amazon-appstream-2-0": {},
+          "free-tier-products#amazon-api-gateway": {}
+        }
+      }
+    ],
+    [
+      "20t19:34:00+0000",
+      {
+        "_index": 124,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-codeartifact": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "20t20:51:41+0000",
+      {
+        "_index": 213,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-keyspaces-apachecassandra": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "20t21:37:06+0000",
+      {
+        "_index": 152,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-workdocs": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "21t17:23:13+0000",
+      {
+        "_index": 218,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-interactive-video-service": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "22t16:39:25+0000",
+      {
+        "_index": 77,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-neptune": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "22t17:31:48+0000",
+      {
+        "_index": 282,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-augmented-ai": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "22t18:34:04+0000",
+      {
+        "_index": 112,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-data-exchange": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "22t21:05:39+0000",
+      {
+        "_index": 222,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-honeycode": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "22t22:26:36+0000",
+      {
+        "_index": 65,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-re-post": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "23t18:13:23+0000",
+      {
+        "_index": 259,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-detective": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "23t19:47:46+0000",
+      {
+        "_index": 113,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-data-exchange": {}
+        }
+      }
+    ],
+    [
+      "24t18:45:40+0000",
+      {
+        "_index": 178,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#amazon-redshift": {}
+        }
+      }
+    ],
+    [
+      "24t20:04:46+0000",
+      {
+        "_index": 126,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-cloudtrail": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "24t21:32:05+0000",
+      {
+        "_index": 41,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-systems-manager": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "24t21:41:56+0000",
+      {
+        "_index": 128,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-cloudformation": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "24t21:54:30+0000",
+      {
+        "_index": 254,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#amazon-documentdb": {}
+        }
+      }
+    ],
+    [
+      "24t22:05:44+0000",
+      {
+        "_index": 116,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-control-tower": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "24t22:20:31+0000",
+      {
+        "_index": 67,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-organizations": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "26t09:18:32+0000",
+      {
+        "_index": 61,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-robomaker": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "26t18:54:17+0000",
+      {
+        "_index": 78,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#aws-neptune": {}
+        }
+      }
+    ],
+    [
+      "26t21:57:03+0000",
+      {
+        "_index": 4,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#migration-evaluator": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "28t23:16:27+0000",
+      {
+        "_index": 151,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "28t23:45:48+0000",
+      {
+        "_index": 170,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-sagemaker-ground-truth": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "29t00:00:21+0000",
+      {
+        "_index": 264,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-comprehend-medical": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "29t00:04:10+0000",
+      {
+        "_index": 145,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-amplify-console": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "29t17:13:51+0000",
+      {
+        "_index": 181,
+        "name": {},
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {
+          "free-tier-products#amazon-rds": {}
+        }
+      }
+    ],
+    [
+      "29t19:30:27+0000",
+      {
+        "_index": 171,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-sagemaker": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "29t19:46:59+0000",
+      {
+        "_index": 265,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-comprehend": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "29t19:55:35+0000",
+      {
+        "_index": 92,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-iot-device-management": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "29t20:02:05+0000",
+      {
+        "_index": 191,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-mq": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "29t20:17:10+0000",
+      {
+        "_index": 156,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-transcribe": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "29t20:22:57+0000",
+      {
+        "_index": 154,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-translate": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t00:16:53+0000",
+      {
+        "_index": 97,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-greengrass": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t17:27:51+0000",
+      {
+        "_index": 90,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-iot-events": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:46:23+0000",
+      {
+        "_index": 81,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-license-manager": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t18:52:09+0000",
+      {
+        "_index": 32,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-well-architected-tool": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "30t21:28:32+0000",
+      {
+        "_index": 220,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#amazon-inspector": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "31t22:28:25+0000",
+      {
+        "_index": 36,
+        "name": {},
+        "description": {},
+        "dateCreated": {
+          "free-tier-products#aws-waf": {}
+        },
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ai",
+      {
+        "_index": 281,
+        "name": {
+          "free-tier-products#amazon-augmented-ai": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "amazon",
+      {
+        "_index": 75,
+        "name": {
+          "free-tier-products#aws-neptune": {},
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {},
+          "free-tier-products#amazon-workdocs": {},
+          "free-tier-products#amazon-translate": {},
+          "free-tier-products#amazon-transcribe": {},
+          "free-tier-products#amazon-textract": {},
+          "free-tier-products#amazon-swf": {},
+          "free-tier-products#amazon-sqs": {},
+          "free-tier-products#amazon-sns": {},
+          "free-tier-products#amazon-ses": {},
+          "free-tier-products#amazon-sagemaker-ground-truth": {},
+          "free-tier-products#amazon-sagemaker": {},
+          "free-tier-products#amazon-s3": {},
+          "free-tier-products#amazon-rekognition": {},
+          "free-tier-products#amazon-redshift": {},
+          "free-tier-products#amazon-rds": {},
+          "free-tier-products#amazon-quicksight": {},
+          "free-tier-products#amazon-polly": {},
+          "free-tier-products#amazon-pinpoint": {},
+          "free-tier-products#amazon-personalize": {},
+          "free-tier-products#amazon-mq": {},
+          "free-tier-products#amazon-memorydb-for-redis": {},
+          "free-tier-products#amazon-macie": {},
+          "free-tier-products#amazon-lookout-for-vision": {},
+          "free-tier-products#amazon-lookout-for-equipment": {},
+          "free-tier-products#amazon-location-service": {},
+          "free-tier-products#amazon-lightsail": {},
+          "free-tier-products#amazon-lex": {},
+          "free-tier-products#amazon-keyspaces-apachecassandra": {},
+          "free-tier-products#amazon-kendra": {},
+          "free-tier-products#amazon-interactive-video-service": {},
+          "free-tier-products#amazon-inspector": {},
+          "free-tier-products#amazon-honeycode": {},
+          "free-tier-products#amazon-guardduty": {},
+          "free-tier-products#amazon-gamelift": {},
+          "free-tier-products#amazon-fraud-detector": {},
+          "free-tier-products#amazon-forecast": {},
+          "free-tier-products#amazon-elasticsearch-service": {},
+          "free-tier-products#amazon-elasticache": {},
+          "free-tier-products#amazon-elastic-transcoder": {},
+          "free-tier-products#amazon-elastic-block-storage": {},
+          "free-tier-products#amazon-efs": {},
+          "free-tier-products#amazon-ecs-anywhere": {},
+          "free-tier-products#amazon-ec2-container-registry": {},
+          "free-tier-products#amazon-ec2": {},
+          "free-tier-products#amazon-documentdb": {},
+          "free-tier-products#amazon-devops-guru": {},
+          "free-tier-products#amazon-detective": {},
+          "free-tier-products#amazon-connect": {},
+          "free-tier-products#amazon-comprehend-medical": {},
+          "free-tier-products#amazon-comprehend": {},
+          "free-tier-products#amazon-cognito": {},
+          "free-tier-products#amazon-cloudwatch": {},
+          "free-tier-products#amazon-cloudfront": {},
+          "free-tier-products#amazon-chimepro": {},
+          "free-tier-products#amazon-chime": {},
+          "free-tier-products#amazon-braket": {},
+          "free-tier-products#amazon-augmented-ai": {},
+          "free-tier-products#amazon-appstream-2-0": {},
+          "free-tier-products#amazon-api-gateway": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "amazon_lookout_for_metr",
+      {
+        "_index": 200,
+        "name": {
+          "free-tier-products#amazon-lookout-for-metrics": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "amplifi",
+      {
+        "_index": 143,
+        "name": {
+          "free-tier-products#aws-amplify-console": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "anywher",
+      {
+        "_index": 245,
+        "name": {
+          "free-tier-products#amazon-ecs-anywhere": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "apachecassandra",
+      {
+        "_index": 212,
+        "name": {
+          "free-tier-products#amazon-keyspaces-apachecassandra": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "api",
+      {
+        "_index": 287,
+        "name": {
+          "free-tier-products#amazon-api-gateway": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "applic",
+      {
+        "_index": 139,
+        "name": {
+          "free-tier-products#aws-application-migration-service": {},
+          "free-tier-products#aws-application-discovery-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "appstream",
+      {
+        "_index": 283,
+        "name": {
+          "free-tier-products#amazon-appstream-2-0": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "appsync",
+      {
+        "_index": 136,
+        "name": {
+          "free-tier-products#aws-appsync": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "architect",
+      {
+        "_index": 28,
+        "name": {
+          "free-tier-products#aws-well-architected-tool": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "audit",
+      {
+        "_index": 133,
+        "name": {
+          "free-tier-products#aws-audit-manager": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "augment",
+      {
+        "_index": 280,
+        "name": {
+          "free-tier-products#amazon-augmented-ai": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "autom",
+      {
+        "_index": 73,
+        "name": {
+          "free-tier-products#aws-opsworks-for-chef-automate": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "aw",
+      {
+        "_index": 22,
+        "name": {
+          "free-tier-products#aws-x-ray": {},
+          "free-tier-products#aws-well-architected-tool": {},
+          "free-tier-products#aws-waf": {},
+          "free-tier-products#aws-systems-manager": {},
+          "free-tier-products#aws-storage-gateway": {},
+          "free-tier-products#aws-step-functions": {},
+          "free-tier-products#aws-service-catalog": {},
+          "free-tier-products#aws-server-migration-service": {},
+          "free-tier-products#aws-security-hub": {},
+          "free-tier-products#aws-secrets-manager": {},
+          "free-tier-products#aws-robomaker": {},
+          "free-tier-products#aws-resilience-hub": {},
+          "free-tier-products#aws-re-post": {},
+          "free-tier-products#aws-organizations": {},
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {},
+          "free-tier-products#aws-opsworks-for-chef-automate": {},
+          "free-tier-products#aws-migration-hub": {},
+          "free-tier-products#aws-license-manager": {},
+          "free-tier-products#aws-lambda": {},
+          "free-tier-products#aws-key-management-service": {},
+          "free-tier-products#aws-iot-events": {},
+          "free-tier-products#aws-iot-device-management": {},
+          "free-tier-products#aws-iot": {},
+          "free-tier-products#aws-greengrass": {},
+          "free-tier-products#aws-glue": {},
+          "free-tier-products#aws-device-farm": {},
+          "free-tier-products#aws-deepracer": {},
+          "free-tier-products#aws-database-migration-service": {},
+          "free-tier-products#aws-data-pipeline": {},
+          "free-tier-products#aws-data-exchange": {},
+          "free-tier-products#aws-control-tower": {},
+          "free-tier-products#aws-codepipeline": {},
+          "free-tier-products#aws-codecommit": {},
+          "free-tier-products#aws-codebuild": {},
+          "free-tier-products#aws-codeartifact": {},
+          "free-tier-products#aws-cloudtrail": {},
+          "free-tier-products#aws-cloudformation": {},
+          "free-tier-products#aws-certificate-manager-private-ca": {},
+          "free-tier-products#aws-audit-manager": {},
+          "free-tier-products#aws-appsync": {},
+          "free-tier-products#aws-application-migration-service": {},
+          "free-tier-products#aws-application-discovery-service": {},
+          "free-tier-products#aws-amplify-console": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "balanc",
+      {
+        "_index": 10,
+        "name": {
+          "free-tier-products#elastic-load-balancing": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "block",
+      {
+        "_index": 240,
+        "name": {
+          "free-tier-products#amazon-elastic-block-storage": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "braket",
+      {
+        "_index": 278,
+        "name": {
+          "free-tier-products#amazon-braket": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "bundl",
+      {
+        "_index": 149,
+        "name": {
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ca",
+      {
+        "_index": 131,
+        "name": {
+          "free-tier-products#aws-certificate-manager-private-ca": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "catalog",
+      {
+        "_index": 49,
+        "name": {
+          "free-tier-products#aws-service-catalog": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "certif",
+      {
+        "_index": 129,
+        "name": {
+          "free-tier-products#aws-certificate-manager-private-ca": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "chef",
+      {
+        "_index": 72,
+        "name": {
+          "free-tier-products#aws-opsworks-for-chef-automate": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "chime",
+      {
+        "_index": 275,
+        "name": {
+          "free-tier-products#amazon-chime": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "chimepro",
+      {
+        "_index": 273,
+        "name": {
+          "free-tier-products#amazon-chimepro": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "cloudendur",
+      {
+        "_index": 17,
+        "name": {
+          "free-tier-products#cloudendure-migration": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "cloudform",
+      {
+        "_index": 127,
+        "name": {
+          "free-tier-products#aws-cloudformation": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "cloudfront",
+      {
+        "_index": 271,
+        "name": {
+          "free-tier-products#amazon-cloudfront": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "cloudtrail",
+      {
+        "_index": 125,
+        "name": {
+          "free-tier-products#aws-cloudtrail": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "cloudwatch",
+      {
+        "_index": 268,
+        "name": {
+          "free-tier-products#amazon-cloudwatch": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "codeartifact",
+      {
+        "_index": 123,
+        "name": {
+          "free-tier-products#aws-codeartifact": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "codebuild",
+      {
+        "_index": 121,
+        "name": {
+          "free-tier-products#aws-codebuild": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "codecommit",
+      {
+        "_index": 119,
+        "name": {
+          "free-tier-products#aws-codecommit": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "codepipelin",
+      {
+        "_index": 117,
+        "name": {
+          "free-tier-products#aws-codepipeline": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "cognito",
+      {
+        "_index": 266,
+        "name": {
+          "free-tier-products#amazon-cognito": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "comprehend",
+      {
+        "_index": 262,
+        "name": {
+          "free-tier-products#amazon-comprehend-medical": {},
+          "free-tier-products#amazon-comprehend": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "connect",
+      {
+        "_index": 260,
+        "name": {
+          "free-tier-products#amazon-connect": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "contain",
+      {
+        "_index": 248,
+        "name": {
+          "free-tier-products#amazon-ec2-container-registry": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "control",
+      {
+        "_index": 114,
+        "name": {
+          "free-tier-products#aws-control-tower": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "core",
+      {
+        "_index": 93,
+        "name": {
+          "free-tier-products#aws-iot": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "data",
+      {
+        "_index": 107,
+        "name": {
+          "free-tier-products#aws-data-pipeline": {},
+          "free-tier-products#aws-data-exchange": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "databas",
+      {
+        "_index": 105,
+        "name": {
+          "free-tier-products#aws-database-migration-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "deeprac",
+      {
+        "_index": 103,
+        "name": {
+          "free-tier-products#aws-deepracer": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "detect",
+      {
+        "_index": 258,
+        "name": {
+          "free-tier-products#amazon-detective": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "detector",
+      {
+        "_index": 229,
+        "name": {
+          "free-tier-products#amazon-fraud-detector": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "devic",
+      {
+        "_index": 91,
+        "name": {
+          "free-tier-products#aws-iot-device-management": {},
+          "free-tier-products#aws-device-farm": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "devop",
+      {
+        "_index": 255,
+        "name": {
+          "free-tier-products#amazon-devops-guru": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "discoveri",
+      {
+        "_index": 141,
+        "name": {
+          "free-tier-products#aws-application-discovery-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "documentdb",
+      {
+        "_index": 252,
+        "name": {
+          "free-tier-products#amazon-documentdb": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "dynamodb",
+      {
+        "_index": 15,
+        "name": {
+          "free-tier-products#dynamodb": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ec",
+      {
+        "_index": 244,
+        "name": {
+          "free-tier-products#amazon-ecs-anywhere": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ec2",
+      {
+        "_index": 247,
+        "name": {
+          "free-tier-products#amazon-ec2-container-registry": {},
+          "free-tier-products#amazon-ec2": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ef",
+      {
+        "_index": 242,
+        "name": {
+          "free-tier-products#amazon-efs": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "elast",
+      {
+        "_index": 8,
+        "name": {
+          "free-tier-products#elastic-load-balancing": {},
+          "free-tier-products#amazon-elastic-transcoder": {},
+          "free-tier-products#amazon-elastic-block-storage": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "elasticach",
+      {
+        "_index": 236,
+        "name": {
+          "free-tier-products#amazon-elasticache": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "enterpris",
+      {
+        "_index": 70,
+        "name": {
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "equip",
+      {
+        "_index": 202,
+        "name": {
+          "free-tier-products#amazon-lookout-for-equipment": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "evalu",
+      {
+        "_index": 1,
+        "name": {
+          "free-tier-products#migration-evaluator": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "event",
+      {
+        "_index": 88,
+        "name": {
+          "free-tier-products#aws-iot-events": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "exchang",
+      {
+        "_index": 110,
+        "name": {
+          "free-tier-products#aws-data-exchange": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "farm",
+      {
+        "_index": 100,
+        "name": {
+          "free-tier-products#aws-device-farm": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "forecast",
+      {
+        "_index": 231,
+        "name": {
+          "free-tier-products#amazon-forecast": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "fraud",
+      {
+        "_index": 228,
+        "name": {
+          "free-tier-products#amazon-fraud-detector": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "function",
+      {
+        "_index": 46,
+        "name": {
+          "free-tier-products#aws-step-functions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "gamelift",
+      {
+        "_index": 226,
+        "name": {
+          "free-tier-products#amazon-gamelift": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "gateway",
+      {
+        "_index": 43,
+        "name": {
+          "free-tier-products#aws-storage-gateway": {},
+          "free-tier-products#amazon-api-gateway": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "glue",
+      {
+        "_index": 98,
+        "name": {
+          "free-tier-products#aws-glue": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "greengrass",
+      {
+        "_index": 96,
+        "name": {
+          "free-tier-products#aws-greengrass": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ground",
+      {
+        "_index": 168,
+        "name": {
+          "free-tier-products#amazon-sagemaker-ground-truth": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "guardduti",
+      {
+        "_index": 223,
+        "name": {
+          "free-tier-products#amazon-guardduty": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "guru",
+      {
+        "_index": 256,
+        "name": {
+          "free-tier-products#amazon-devops-guru": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "honeycod",
+      {
+        "_index": 221,
+        "name": {
+          "free-tier-products#amazon-honeycode": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "host",
+      {
+        "_index": 144,
+        "name": {
+          "free-tier-products#aws-amplify-console": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "hub",
+      {
+        "_index": 54,
+        "name": {
+          "free-tier-products#aws-security-hub": {},
+          "free-tier-products#aws-resilience-hub": {},
+          "free-tier-products#aws-migration-hub": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "inspector",
+      {
+        "_index": 219,
+        "name": {
+          "free-tier-products#amazon-inspector": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "interact",
+      {
+        "_index": 216,
+        "name": {
+          "free-tier-products#amazon-interactive-video-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "iot",
+      {
+        "_index": 87,
+        "name": {
+          "free-tier-products#aws-iot-events": {},
+          "free-tier-products#aws-iot-device-management": {},
+          "free-tier-products#aws-iot": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "kendra",
+      {
+        "_index": 214,
+        "name": {
+          "free-tier-products#amazon-kendra": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "key",
+      {
+        "_index": 84,
+        "name": {
+          "free-tier-products#aws-key-management-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "keyspac",
+      {
+        "_index": 211,
+        "name": {
+          "free-tier-products#amazon-keyspaces-apachecassandra": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "lambda",
+      {
+        "_index": 82,
+        "name": {
+          "free-tier-products#aws-lambda": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "lex",
+      {
+        "_index": 209,
+        "name": {
+          "free-tier-products#amazon-lex": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "licens",
+      {
+        "_index": 80,
+        "name": {
+          "free-tier-products#aws-license-manager": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "lightsail",
+      {
+        "_index": 206,
+        "name": {
+          "free-tier-products#amazon-lightsail": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "load",
+      {
+        "_index": 9,
+        "name": {
+          "free-tier-products#elastic-load-balancing": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "locat",
+      {
+        "_index": 204,
+        "name": {
+          "free-tier-products#amazon-location-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "lookout",
+      {
+        "_index": 197,
+        "name": {
+          "free-tier-products#amazon-lookout-for-vision": {},
+          "free-tier-products#amazon-lookout-for-equipment": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "maci",
+      {
+        "_index": 195,
+        "name": {
+          "free-tier-products#amazon-macie": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "manag",
+      {
+        "_index": 39,
+        "name": {
+          "free-tier-products#aws-systems-manager": {},
+          "free-tier-products#aws-secrets-manager": {},
+          "free-tier-products#aws-license-manager": {},
+          "free-tier-products#aws-key-management-service": {},
+          "free-tier-products#aws-iot-device-management": {},
+          "free-tier-products#aws-certificate-manager-private-ca": {},
+          "free-tier-products#aws-audit-manager": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "medic",
+      {
+        "_index": 263,
+        "name": {
+          "free-tier-products#amazon-comprehend-medical": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "memorydb",
+      {
+        "_index": 192,
+        "name": {
+          "free-tier-products#amazon-memorydb-for-redis": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "migrat",
+      {
+        "_index": 0,
+        "name": {
+          "free-tier-products#migration-evaluator": {},
+          "free-tier-products#cloudendure-migration": {},
+          "free-tier-products#aws-server-migration-service": {},
+          "free-tier-products#aws-migration-hub": {},
+          "free-tier-products#aws-database-migration-service": {},
+          "free-tier-products#aws-application-migration-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "mq",
+      {
+        "_index": 190,
+        "name": {
+          "free-tier-products#amazon-mq": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "neptun",
+      {
+        "_index": 76,
+        "name": {
+          "free-tier-products#aws-neptune": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "opensearch",
+      {
+        "_index": 233,
+        "name": {
+          "free-tier-products#amazon-elasticsearch-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "opswork",
+      {
+        "_index": 68,
+        "name": {
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {},
+          "free-tier-products#aws-opsworks-for-chef-automate": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "organ",
+      {
+        "_index": 66,
+        "name": {
+          "free-tier-products#aws-organizations": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "person",
+      {
+        "_index": 188,
+        "name": {
+          "free-tier-products#amazon-personalize": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "pinpoint",
+      {
+        "_index": 186,
+        "name": {
+          "free-tier-products#amazon-pinpoint": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "pipelin",
+      {
+        "_index": 108,
+        "name": {
+          "free-tier-products#aws-data-pipeline": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "polli",
+      {
+        "_index": 184,
+        "name": {
+          "free-tier-products#amazon-polly": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "privat",
+      {
+        "_index": 130,
+        "name": {
+          "free-tier-products#aws-certificate-manager-private-ca": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "puppet",
+      {
+        "_index": 69,
+        "name": {
+          "free-tier-products#aws-opsworks-for-puppet-enterprise": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "quicksight",
+      {
+        "_index": 182,
+        "name": {
+          "free-tier-products#amazon-quicksight": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "ray",
+      {
+        "_index": 24,
+        "name": {
+          "free-tier-products#aws-x-ray": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "rd",
+      {
+        "_index": 179,
+        "name": {
+          "free-tier-products#amazon-rds": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "re:post",
+      {
+        "_index": 64,
+        "name": {
+          "free-tier-products#aws-re-post": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "redi",
+      {
+        "_index": 193,
+        "name": {
+          "free-tier-products#amazon-memorydb-for-redis": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "redshift",
+      {
+        "_index": 176,
+        "name": {
+          "free-tier-products#amazon-redshift": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "registri",
+      {
+        "_index": 249,
+        "name": {
+          "free-tier-products#amazon-ec2-container-registry": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "rekognit",
+      {
+        "_index": 174,
+        "name": {
+          "free-tier-products#amazon-rekognition": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "resili",
+      {
+        "_index": 62,
+        "name": {
+          "free-tier-products#aws-resilience-hub": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "robomak",
+      {
+        "_index": 60,
+        "name": {
+          "free-tier-products#aws-robomaker": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "s3",
+      {
+        "_index": 172,
+        "name": {
+          "free-tier-products#amazon-s3": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "sagemak",
+      {
+        "_index": 167,
+        "name": {
+          "free-tier-products#amazon-sagemaker-ground-truth": {},
+          "free-tier-products#amazon-sagemaker": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "se",
+      {
+        "_index": 165,
+        "name": {
+          "free-tier-products#amazon-ses": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "secret",
+      {
+        "_index": 57,
+        "name": {
+          "free-tier-products#aws-secrets-manager": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "secur",
+      {
+        "_index": 53,
+        "name": {
+          "free-tier-products#aws-security-hub": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "server",
+      {
+        "_index": 51,
+        "name": {
+          "free-tier-products#aws-server-migration-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "servic",
+      {
+        "_index": 48,
+        "name": {
+          "free-tier-products#aws-service-catalog": {},
+          "free-tier-products#aws-server-migration-service": {},
+          "free-tier-products#aws-key-management-service": {},
+          "free-tier-products#aws-database-migration-service": {},
+          "free-tier-products#aws-application-migration-service": {},
+          "free-tier-products#aws-application-discovery-service": {},
+          "free-tier-products#amazon-location-service": {},
+          "free-tier-products#amazon-interactive-video-service": {},
+          "free-tier-products#amazon-elasticsearch-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "sn",
+      {
+        "_index": 163,
+        "name": {
+          "free-tier-products#amazon-sns": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "sq",
+      {
+        "_index": 161,
+        "name": {
+          "free-tier-products#amazon-sqs": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "step",
+      {
+        "_index": 45,
+        "name": {
+          "free-tier-products#aws-step-functions": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "storag",
+      {
+        "_index": 42,
+        "name": {
+          "free-tier-products#aws-storage-gateway": {},
+          "free-tier-products#amazon-elastic-block-storage": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "swf",
+      {
+        "_index": 159,
+        "name": {
+          "free-tier-products#amazon-swf": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "system",
+      {
+        "_index": 38,
+        "name": {
+          "free-tier-products#aws-systems-manager": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "textract",
+      {
+        "_index": 157,
+        "name": {
+          "free-tier-products#amazon-textract": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "tool",
+      {
+        "_index": 29,
+        "name": {
+          "free-tier-products#aws-well-architected-tool": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "tower",
+      {
+        "_index": 115,
+        "name": {
+          "free-tier-products#aws-control-tower": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "transcod",
+      {
+        "_index": 238,
+        "name": {
+          "free-tier-products#amazon-elastic-transcoder": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "transcrib",
+      {
+        "_index": 155,
+        "name": {
+          "free-tier-products#amazon-transcribe": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "translat",
+      {
+        "_index": 153,
+        "name": {
+          "free-tier-products#amazon-translate": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "truth",
+      {
+        "_index": 169,
+        "name": {
+          "free-tier-products#amazon-sagemaker-ground-truth": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "video",
+      {
+        "_index": 217,
+        "name": {
+          "free-tier-products#amazon-interactive-video-service": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "vision",
+      {
+        "_index": 198,
+        "name": {
+          "free-tier-products#amazon-lookout-for-vision": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "waf",
+      {
+        "_index": 34,
+        "name": {
+          "free-tier-products#aws-waf": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "well",
+      {
+        "_index": 27,
+        "name": {
+          "free-tier-products#aws-well-architected-tool": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "workdoc",
+      {
+        "_index": 147,
+        "name": {
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {},
+          "free-tier-products#amazon-workdocs": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "workspac",
+      {
+        "_index": 148,
+        "name": {
+          "free-tier-products#amazon-workdocs-workspaces-bundle": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ],
+    [
+      "x",
+      {
+        "_index": 23,
+        "name": {
+          "free-tier-products#aws-x-ray": {}
+        },
+        "description": {},
+        "dateCreated": {},
+        "dateUpdated": {}
+      }
+    ]
+  ],
+  "pipeline": [
+    "stemmer"
+  ]
+}
