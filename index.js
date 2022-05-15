@@ -103,34 +103,40 @@ import lunr from 'lunr';
           await writableStream.close();
     }
 
-    const loadDirectoryAsItems = async (directoryId) => {
-        const pages = JSON.parse(fs.readFileSync(`data/${directoryId}.json`, {encoding: 'utf-8'}))
+    const getItemsFromPages = async (pages) => {
+        const items = pages.map(p => p.items.map(i => i.item)).flat();
+        return items;        
+    }
+
+    const enrichItems = async(items, directoryId) => {
         const directoryTitleFieldName = await getDirectoryTitleFieldNameByDirectoryId(directoryId)
-        const items = pages.map(p => p.items.map(i => i.item)).flat().map(i => {
-            i.title = i.additionalFields[directoryTitleFieldName]
-            return i
+        return items.map(i => {
+            i.directoryId = directoryId
+            i.title = i.additionalFields[directoryTitleFieldName]            
+            return i;
         })
-        return items;
+    }
+
+    const getEnrichedItemsByDirectoryId = async (directoryId) => {
+        const pages = JSON.parse(fs.readFileSync(`data/${directoryId}.json`, {encoding: 'utf-8'}))
+        const items = await getItemsFromPages(pages)
+        const enrichedItems = await enrichItems(items, directoryId)
+        return enrichedItems;
     }
 
     const getItem = async (directoryId, id) => {
-        const items = await loadDirectoryAsItems(directoryId)
+        const items = await getEnrichedItemsByDirectoryId(directoryId)
         return items.find(i => i.id === id)
     }
+
+    const getDirectoryIdFromPath = (filePath) => (path.basename(filePath, '.json'))
 
     const createIndex = async () => {
         const relativeDirPath = 'data';
         const fileNames = fs.readdirSync(relativeDirPath);
         for (const fileName of fileNames) {
-            const relativePath = `${relativeDirPath}/${fileName}`;
-            const basename = path.basename(fileName, '.json');
-            const directoryId = basename
-            const titleFieldName = await getDirectoryTitleFieldNameByDirectoryId(directoryId)
-            l(`relativePath=${relativePath},directoryId=${directoryId}`)
-
-            const pages = JSON.parse(fs.readFileSync(relativePath, {encoding: 'utf-8'}))
-
-            const items = pages.map(p => p.items.map(i => i.item)).flat()
+            const directoryId = getDirectoryIdFromPath(fileName)
+            const items = await getEnrichedItemsByDirectoryId(directoryId)
             //l(items)
 
             const idx = lunr(function () {
@@ -180,7 +186,7 @@ import lunr from 'lunr';
 
     const search = async(directoryId, query) => {
         const titleFieldName = await getDirectoryTitleFieldNameByDirectoryId(directoryId)
-        const items = await loadDirectoryAsItems(directoryId)
+        const items = await getEnrichedItemsByDirectoryId(directoryId)
         const idx = lunr.Index.load(JSON.parse(fs.readFileSync(`index/${directoryId}.json`, {encoding: 'utf-8'})))
         const searchResults = idx.search(query)
         const results = searchResults.map(e => items.find(i => i.id === e.ref)).map(e => ({"title": e.title, "dateUpdated": e.dateUpdated, "dateCreated": e.dateCreated}))
