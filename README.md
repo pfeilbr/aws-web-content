@@ -108,7 +108,7 @@
     * use returned `metadata.count` for `size` query string parameter
     * &sort_by=item.[dateCreated|dateUpdated]&sort_order=desc
     * lambda subscription to SQS.  process sequencially.  set batch size to >1 initially to see if throttling.  can always set batch size to 1
-* use <https://lunrjs.com/> for searching
+* use <https://lunrjs.com/> for searching.  see <https://lunrjs.com/guides/getting_started.html> for pre-creating index
 * all blogs (<https://aws.amazon.com/blogs/>)
     * template URL - "https://aws.amazon.com/api/dirs/items/search?item.directoryId=blog-posts&sort_by=item.additionalFields.createdDate&sort_order=desc&size=10&item.locale=en_US&page=1"
 * all events content (<https://aws.amazon.com/events/events-content>) page=0...N
