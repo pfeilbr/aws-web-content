@@ -21,7 +21,8 @@ import lunr from 'lunr';
             "directoryId": "free-tier-products"
         },        
         {
-            "directoryId": "blog-posts"
+            "directoryId": "blog-posts",
+            "title": "title"
         },
         {
             "directoryId": "whats-new",
@@ -104,7 +105,11 @@ import lunr from 'lunr';
 
     const loadDirectoryAsItems = async (directoryId) => {
         const pages = JSON.parse(fs.readFileSync(`data/${directoryId}.json`, {encoding: 'utf-8'}))
-        const items = pages.map(p => p.items.map(i => i.item)).flat()
+        const directoryTitleFieldName = await getDirectoryTitleFieldNameByDirectoryId(directoryId)
+        const items = pages.map(p => p.items.map(i => i.item)).flat().map(i => {
+            i.title = i.additionalFields[directoryTitleFieldName]
+            return i
+        })
         return items;
     }
 
@@ -120,6 +125,7 @@ import lunr from 'lunr';
             const relativePath = `${relativeDirPath}/${fileName}`;
             const basename = path.basename(fileName, '.json');
             const directoryId = basename
+            const titleFieldName = getDirectoryTitleFieldNameByDirectoryId(directoryId)
             l(`relativePath=${relativePath},directoryId=${directoryId}`)
 
             const pages = JSON.parse(fs.readFileSync(relativePath, {encoding: 'utf-8'}))
@@ -137,6 +143,7 @@ import lunr from 'lunr';
             
                 items.forEach(function (item) {
                     item.directoryId = directoryId;
+                    item.title = item.additionalFields[titleFieldName]
                   this.add(item)
                 }, this)
               })
@@ -164,17 +171,19 @@ import lunr from 'lunr';
         return await createIndex();
     }
 
-    const search = async(directoryId, query) => {
+    const getDirectoryTitleFieldNameByDirectoryId = async (directoryId) => {
         const directory = directories.find(d => d.directoryId === directoryId);
-        l(directory)
         const titleFieldName = directory.title
+        return titleFieldName
+    }
+
+    const search = async(directoryId, query) => {
+        const titleFieldName = await getDirectoryTitleFieldNameByDirectoryId(directoryId)
         const items = await loadDirectoryAsItems(directoryId)
         const idx = lunr.Index.load(JSON.parse(fs.readFileSync(`index/${directoryId}.json`, {encoding: 'utf-8'})))
         const searchResults = idx.search(query)
-        const results = searchResults.map(e => items.find(i => i.id === e.ref)).map(e => ({"title": e.additionalFields[titleFieldName], "dateUpdated": e.dateUpdated}))
+        const results = searchResults.map(e => items.find(i => i.id === e.ref)).map(e => ({"title": e.title, "dateUpdated": e.dateUpdated}))
         const sortedResultsDesc = results.sort((a, b) => {
-            
-
             if (a.dateUpdated < b.dateUpdated) {
                 return -1;
               }
