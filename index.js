@@ -1,5 +1,6 @@
 // fetch all aws directory api metadata (arch diagrams, products, blog posts, builders library articles, etc.)
 
+import { program }  from 'commander'
 import fetch from 'node-fetch'
 import fs from 'fs'
 import path from 'path'
@@ -131,11 +132,7 @@ import lunr from 'lunr';
         }
     }
 
-    const main = async () => {
-        //await saveFile();
-        //return;
-        await createIndex();
-        return;
+    const download = async () => {
         try {
             for (const directory of directories /* .slice(0,1) */ ) {
                 const data = await fetchDirectory(directory.directoryId)
@@ -148,7 +145,45 @@ import lunr from 'lunr';
             }        
         } catch (e) {
             console.log(e)
-        }        
+        }
+    }
+
+    const index = async () => {
+        return await createIndex();
+    }
+
+    const search = async(directoryId, query) => {
+        var idx = lunr.Index.load(JSON.parse(fs.readFileSync(`index/${directoryId}.json`, {encoding: 'utf-8'})))
+        return idx.search(query)
+    }
+
+    const main = async () => {
+        program
+            .version('0.1.0')
+            .command('download')
+            .action(async () => {
+                await download();
+            })
+        program
+            .command('index')
+            .action(async () => {
+                await index();
+            })
+        program
+            .command('search')
+            .argument('<directoryId>', 'directoryId')
+            .argument('<query>', 'query')
+            .action(async (directoryId, query) => {
+                const resp = await search(directoryId, query);
+                l(resp)
+            })
+
+        await program.parseAsync(process.argv);
+            // .argument('<username>', 'user to login')
+            // .argument('[password]', 'password for user, if required', 'no password given')
+            // .action((username, password) => {
+            // console.log('username:', username);
+            // console.log('password:', password);            
     }
 
     await main();
