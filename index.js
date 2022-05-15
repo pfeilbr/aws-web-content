@@ -101,6 +101,17 @@ import lunr from 'lunr';
           await writableStream.close();
     }
 
+    const loadDirectoryAsItems = async (directoryId) => {
+        const pages = JSON.parse(fs.readFileSync(`data/${directoryId}.json`, {encoding: 'utf-8'}))
+        const items = pages.map(p => p.items.map(i => i.item)).flat()
+        return items;
+    }
+
+    const getItem = async (directoryId, id) => {
+        const items = await loadDirectoryAsItems(directoryId)
+        return items.find(i => i.id === id)
+    }
+
     const createIndex = async () => {
         const relativeDirPath = 'data';
         const fileNames = fs.readdirSync(relativeDirPath);
@@ -153,8 +164,11 @@ import lunr from 'lunr';
     }
 
     const search = async(directoryId, query) => {
-        var idx = lunr.Index.load(JSON.parse(fs.readFileSync(`index/${directoryId}.json`, {encoding: 'utf-8'})))
-        return idx.search(query)
+        const items = await loadDirectoryAsItems(directoryId)
+        const idx = lunr.Index.load(JSON.parse(fs.readFileSync(`index/${directoryId}.json`, {encoding: 'utf-8'})))
+        const searchResults = idx.search(query)
+        const results = searchResults.map(e => items.find(i => i.id === e.ref)).map(e => e.name)
+        l(results)
     }
 
     const main = async () => {

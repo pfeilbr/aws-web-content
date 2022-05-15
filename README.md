@@ -115,6 +115,11 @@
     * template URL "https://aws.amazon.com/api/dirs/items/search?item.directoryId=event-content&sort_by=item.dateCreated&sort_order=desc&size=12&item.locale=en_US&tags.id=GLOBAL%23language%23english&page=1"
 * Builders Library - https://aws.amazon.com/api/dirs/items/search?item.directoryId=amazon-redwood&sort_by=item.additionalFields.customSort&sort_order=asc&size=24&item.locale=en_US
 
+## Scratch
+
+```sh
+node index.js search "whats-new" "name:*lambda*"
+```
 
 ## One-liner to retrieve a list of all AWS products
 
