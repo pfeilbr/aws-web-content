@@ -24,7 +24,8 @@ import lunr from 'lunr';
             "directoryId": "blog-posts"
         },
         {
-            "directoryId": "whats-new"
+            "directoryId": "whats-new",
+            "title": "headline"
         },
         {
             "directoryId": "security-bulletins"
@@ -164,10 +165,13 @@ import lunr from 'lunr';
     }
 
     const search = async(directoryId, query) => {
+        const directory = directories.find(d => d.directoryId === directoryId);
+        l(directory)
+        const titleFieldName = directory.title
         const items = await loadDirectoryAsItems(directoryId)
         const idx = lunr.Index.load(JSON.parse(fs.readFileSync(`index/${directoryId}.json`, {encoding: 'utf-8'})))
         const searchResults = idx.search(query)
-        const results = searchResults.map(e => items.find(i => i.id === e.ref)).map(e => e.name)
+        const results = searchResults.map(e => items.find(i => i.id === e.ref)).map(e => e.additionalFields[titleFieldName])
         l(results)
     }
 
