@@ -45,7 +45,7 @@ import lunr from 'lunr';
     }
 
     const fetchJSON = async (url) => {
-        //l(`fetchJSON("${url}")`)
+        l(`fetchJSON("${url}")`)
         const resp = await fetch(url)
         const data = await resp.json();
         return data;
@@ -58,7 +58,7 @@ import lunr from 'lunr';
     }
     
     const fetchDirectoryContent = async (directoryId, metadata) => {
-        const urlTemplate = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${directoryId}&size=${metadata.metadata.count}&item.locale=en_US&page=`;
+        const urlTemplate = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${directoryId}&size=${metadata.metadata.count}&sort_by=item.dateCreated&sort_order=desc&item.locale=en_US&page=`;
         const pageIndexes = Array.from(Array(metadata.metadata.pageCount).keys())
         const pages = [];
         for (const pageIndex of pageIndexes) {
