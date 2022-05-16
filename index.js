@@ -148,8 +148,8 @@ import lunr from 'lunr';
                 this.field('dateUpdated')
             
                 items.forEach(function (item) {
-                    item.directoryId = directoryId;
-                    item.title = item.additionalFields[titleFieldName]
+                    // item.directoryId = directoryId;
+                    // item.title = item.additionalFields[titleFieldName]
                   this.add(item)
                 }, this)
               })
