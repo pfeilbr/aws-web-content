@@ -118,6 +118,13 @@
 ## Scratch
 
 ```sh
+# download data from api
+node index.js download
+
+# index data into lunr indexes
+node index.js index
+
+# search against an index
 node index.js search --directoryId "whats-new" --query "name:*lambda*"
 ```
 
