@@ -81,7 +81,6 @@ import lunr from 'lunr';
         const pageCount = Math.ceil(metadata.metadata.totalHits / metadata.metadata.count);
         metadata.metadata.pageCount = pageCount;
         const data = await fetchDirectoryContent(directoryId, metadata);
-        //l(metadata)
         return data;
     }
 
@@ -219,10 +218,10 @@ import lunr from 'lunr';
             })
         program
             .command('search')
-            .argument('<directoryId>', 'directoryId')
-            .argument('<query>', 'query')
-            .action(async (directoryId, query) => {
-                const resp = await search(directoryId, query);
+            .option('-d, --directoryId <directoryId>', 'directoryId')
+            .option('-q, --query <query>', 'query', 80)
+            .action(async (options) => {
+                const resp = await search(options.directoryId, options.query);
                 l(resp)
             })
 

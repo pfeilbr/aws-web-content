@@ -118,7 +118,7 @@
 ## Scratch
 
 ```sh
-node index.js search "whats-new" "name:*lambda*"
+node index.js search --directoryId "whats-new" --query "name:*lambda*"
 ```
 
 ## One-liner to retrieve a list of all AWS products
