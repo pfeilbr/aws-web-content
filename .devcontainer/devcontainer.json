@@ -17,7 +17,10 @@
 	"extensions": [
 		"dbaeumer.vscode-eslint",
 		"aws-scripting-guy.cform",
-		"4ops.terraform"
+		"4ops.terraform",
+		"esbenp.prettier-vscode",
+		"redhat.vscode-yaml",
+		"ms-azuretools.vscode-docker"
 	],
 
 	"mounts": [
