@@ -34,6 +34,13 @@ import lunr from "lunr";
     {
       directoryId: "media-resources",
     },
+    {
+      directoryId: "apg",
+      directoryName: "AWS Prescriptive Guidance",
+      title: "contentTitle",
+      description: "contentDescription",
+      url: "contentCtaUrl",
+    },
   ];
 
   const l = (o) => {
