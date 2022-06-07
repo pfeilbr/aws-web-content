@@ -41,6 +41,10 @@ import lunr from "lunr";
       description: "contentDescription",
       url: "contentCtaUrl",
     },
+    {
+      directoryId: "customer-references",
+      title: "AWS Customer Story"
+    }    
   ];
 
   const l = (o) => {
