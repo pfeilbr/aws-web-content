@@ -44,6 +44,10 @@ import lunr from "lunr";
     {
       directoryId: "customer-references",
       title: "AWS Customer Story"
+    },
+    {
+      directoryId: "alias#solutions-experience",
+      title: "AWS Quick Starts"
     }    
   ];
 
