@@ -2,6 +2,9 @@
 
 set -ex
 
+# TODO: workaround for brew bin paths not being set
+export PATH=/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:$PATH
+
 brew install \
     jq \
     yq \
