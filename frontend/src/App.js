@@ -56,22 +56,23 @@ function App() {
   useEffect(() => {
 
     const load = async () => {
-      const directoryIds = `amazon-redwood,aws-products`.split(',')
       //const metadata = await fetchDirectoryMetadata()
-      const directories = await Promise.all(directoryIds.map(async directoryId => {
-        const directoryData = await fetchDirectoryData(directoryId)
+      
+      const directories = await Promise.all(metadata.directories.map(async d => {
+        const directoryData = await fetchDirectoryData(d.directoryId)
         return directoryData
       }))
 
       return {metadata, directories}
     }
 
+
     load()
       .then(data => {
         console.log(data)
         setData(data)
         //const directory = data.metadata.directories[0]
-        //setDirectory(directory)
+        //setDirectory(directory, data, 0)
         // directory.displayMetadata.fields[0].cellRenderer =  (props) => (
         //        <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
         //      )
@@ -82,6 +83,7 @@ function App() {
       .catch(console.error)
   }, []);
 
+
   const autoSizeAll = useCallback((skipHeader) => {
     const allColumnIds = [];
     gridRef.current.columnApi.getColumns().forEach((column) => {
@@ -90,11 +92,7 @@ function App() {
     gridRef.current.columnApi.autoSizeColumns(allColumnIds, skipHeader);
   }, []);
 
-  const buttonListener = useCallback( e => {
-    gridRef.current.api.deselectAll();
-  }, []);
-
-  const displayDirectory = useCallback( (directory, index) => {
+  const displayDirectory = useCallback( (directory, data, index) => {
     setDirectory(directory)
     setColumnDefs(directory.displayMetadata.fields)
     setRowData(data.directories[index].data.flatMap(data => data.items))
@@ -109,27 +107,19 @@ function App() {
         { data.metadata.directories.map((d,index) => (
         <button
           key={d.directoryId}
-          onClick={() => displayDirectory(d, index)}>
+          onClick={() => displayDirectory(d, data, index)}>
             {d.displayMetadata.title}
         </button>))
         }
                    
         <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
-        <h3>{directory.displayMetadata.title}</h3>
+        <h3>{directory?.displayMetadata.title}</h3>
         <AgGridReact
             ref={gridRef} // Ref for accessing Grid's API
-
             rowData={rowData} // Row Data for Rows
-
             columnDefs={columnDefs} // Column Defs for Columns
             defaultColDef={defaultColDef} // Default Column Properties
-
-            animateRows={true} // Optional - set to 'true' to have rows animate when sorted
-            rowSelection='multiple' // Options - allows click selection of rows
-
-            onCellClicked={autoSizeAll} // Optional - registering for Grid Event
-            //onFirstDataRendered={autoSizeAll}
-            
+            animateRows={true} // Optional - set to 'true' to have rows animate when sorted            
             />
         </div>
       </div> : 'loading ...'}

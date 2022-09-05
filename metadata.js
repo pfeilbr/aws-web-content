@@ -46,7 +46,15 @@
     {
       "directoryId": "free-tier-products",
       "displayMetadata": {
-      "title": "AWS Free Tier Products"
+      "title": "AWS Free Tier Products",
+      "fields": [
+        {"field": "item.additionalFields.serviceName", "headerName": "Title"},
+        {"field": "item.additionalFields.dateCreated", "headerName": "Date"},
+        {"field": "item.author", "headerName": "Author"},
+        // {"field": "item.id"},
+        // {"field": "item.name"},
+        // {"field": "item.author"}          
+      ]
       }
     },
     {
@@ -75,28 +83,28 @@
         "title": "Media Resources"
         }
     },
-    {
-      "directoryId": "apg",
-      "directoryName": "AWS Prescriptive Guidance",
-      "title": "contentTitle",
-      "description": "contentDescription",
-      "url": "contentCtaUrl",
-      "displayMetadata": {
-        "title": "AWS Prescriptive Guidance"
-        }
-    },
-    {
-      "directoryId": "customer-references",
-      "title": "AWS Customer Story",
-      "displayMetadata": {
-        "title": "AWS Customer Story"
-        }
-    },
-    {
-      "directoryId": "alias#solutions-experience",
-      "title": "AWS Quick Starts",
-      "displayMetadata": {
-        "title": "AWS Quick Starts"
-        }
-    }    
+    // {
+    //   "directoryId": "apg",
+    //   "directoryName": "AWS Prescriptive Guidance",
+    //   "title": "contentTitle",
+    //   "description": "contentDescription",
+    //   "url": "contentCtaUrl",
+    //   "displayMetadata": {
+    //     "title": "AWS Prescriptive Guidance"
+    //     }
+    // },
+    // {
+    //   "directoryId": "customer-references",
+    //   "title": "AWS Customer Story",
+    //   "displayMetadata": {
+    //     "title": "AWS Customer Story"
+    //     }
+    // },
+    // {
+    //   "directoryId": "alias#solutions-experience",
+    //   "title": "AWS Quick Starts",
+    //   "displayMetadata": {
+    //     "title": "AWS Quick Starts"
+    //     }
+    // }    
   ]}
