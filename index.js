@@ -7,49 +7,8 @@ import path from "path";
 import lunr from "lunr";
 
 (async () => {
-  const directories = [
-    {
-      directoryId: "amazon-redwood",
-    },
-    {
-      directoryId: "event-content",
-    },
-    {
-      directoryId: "aws-products",
-    },
-    {
-      directoryId: "free-tier-products",
-    },
-    {
-      directoryId: "blog-posts",
-      title: "title",
-    },
-    {
-      directoryId: "whats-new",
-      title: "headline",
-    },
-    {
-      directoryId: "security-bulletins",
-    },
-    {
-      directoryId: "media-resources",
-    },
-    {
-      directoryId: "apg",
-      directoryName: "AWS Prescriptive Guidance",
-      title: "contentTitle",
-      description: "contentDescription",
-      url: "contentCtaUrl",
-    },
-    {
-      directoryId: "customer-references",
-      title: "AWS Customer Story"
-    },
-    {
-      directoryId: "alias#solutions-experience",
-      title: "AWS Quick Starts"
-    }    
-  ];
+  const metadata = JSON.parse(fs.readFileSync('./metadata.json'))
+  const directories = metadata.directories;
 
   const l = (o) => {
     console.log(JSON.stringify(o, null, 2));
