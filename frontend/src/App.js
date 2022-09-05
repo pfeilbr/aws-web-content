@@ -54,16 +54,7 @@ function App() {
   const [rowData, setRowData] = useState(); // Set rowData to Array of Objects, one Object per Row
 
   // Each Column Definition results in one Column.
-  const [columnDefs, setColumnDefs] = useState([
-    {field: 'item.additionalFields.headline', headerName: 'Title', cellRenderer: (props) => (
-      <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
-    )},
-    {field: 'item.additionalFields.publishedDate', headerName: 'Date'},
-    {field: 'item.additionalFields.contentAuthor', headerName: 'Author'},
-    {field: 'item.id'},
-    {field: 'item.name'},
-    {field: 'item.author'}
-  ]);
+  const [columnDefs, setColumnDefs] = useState();
 
    // DefaultColDef sets props common to all Columns
   const defaultColDef = useMemo( ()=> ({
@@ -94,6 +85,22 @@ function App() {
     load()
       .then(data => {
         console.log(data)
+        const directory = data.metadata.directories[0]
+        
+
+        setColumnDefs(directory.displayMetadata)
+
+        // [
+        //   {field: 'item.additionalFields.headline', headerName: 'Title', cellRenderer: (props) => (
+        //     <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
+        //   )},
+        //   {field: 'item.additionalFields.publishedDate', headerName: 'Date'},
+        //   {field: 'item.additionalFields.contentAuthor', headerName: 'Author'},
+        //   {field: 'item.id'},
+        //   {field: 'item.name'},
+        //   {field: 'item.author'}
+        // ]        
+
         setRowData(data.directories[0].data.flatMap(data => data.items))
       })
       .catch(console.error)
