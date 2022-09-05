@@ -5,9 +5,10 @@ import fetch from "node-fetch";
 import fs from "fs";
 import path from "path";
 import lunr from "lunr";
+import metadata from './metadata.js'
 
 (async () => {
-  const metadata = JSON.parse(fs.readFileSync('./metadata.json'))
+  //const metadata = JSON.parse(fs.readFileSync('./metadata.json'))
   const directories = metadata.directories;
 
   const l = (o) => {

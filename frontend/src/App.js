@@ -8,8 +8,7 @@ import { AgGridReact } from 'ag-grid-react'; // the AG Grid React Component
 
 import 'ag-grid-community/styles/ag-grid.css'; // Core grid CSS, always needed
 import 'ag-grid-community/styles/ag-theme-alpine.css'; // Optional theme CSS
-
-const store = {}
+import metadata from './metadata.js'
 
 const baseURL = `https://raw.githubusercontent.com/pfeilbr/aws-web-content/main`
 const baseIndexURL = `${baseURL}/index`
@@ -73,7 +72,7 @@ function App() {
 
     const load = async () => {
       const directoryIds = `amazon-redwood,aws-products`.split(',')
-      const metadata = await fetchDirectoryMetadata()
+      //const metadata = await fetchDirectoryMetadata()
       const directories = await Promise.all(directoryIds.map(async directoryId => {
         const directoryData = await fetchDirectoryData(directoryId)
         return directoryData
