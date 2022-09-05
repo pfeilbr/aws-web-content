@@ -14,12 +14,17 @@ const store = {}
 const baseURL = `https://raw.githubusercontent.com/pfeilbr/aws-web-content/main`
 const baseIndexURL = `${baseURL}/index`
 const baseDataURL = `${baseURL}/data`
+const directoryMetadataURL = `${baseURL}/metadata.json`
 const indexURLForDirectoryId = (directoryId) => `${baseIndexURL}/${directoryId}.json`
 const dataURLForDirectoryId = (directoryId) => `${baseDataURL}/${directoryId}.json`
 
 const fetchJSON = async (url) => {
   const resp = await fetch(url);
   return await resp.json()
+}
+
+const fetchDirectoryMetadata = async () => {
+  return fetchJSON(directoryMetadataURL)
 }
 
 const fetchDirectoryData = async(directoryId) => {
@@ -76,15 +81,20 @@ function App() {
   useEffect(() => {
 
     const load = async () => {
-      const directoryId = `amazon-redwood`
-      const directoryData = await fetchDirectoryData(directoryId)
-      console.log(directoryData)
-      return directoryData
+      const directoryIds = `amazon-redwood,aws-products`.split(',')
+      const metadata = await fetchDirectoryMetadata()
+      const directories = await Promise.all(directoryIds.map(async directoryId => {
+        const directoryData = await fetchDirectoryData(directoryId)
+        return directoryData
+      }))
+
+      return {metadata, directories}
     }
 
     load()
       .then(data => {
-        setRowData(data.data.flatMap(data => data.items))
+        console.log(data)
+        setRowData(data.directories[0].data.flatMap(data => data.items))
       })
       .catch(console.error)
 
