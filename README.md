@@ -5,6 +5,17 @@
 * [`index.js`](index.js) - entrypoint
 * [`data/`](data/) - directory items
 
+## Frontend
+
+> under construction
+
+```sh
+cd frontend
+npm start
+```
+
+---
+
 ## Data Shapes
 
 **general response shape**
