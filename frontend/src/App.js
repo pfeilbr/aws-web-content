@@ -50,15 +50,21 @@ function App() {
 
   // Each Column Definition results in one Column.
   const [columnDefs, setColumnDefs] = useState([
-    {field: 'item.additionalFields.headline', headerName: 'Title', resizable: true},
-    {field: 'item.id', filter: true},
-    {field: 'item.name', filter: true},
+    {field: 'item.additionalFields.headline', headerName: 'Title', cellRenderer: (props) => (
+      <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
+    )},
+    {field: 'item.additionalFields.publishedDate', headerName: 'Date'},
+    {field: 'item.additionalFields.contentAuthor', headerName: 'Author'},
+    {field: 'item.id'},
+    {field: 'item.name'},
     {field: 'item.author'}
   ]);
 
    // DefaultColDef sets props common to all Columns
   const defaultColDef = useMemo( ()=> ({
-    sortable: true
+    sortable: true,
+    resizable: true,
+    filter: true
   }));
 
   // Example of consuming Grid Event
@@ -107,7 +113,7 @@ function App() {
       <button onClick={autoSizeAll}>Push Me</button>
 
       {/* On div wrapping Grid a) specify theme CSS Class Class and b) sets Grid size */}
-      <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 500}}>
+      <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
 
         <AgGridReact
             ref={gridRef} // Ref for accessing Grid's API
