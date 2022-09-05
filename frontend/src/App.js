@@ -1,11 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import lunr from 'lunr';
 
 import React, { useState, useRef, useEffect, useMemo, useCallback} from 'react';
-import { render } from 'react-dom';
 import { AgGridReact } from 'ag-grid-react'; // the AG Grid React Component
-
 import 'ag-grid-community/styles/ag-grid.css'; // Core grid CSS, always needed
 import 'ag-grid-community/styles/ag-theme-alpine.css'; // Optional theme CSS
 import metadata from './metadata.js'
@@ -85,9 +82,12 @@ function App() {
       .then(data => {
         console.log(data)
         const directory = data.metadata.directories[0]
+        directory.displayMetadata.fields[0].cellRenderer =  (props) => (
+               <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
+             )
         
 
-        setColumnDefs(directory.displayMetadata)
+        setColumnDefs(directory.displayMetadata.fields)
 
         // [
         //   {field: 'item.additionalFields.headline', headerName: 'Title', cellRenderer: (props) => (
@@ -143,6 +143,7 @@ function App() {
             rowSelection='multiple' // Options - allows click selection of rows
 
             onCellClicked={autoSizeAll} // Optional - registering for Grid Event
+            //onFirstDataRendered={autoSizeAll}
             
             />
       </div>
