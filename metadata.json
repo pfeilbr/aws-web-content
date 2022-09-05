@@ -4,7 +4,7 @@
       "directoryId": "amazon-redwood",
       "displayMetadata": [
         {"field": "item.additionalFields.headline", "headerName": "Title"},
-        {"field": "item.additionalFields.publishedDate"," headerName": "Date"},
+        {"field": "item.additionalFields.publishedDate", "headerName": "Date"},
         {"field": "item.additionalFields.contentAuthor", "headerName": "Author"},
         {"field": "item.id"},
         {"field": "item.name"},
