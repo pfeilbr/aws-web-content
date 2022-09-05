@@ -111,7 +111,10 @@ function App() {
     <div>
 
       <button onClick={autoSizeAll}>Push Me</button>
-      {data ? 'data here' : 'loading ...'}
+      {data ? 
+      <div>
+        { data.metadata.directories.map(d => (<span>{d.title}</span>)) }
+      </div> : 'loading ...'}
 
       {/* On div wrapping Grid a) specify theme CSS Class Class and b) sets Grid size */}
       <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
