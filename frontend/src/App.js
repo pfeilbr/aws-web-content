@@ -36,8 +36,6 @@ function App() {
   const gridRef = useRef();
   const [data, setData] = useState()
   const [rowData, setRowData] = useState(); // Set rowData to Array of Objects, one Object per Row
-
-  // Each Column Definition results in one Column.
   const [columnDefs, setColumnDefs] = useState();
 
   const [directory, setDirectory] = useState()
@@ -71,6 +69,7 @@ function App() {
     load()
       .then(data => {
         console.log(data)
+        setData(data)
         const directory = data.metadata.directories[0]
         setDirectory(directory)
         directory.displayMetadata.fields[0].cellRenderer =  (props) => (
@@ -112,6 +111,7 @@ function App() {
     <div>
 
       <button onClick={autoSizeAll}>Push Me</button>
+      {data ? 'data here' : 'loading ...'}
 
       {/* On div wrapping Grid a) specify theme CSS Class Class and b) sets Grid size */}
       <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
