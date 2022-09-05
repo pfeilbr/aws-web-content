@@ -61,14 +61,30 @@
       "directoryId": "blog-posts",
       "title": "title",
       "displayMetadata": {
-        "title": "Blog Posts"
+        "title": "Blog Posts",
+        "fields": [
+          {"field": "item.additionalFields.title", "headerName": "Title"},
+          {"field": "item.additionalFields.modifiedDate", "headerName": "Date"},
+          {"field": "item.author", "headerName": "Author"},
+          // {"field": "item.id"},
+          // {"field": "item.name"},
+          // {"field": "item.author"}          
+        ]
       }
     },
     {
       "directoryId": "whats-new",
       "title": "headline",
       "displayMetadata": {
-        "title": "Whats New"
+        "title": "Whats New",
+        "fields": [
+          {"field": "item.additionalFields.headline", "headerName": "Title"},
+          {"field": "item.additionalFields.postDateTime", "headerName": "Date"},
+          {"field": "item.author", "headerName": "Author"},
+          // {"field": "item.id"},
+          // {"field": "item.name"},
+          // {"field": "item.author"}          
+        ]
         }     
     },
     {

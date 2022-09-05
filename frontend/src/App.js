@@ -35,6 +35,7 @@ function App() {
 
   const gridRef = useRef();
   const [data, setData] = useState()
+  const [currentDirectoryIndex, setCurrentDirectoryIndex] = useState(0)
   const [rowData, setRowData] = useState(); // Set rowData to Array of Objects, one Object per Row
   const [columnDefs, setColumnDefs] = useState();
 
@@ -71,6 +72,7 @@ function App() {
       .then(data => {
         console.log(data)
         setData(data)
+        setCurrentDirectoryIndex(0)
         //const directory = data.metadata.directories[0]
         //setDirectory(directory, data, 0)
         // directory.displayMetadata.fields[0].cellRenderer =  (props) => (
@@ -96,6 +98,7 @@ function App() {
     setDirectory(directory)
     setColumnDefs(directory.displayMetadata.fields)
     setRowData(data.directories[index].data.flatMap(data => data.items))
+    setCurrentDirectoryIndex(index)
   }, []);
 
   return (
@@ -113,7 +116,7 @@ function App() {
         }
                    
         <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
-        <h3>{directory?.displayMetadata.title}</h3>
+        <h3>{data.metadata.directories[currentDirectoryIndex].displayMetadata.title}</h3>
         <AgGridReact
             ref={gridRef} // Ref for accessing Grid's API
             rowData={rowData} // Row Data for Rows
