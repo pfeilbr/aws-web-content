@@ -31,26 +31,16 @@ const fetchDirectoryData = async(directoryId) => {
   return directoryData;
 }
 
-// const loadIndex = async () => {
-//     const resp = await fetch("https://raw.githubusercontent.com/pfeilbr/aws-web-content/main/index/amazon-redwood.json");
-//     const idx = lunr.Index.load(await resp.json())
-//     return idx
-// }
-
-// (async () => {
-//   const idx = await loadIndex()
-//   console.log(idx.search('distributed'))
-// })()
-
-
-
 function App() {
 
-  const gridRef = useRef(); // Optional - for accessing Grid's API
+  const gridRef = useRef();
+  const [data, setData] = useState()
   const [rowData, setRowData] = useState(); // Set rowData to Array of Objects, one Object per Row
 
   // Each Column Definition results in one Column.
   const [columnDefs, setColumnDefs] = useState();
+
+  const [directory, setDirectory] = useState()
 
    // DefaultColDef sets props common to all Columns
   const defaultColDef = useMemo( ()=> ({
@@ -64,7 +54,7 @@ function App() {
     console.log('cellClicked', event);
   }, []);
 
-  // Example load data from sever
+  
   useEffect(() => {
 
     const load = async () => {
@@ -82,31 +72,15 @@ function App() {
       .then(data => {
         console.log(data)
         const directory = data.metadata.directories[0]
+        setDirectory(directory)
         directory.displayMetadata.fields[0].cellRenderer =  (props) => (
                <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
              )
         
-
         setColumnDefs(directory.displayMetadata.fields)
-
-        // [
-        //   {field: 'item.additionalFields.headline', headerName: 'Title', cellRenderer: (props) => (
-        //     <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
-        //   )},
-        //   {field: 'item.additionalFields.publishedDate', headerName: 'Date'},
-        //   {field: 'item.additionalFields.contentAuthor', headerName: 'Author'},
-        //   {field: 'item.id'},
-        //   {field: 'item.name'},
-        //   {field: 'item.author'}
-        // ]        
-
         setRowData(data.directories[0].data.flatMap(data => data.items))
       })
       .catch(console.error)
-
-    // fetch('https://www.ag-grid.com/example-assets/row-data.json')
-    // .then(result => result.json())
-    // .then(rowData => setRowData(rowData))
   }, []);
 
   const autoSizeAll = useCallback((skipHeader) => {
@@ -117,6 +91,18 @@ function App() {
     gridRef.current.columnApi.autoSizeColumns(allColumnIds, skipHeader);
   }, []);
 
+  // const displayProducts = useCallback( () => {
+  //   const directory = store.data.metadata.directories[1]
+  //   setDirectory(directory)
+  //   directory.displayMetadata.fields[0].cellRenderer =  (props) => (
+  //          <a href={props.data.item.additionalFields.productName} target="_blank">{props.value}</a>
+  //        )
+    
+  //   setColumnDefs(directory.displayMetadata.fields)
+  //   setRowData(directory.data.flatMap(data => data.items))
+
+  // })
+
   // Example using Grid's API
   const buttonListener = useCallback( e => {
     gridRef.current.api.deselectAll();
@@ -125,12 +111,11 @@ function App() {
   return (
     <div>
 
-      {/* Example using Grid's API */}
       <button onClick={autoSizeAll}>Push Me</button>
 
       {/* On div wrapping Grid a) specify theme CSS Class Class and b) sets Grid size */}
       <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
-
+        <h3>{directory?.displayMetadata.title}</h3>
         <AgGridReact
             ref={gridRef} // Ref for accessing Grid's API
 
