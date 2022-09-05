@@ -70,14 +70,14 @@ function App() {
       .then(data => {
         console.log(data)
         setData(data)
-        const directory = data.metadata.directories[0]
-        setDirectory(directory)
-        directory.displayMetadata.fields[0].cellRenderer =  (props) => (
-               <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
-             )
+        //const directory = data.metadata.directories[0]
+        //setDirectory(directory)
+        // directory.displayMetadata.fields[0].cellRenderer =  (props) => (
+        //        <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
+        //      )
         
-        setColumnDefs(directory.displayMetadata.fields)
-        setRowData(data.directories[0].data.flatMap(data => data.items))
+        // setColumnDefs(directory.displayMetadata.fields)
+        // setRowData(data.directories[0].data.flatMap(data => data.items))
       })
       .catch(console.error)
   }, []);
@@ -90,21 +90,14 @@ function App() {
     gridRef.current.columnApi.autoSizeColumns(allColumnIds, skipHeader);
   }, []);
 
-  // const displayProducts = useCallback( () => {
-  //   const directory = store.data.metadata.directories[1]
-  //   setDirectory(directory)
-  //   directory.displayMetadata.fields[0].cellRenderer =  (props) => (
-  //          <a href={props.data.item.additionalFields.productName} target="_blank">{props.value}</a>
-  //        )
-    
-  //   setColumnDefs(directory.displayMetadata.fields)
-  //   setRowData(directory.data.flatMap(data => data.items))
-
-  // })
-
-  // Example using Grid's API
   const buttonListener = useCallback( e => {
     gridRef.current.api.deselectAll();
+  }, []);
+
+  const displayDirectory = useCallback( (directory, index) => {
+    setDirectory(directory)
+    setColumnDefs(directory.displayMetadata.fields)
+    setRowData(data.directories[index].data.flatMap(data => data.items))
   }, []);
 
   return (
@@ -113,12 +106,16 @@ function App() {
       <button onClick={autoSizeAll}>Push Me</button>
       {data ? 
       <div>
-        { data.metadata.directories.map(d => (<span>{d.title}</span>)) }
-      </div> : 'loading ...'}
-
-      {/* On div wrapping Grid a) specify theme CSS Class Class and b) sets Grid size */}
-      <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
-        <h3>{directory?.displayMetadata.title}</h3>
+        { data.metadata.directories.map((d,index) => (
+        <button
+          key={d.directoryId}
+          onClick={() => displayDirectory(d, index)}>
+            {d.displayMetadata.title}
+        </button>))
+        }
+                   
+        <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
+        <h3>{directory.displayMetadata.title}</h3>
         <AgGridReact
             ref={gridRef} // Ref for accessing Grid's API
 
@@ -134,7 +131,8 @@ function App() {
             //onFirstDataRendered={autoSizeAll}
             
             />
-      </div>
+        </div>
+      </div> : 'loading ...'}
     </div>
     );
 }

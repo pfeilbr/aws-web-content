@@ -58,27 +58,45 @@
     },
     {
       "directoryId": "whats-new",
-      "title": "headline"
+      "title": "headline",
+      "displayMetadata": {
+        "title": "Whats New"
+        }     
     },
     {
-      "directoryId": "security-bulletins"
+      "directoryId": "security-bulletins",
+      "displayMetadata": {
+        "title": "Security Bulletins"
+        }
     },
     {
-      "directoryId": "media-resources"
+      "directoryId": "media-resources",
+      "displayMetadata": {
+        "title": "Media Resources"
+        }
     },
     {
       "directoryId": "apg",
       "directoryName": "AWS Prescriptive Guidance",
       "title": "contentTitle",
       "description": "contentDescription",
-      "url": "contentCtaUrl"
+      "url": "contentCtaUrl",
+      "displayMetadata": {
+        "title": "AWS Prescriptive Guidance"
+        }
     },
     {
       "directoryId": "customer-references",
-      "title": "AWS Customer Story"
+      "title": "AWS Customer Story",
+      "displayMetadata": {
+        "title": "AWS Customer Story"
+        }
     },
     {
       "directoryId": "alias#solutions-experience",
-      "title": "AWS Quick Starts"
+      "title": "AWS Quick Starts",
+      "displayMetadata": {
+        "title": "AWS Quick Starts"
+        }
     }    
   ]}
