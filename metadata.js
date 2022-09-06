@@ -65,7 +65,7 @@
         "fields": [
           {"field": "item.additionalFields.title", "headerName": "Title", "linkField": "item.additionalFields.link"},
           {"field": "item.additionalFields.modifiedDate", "headerName": "Date"},
-          {"field": "item.author", "headerName": "Author"},
+          {"field": "item.author", "headerName": "Author", "transform": (s) => (JSON.parse(s).join(", "))},
           // {"field": "item.id"},
           // {"field": "item.name"},
           // {"field": "item.author"}          
