@@ -45,10 +45,7 @@ function App() {
   const defaultColDef = useMemo( ()=> ({
     sortable: true,
     resizable: true,
-    filter: true,
-    // cellRenderer:  (props) => {
-    //   return  <span>{Array.isArray(props.value) ? props.value.join(','): props.value }</span>
-    // }    
+    filter: true
   }));
 
   // Example of consuming Grid Event
@@ -95,6 +92,13 @@ function App() {
    .split('.')
    .reduce((o, p) => o ? o[p] : defaultValue, object)
 
+   const handleDirectoryChange = useCallback((event) => {
+    const idx = event.target.value
+    setCurrentDirectoryIndex(idx)
+    displayDirectory(data.metadata.directories[idx], data, idx)
+  })
+
+
   const displayDirectory = useCallback( (directory, data, index) => {
     setDirectory(directory)
     for (const field of directory.displayMetadata.fields) {
@@ -126,16 +130,20 @@ function App() {
     <div>
       {data ? 
       <div>
-        { data.metadata.directories.map((d,index) => (
+        <select value={currentDirectoryIndex} onChange={handleDirectoryChange}>
+        { data.metadata.directories.map((d,index) => (<option value={index}>{d.displayMetadata.title}</option>)) }
+        </select>
+
+        {/* { data.metadata.directories.map((d,index) => (
         <button
           key={d.directoryId}
           onClick={() => displayDirectory(d, data, index)}>
             {d.displayMetadata.title}
         </button>))
-        }
+        } */}
                    
         <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
-        <h3>{data.metadata.directories[currentDirectoryIndex].displayMetadata.title}</h3>
+        {/* <h3>{data.metadata.directories[currentDirectoryIndex].displayMetadata.title}</h3> */}
         <AgGridReact
             ref={gridRef} // Ref for accessing Grid's API
             rowData={rowData} // Row Data for Rows

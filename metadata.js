@@ -79,7 +79,7 @@
         "title": "Whats New",
         "fields": [
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
-          {"field": "item.additionalFields.postDateTime", "headerName": "Date"},
+          {"field": "item.additionalFields.postDateTime", "headerName": "Date", "transform": (s) => (s.split("T")[0])},
           // {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},
