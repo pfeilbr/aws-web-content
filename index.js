@@ -183,7 +183,7 @@ import _ from "lodash"
           _.set(displayItem, field.field, _.get(item, field.field))
 
           if (field.transform) {
-            _.set(displayItem, field.field, field.transform(_.get(item, field.field)))
+            _.set(displayItem, field.field, field.transform(_.get(item, field.field), field, item, directory))
           }
 
           if (field.linkField) {

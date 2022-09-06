@@ -49,7 +49,7 @@
       "title": "AWS Free Tier Products",
       "fields": [
         {"field": "item.additionalFields.serviceName", "headerName": "Title",  "linkField": "item.additionalFields.campaignUrl"},
-        {"field": "item.dateCreated", "headerName": "Date"},
+        {"field": "item.dateCreated", "headerName": "Date", "transform": (s) => (s.split("T")[0])},
         // {"field": "item.author", "headerName": "Author"},
         // {"field": "item.id"},
         // {"field": "item.name"},
