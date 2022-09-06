@@ -5,7 +5,7 @@
       "displayMetadata": {
         "title": "Amazon Builders' Library",
         "fields":[
-          {"field": "item.additionalFields.headline", "headerName": "Title"},
+          {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.publishedDate", "headerName": "Date"},
           {"field": "item.additionalFields.contentAuthor", "headerName": "Author"},
           // {"field": "item.id"},
@@ -18,7 +18,7 @@
       "displayMetadata": {
       "title": "AWS Products",
       "fields": [
-        {"field": "item.additionalFields.productName", "headerName": "Title"},
+        {"field": "item.additionalFields.productName", "headerName": "Title", "linkField": "item.additionalFields.productUrl"},
         {"field": "item.additionalFields.launchDate", "headerName": "Date"},
         {"field": "item.author", "headerName": "Author"},
         // {"field": "item.id"},
@@ -63,7 +63,7 @@
       "displayMetadata": {
         "title": "Blog Posts",
         "fields": [
-          {"field": "item.additionalFields.title", "headerName": "Title"},
+          {"field": "item.additionalFields.title", "headerName": "Title", "linkField": "item.additionalFields.link"},
           {"field": "item.additionalFields.modifiedDate", "headerName": "Date"},
           {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
@@ -78,7 +78,7 @@
       "displayMetadata": {
         "title": "Whats New",
         "fields": [
-          {"field": "item.additionalFields.headline", "headerName": "Title"},
+          {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.postDateTime", "headerName": "Date"},
           {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},

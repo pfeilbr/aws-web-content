@@ -94,8 +94,26 @@ function App() {
     gridRef.current.columnApi.autoSizeColumns(allColumnIds, skipHeader);
   }, []);
 
+  const resolvePath = (object, path, defaultValue) => path
+   .split('.')
+   .reduce((o, p) => o ? o[p] : defaultValue, object)
+
   const displayDirectory = useCallback( (directory, data, index) => {
     setDirectory(directory)
+    for (const field of directory.displayMetadata.fields) {
+        console.log(field)
+
+      if (field.linkField) {
+        console.log(`link field`)
+        field.cellRenderer =  (props) => {
+          let url = resolvePath(props.data, field.linkField)
+          if (!url.startsWith("http")) {
+            url = `https://aws.amazon.com${url}`
+          }
+          return  <a href={ url} target="_blank">{props.value}</a>
+        }
+      }
+    }
     setColumnDefs(directory.displayMetadata.fields)
     setRowData(data.directories[index].data.flatMap(data => data.items))
     setCurrentDirectoryIndex(index)
