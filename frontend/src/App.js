@@ -72,7 +72,9 @@ function App() {
       .then(data => {
         console.log(data)
         setData(data)
-        setCurrentDirectoryIndex(0)
+        const index = 0
+        setCurrentDirectoryIndex(index)
+        displayDirectory(data.metadata.directories[index], data, index)
       })
       .catch(console.error)
   }, []);
@@ -110,12 +112,15 @@ function App() {
     //setRowData(data.directories[index].data.flatMap(data => data.items))
     setRowData(data.directories[index].data)
     setCurrentDirectoryIndex(index)
+    // TODO: fix hard coded sleep
+    setTimeout(() => {
+      autoSizeAll()
+    }, 250)
+    
   }, []);
 
   return (
     <div>
-
-      <button onClick={autoSizeAll}>Push Me</button>
       {data ? 
       <div>
         { data.metadata.directories.map((d,index) => (
@@ -133,7 +138,10 @@ function App() {
             rowData={rowData} // Row Data for Rows
             columnDefs={columnDefs} // Column Defs for Columns
             defaultColDef={defaultColDef} // Default Column Properties
-            animateRows={true} // Optional - set to 'true' to have rows animate when sorted            
+            animateRows={true} // Optional - set to 'true' to have rows animate when sorted  
+            // onFirstDataRendered={autoSizeAll}
+            //onModelUpdated={autoSizeAll}   
+            //onComponentStateChanged={autoSizeAll}   
             />
         </div>
       </div> : 'loading ...'}
