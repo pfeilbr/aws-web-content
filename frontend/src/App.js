@@ -73,14 +73,6 @@ function App() {
         console.log(data)
         setData(data)
         setCurrentDirectoryIndex(0)
-        //const directory = data.metadata.directories[0]
-        //setDirectory(directory, data, 0)
-        // directory.displayMetadata.fields[0].cellRenderer =  (props) => (
-        //        <a href={props.data.item.additionalFields.headlineUrl} target="_blank">{props.value}</a>
-        //      )
-        
-        // setColumnDefs(directory.displayMetadata.fields)
-        // setRowData(data.directories[0].data.flatMap(data => data.items))
       })
       .catch(console.error)
   }, []);
@@ -107,7 +99,7 @@ function App() {
         console.log(`link field`)
         field.cellRenderer =  (props) => {
           let url = resolvePath(props.data, field.linkField)
-          if (!url.startsWith("http")) {
+          if (url && !url.startsWith("http")) {
             url = `https://aws.amazon.com${url}`
           }
           return  <a href={ url} target="_blank">{props.value}</a>

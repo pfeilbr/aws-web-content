@@ -33,7 +33,7 @@
       "displayMetadata": {
         "title": "AWS Events Content",
         "fields": [
-          {"field": "item.additionalFields.headline", "headerName": "Title"},
+          {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.sortDate", "headerName": "Date"},
           {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
@@ -48,7 +48,7 @@
       "displayMetadata": {
       "title": "AWS Free Tier Products",
       "fields": [
-        {"field": "item.additionalFields.serviceName", "headerName": "Title"},
+        {"field": "item.additionalFields.serviceName", "headerName": "Title",  "linkField": "item.additionalFields.campaignUrl"},
         {"field": "item.additionalFields.dateCreated", "headerName": "Date"},
         {"field": "item.author", "headerName": "Author"},
         // {"field": "item.id"},
