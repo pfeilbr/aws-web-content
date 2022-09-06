@@ -20,7 +20,7 @@
       "fields": [
         {"field": "item.additionalFields.productName", "headerName": "Title", "linkField": "item.additionalFields.productUrl"},
         {"field": "item.additionalFields.launchDate", "headerName": "Date"},
-        {"field": "item.author", "headerName": "Author"},
+        //{"field": "item.author", "headerName": "Author"},
         // {"field": "item.id"},
         // {"field": "item.name"},
         // {"field": "item.author"}          
@@ -35,7 +35,7 @@
         "fields": [
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.sortDate", "headerName": "Date"},
-          {"field": "item.author", "headerName": "Author"},
+          //{"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},
           // {"field": "item.author"}          
@@ -49,8 +49,8 @@
       "title": "AWS Free Tier Products",
       "fields": [
         {"field": "item.additionalFields.serviceName", "headerName": "Title",  "linkField": "item.additionalFields.campaignUrl"},
-        {"field": "item.additionalFields.dateCreated", "headerName": "Date"},
-        {"field": "item.author", "headerName": "Author"},
+        {"field": "item.dateCreated", "headerName": "Date"},
+        // {"field": "item.author", "headerName": "Author"},
         // {"field": "item.id"},
         // {"field": "item.name"},
         // {"field": "item.author"}          
