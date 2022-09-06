@@ -90,13 +90,30 @@
     {
       "directoryId": "security-bulletins",
       "displayMetadata": {
-        "title": "Security Bulletins"
+        "title": "Security Bulletins",
+        "fields": [
+          {"field": "item.additionalFields.bulletinSubject", "headerName": "Title", "linkField": "item.additionalFields.bulletinSubjectUrl"},
+          {"field": "item.additionalFields.bulletinDate", "headerName": "Date"},
+          {"field": "item.author", "headerName": "Author"},
+          // {"field": "item.id"},
+          // {"field": "item.name"},
+          // {"field": "item.author"}          
+        ]
         }
     },
     {
       "directoryId": "media-resources",
       "displayMetadata": {
-        "title": "Media Resources"
+        "title": "Media Resources",
+        "fields": [
+          {"field": "item.additionalFields.contentTitle", "headerName": "Title", "linkField": "item.additionalFields.contentCtaURL"},
+          {"field": "item.dateUpdated", "headerName": "Date"},
+          {"field": "item.author", "headerName": "Author"},
+          // {"field": "item.id"},
+          // {"field": "item.name"},
+          // {"field": "item.author"}          
+        ]
+
         }
     },
     // {

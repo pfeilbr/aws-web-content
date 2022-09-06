@@ -12,7 +12,7 @@ const baseIndexURL = `${baseURL}/index`
 const baseDataURL = `${baseURL}/data`
 const directoryMetadataURL = `${baseURL}/metadata.json`
 const indexURLForDirectoryId = (directoryId) => `${baseIndexURL}/${directoryId}.json`
-const dataURLForDirectoryId = (directoryId) => `${baseDataURL}/${directoryId}.json`
+const dataURLForDirectoryId = (directoryId) => `${baseDataURL}/${directoryId}.display.json`
 
 const fetchJSON = async (url) => {
   const resp = await fetch(url);
@@ -107,7 +107,8 @@ function App() {
       }
     }
     setColumnDefs(directory.displayMetadata.fields)
-    setRowData(data.directories[index].data.flatMap(data => data.items))
+    //setRowData(data.directories[index].data.flatMap(data => data.items))
+    setRowData(data.directories[index].data)
     setCurrentDirectoryIndex(index)
   }, []);
 

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/pfeilbr/aws-web-content#readme",
   "dependencies": {
     "commander": "^9.2.0",
+    "lodash": "^4.17.21",
     "lunr": "^2.3.9",
     "node-fetch": "^3.2.4"
   }

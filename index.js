@@ -6,6 +6,7 @@ import fs from "fs";
 import path from "path";
 import lunr from "lunr";
 import metadata from './metadata.js'
+import _ from "lodash"
 
 (async () => {
   //const metadata = JSON.parse(fs.readFileSync('./metadata.json'))
@@ -173,6 +174,23 @@ import metadata from './metadata.js'
     return titleFieldName;
   };
 
+  const createDataForFrontend = async () => {
+    for (const directory of metadata.directories) {
+      const data = JSON.parse(fs.readFileSync(`data/${directory.directoryId}.json`, { encoding: "utf-8" }))
+      const transformedData = data.flatMap(data => data.items.map(item => {
+        const displayItem = {}
+        for (const field of directory.displayMetadata.fields) {
+          _.set(displayItem, field.field, _.get(item, field.field))
+          if (field.linkField) {
+            _.set(displayItem, field.linkField, _.get(item, field.linkField))
+          }
+        }
+        return displayItem;
+      }))
+      fs.writeFileSync(`data/${directory.directoryId}.display.json`, JSON.stringify(transformedData))
+    }
+  }
+
   const search = async (directoryId, query) => {
     const titleFieldName = await getDirectoryTitleFieldNameByDirectoryId(
       directoryId
@@ -218,6 +236,10 @@ import metadata from './metadata.js'
     program.command("index").action(async () => {
       await index();
     });
+    program.command("create-data-for-frontend").action(async () => {
+      await createDataForFrontend();
+    });
+
     program
       .command("search")
       .option("-d, --directoryId <directoryId>", "directoryId")
