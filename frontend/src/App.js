@@ -45,7 +45,10 @@ function App() {
   const defaultColDef = useMemo( ()=> ({
     sortable: true,
     resizable: true,
-    filter: true
+    filter: true,
+    // cellRenderer:  (props) => {
+    //   return  <span>{Array.isArray(props.value) ? props.value.join(','): props.value }</span>
+    // }    
   }));
 
   // Example of consuming Grid Event

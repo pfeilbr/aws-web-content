@@ -181,6 +181,11 @@ import _ from "lodash"
         const displayItem = {}
         for (const field of directory.displayMetadata.fields) {
           _.set(displayItem, field.field, _.get(item, field.field))
+
+          if (field.transform) {
+            _.set(displayItem, field.field, field.transform(_.get(item, field.field)))
+          }
+
           if (field.linkField) {
             _.set(displayItem, field.linkField, _.get(item, field.linkField))
           }

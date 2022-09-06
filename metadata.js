@@ -7,7 +7,7 @@
         "fields":[
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.publishedDate", "headerName": "Date"},
-          {"field": "item.additionalFields.contentAuthor", "headerName": "Author"},
+          {"field": "item.additionalFields.contentAuthor", "headerName": "Author", "transform": (s) => (s.replace("Author: ", ""))},
           // {"field": "item.id"},
           // {"field": "item.name"},
           // {"field": "item.author"}
@@ -80,7 +80,7 @@
         "fields": [
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.postDateTime", "headerName": "Date"},
-          {"field": "item.author", "headerName": "Author"},
+          // {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},
           // {"field": "item.author"}          
@@ -94,7 +94,7 @@
         "fields": [
           {"field": "item.additionalFields.bulletinSubject", "headerName": "Title", "linkField": "item.additionalFields.bulletinSubjectUrl"},
           {"field": "item.additionalFields.bulletinDate", "headerName": "Date"},
-          {"field": "item.author", "headerName": "Author"},
+          //{"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},
           // {"field": "item.author"}          
@@ -108,7 +108,7 @@
         "fields": [
           {"field": "item.additionalFields.contentTitle", "headerName": "Title", "linkField": "item.additionalFields.contentCtaURL"},
           {"field": "item.dateUpdated", "headerName": "Date"},
-          {"field": "item.author", "headerName": "Author"},
+          // {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},
           // {"field": "item.author"}          
