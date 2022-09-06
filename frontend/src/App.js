@@ -116,9 +116,9 @@ function App() {
       }
     }
     setColumnDefs(directory.displayMetadata.fields)
-    //setRowData(data.directories[index].data.flatMap(data => data.items))
     setRowData(data.directories[index].data)
     setCurrentDirectoryIndex(index)
+    
     // TODO: fix hard coded sleep
     setTimeout(() => {
       autoSizeAll()
@@ -132,27 +132,14 @@ function App() {
       <div>
         <select value={currentDirectoryIndex} onChange={handleDirectoryChange}>
         { data.metadata.directories.map((d,index) => (<option value={index}>{d.displayMetadata.title}</option>)) }
-        </select>
-
-        {/* { data.metadata.directories.map((d,index) => (
-        <button
-          key={d.directoryId}
-          onClick={() => displayDirectory(d, data, index)}>
-            {d.displayMetadata.title}
-        </button>))
-        } */}
-                   
+        </select>                   
         <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
-        {/* <h3>{data.metadata.directories[currentDirectoryIndex].displayMetadata.title}</h3> */}
         <AgGridReact
-            ref={gridRef} // Ref for accessing Grid's API
-            rowData={rowData} // Row Data for Rows
-            columnDefs={columnDefs} // Column Defs for Columns
-            defaultColDef={defaultColDef} // Default Column Properties
-            animateRows={true} // Optional - set to 'true' to have rows animate when sorted  
-            // onFirstDataRendered={autoSizeAll}
-            //onModelUpdated={autoSizeAll}   
-            //onComponentStateChanged={autoSizeAll}   
+            ref={gridRef}
+            rowData={rowData}
+            columnDefs={columnDefs}
+            defaultColDef={defaultColDef}
+            animateRows={true}
             />
         </div>
       </div> : 'loading ...'}

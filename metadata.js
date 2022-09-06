@@ -64,7 +64,7 @@
         "title": "Blog Posts",
         "fields": [
           {"field": "item.additionalFields.title", "headerName": "Title", "linkField": "item.additionalFields.link"},
-          {"field": "item.additionalFields.modifiedDate", "headerName": "Date"},
+          {"field": "item.additionalFields.modifiedDate", "headerName": "Date", "transform": (s) => (s.split("T")[0])},
           {"field": "item.author", "headerName": "Author", "transform": (s) => (JSON.parse(s).join(", "))},
           // {"field": "item.id"},
           // {"field": "item.name"},
