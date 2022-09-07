@@ -196,6 +196,9 @@ import _ from "lodash"
             _.set(displayItem, field.linkField, _.get(item, field.linkField))
           }
         }
+        if (item.tags) {
+          displayItem.tags = item.tags.map(t => t.name).join(',')
+        }
         return displayItem;
       }))
       fs.writeFileSync(`data/${directory.directoryId}.display.json`, JSON.stringify(transformedData))

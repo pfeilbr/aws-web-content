@@ -25,7 +25,7 @@ const fetchDirectoryMetadata = async () => {
 
 const fetchDirectoryData = async(directoryId) => {
   const directoryData = {
-    index: lunr.Index.load(await fetchJSON(indexURLForDirectoryId(directoryId))),
+    // index: lunr.Index.load(await fetchJSON(indexURLForDirectoryId(directoryId))),
     data: await fetchJSON(dataURLForDirectoryId(directoryId))
   }
   return directoryData;
