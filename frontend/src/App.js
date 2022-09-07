@@ -132,7 +132,8 @@ function App() {
       <div>
         <select value={currentDirectoryIndex} onChange={handleDirectoryChange}>
         { data.metadata.directories.map((d,index) => (<option value={index}>{d.displayMetadata.title}</option>)) }
-        </select>                   
+        </select>
+        <input type="text" size="60" placeholder='search ...' onChange={(event) => gridRef.current.api.setQuickFilter(event.target.value) }/>
         <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
         <AgGridReact
             ref={gridRef}
