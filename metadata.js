@@ -8,7 +8,7 @@
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.publishedDate", "headerName": "Date"},
           {"field": "item.additionalFields.contentAuthor", "headerName": "Author", "transform": (s) => (s.replace("Author: ", ""))},
-          {"field": "item.tags", "headerName": "Tags"}
+          {"field": "item.tags", "headerName": "Tags"},
           // {"field": "item.id"},
           // {"field": "item.name"},
           // {"field": "item.author"}
