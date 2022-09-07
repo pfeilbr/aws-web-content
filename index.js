@@ -28,13 +28,13 @@ import _ from "lodash"
   };
 
   const fetchDirectoryMetadata = async (directoryId) => {
-    const metadataURL = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${directoryId}&item.locale=en_US`;
+    const metadataURL = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${encodeURIComponent(directoryId)}&item.locale=en_US`;
     const data = await fetchJSON(metadataURL);
     return data;
   };
 
   const fetchDirectoryContent = async (directoryId, metadata) => {
-    const urlTemplate = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${directoryId}&size=${metadata.metadata.count}&sort_by=item.dateCreated&sort_order=desc&item.locale=en_US&page=`;
+    const urlTemplate = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${encodeURIComponent(directoryId)}&size=${metadata.metadata.count}&sort_by=item.dateCreated&sort_order=desc&item.locale=en_US&page=`;
     const pageIndexes = Array.from(Array(metadata.metadata.pageCount).keys());
     const pages = [];
     for (const pageIndex of pageIndexes) {
@@ -143,9 +143,12 @@ import _ from "lodash"
     }
   };
 
-  const download = async () => {
+  const download = async (options) => {
     try {
       for (const directory of directories /* .slice(0,1) */) {
+        if (options && options.directoryId && options.directoryId !== directory.directoryId) {
+          continue;
+        }
         const data = await fetchDirectory(directory.directoryId);
         const totalItems = data.reduce((previous, current) => {
           return previous + current.items.length;
@@ -235,8 +238,9 @@ import _ from "lodash"
     program
       .version("0.1.0")
       .command("download")
-      .action(async () => {
-        await download();
+      .option("-d, --directoryId <directoryId>", "directoryId")
+      .action(async (options) => {
+        await download(options);
       });
     program.command("index").action(async () => {
       await index();

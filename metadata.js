@@ -140,12 +140,16 @@
     //     "title": "AWS Quick Starts"
     //     }
     // },
-    // {
-    //   "directoryId": "alias#architecture-center",
-    //   "title": "AWS Architecture Center",
-    //   "displayMetadata": {
-    //     "title": "AWS Architecture Center"
-    //     }
-    // }    
-
+    {
+      "directoryId": "alias#architecture-center",
+      "title": "AWS Architecture Center",
+      "displayMetadata": {
+        "title": "AWS Architecture Center",
+        "fields": [
+          {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
+          {"field": "item.additionalFields.contentType", "headerName": "Type"},
+          {"field": "item.additionalFields.sortDate", "headerName": "Date"},
+        ]
+        }
+    }    
   ]}
