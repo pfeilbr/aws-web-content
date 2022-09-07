@@ -317,7 +317,8 @@ s3.listObjectsV2(params, function(err, data) {
 
 ---
 
-
+AWS Architecture Center
+https://aws.amazon.com/api/dirs/items/search?item.directoryId=alias%23architecture-center&sort_by=item.additionalFields.sortDate&sort_order=desc&size=9&item.locale=en_US
 
 querying various content types in the directory by tags.id querystring value
 

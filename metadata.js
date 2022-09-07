@@ -139,5 +139,13 @@
     //   "displayMetadata": {
     //     "title": "AWS Quick Starts"
     //     }
+    // },
+    // {
+    //   "directoryId": "alias#architecture-center",
+    //   "title": "AWS Architecture Center",
+    //   "displayMetadata": {
+    //     "title": "AWS Architecture Center"
+    //     }
     // }    
+
   ]}
