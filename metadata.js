@@ -21,6 +21,7 @@
       "fields": [
         {"field": "item.additionalFields.productName", "headerName": "Title", "linkField": "item.additionalFields.productUrl"},
         {"field": "item.additionalFields.launchDate", "headerName": "Date"},
+        {"field": "item.tags", "headerName": "Tags"},        
         //{"field": "item.author", "headerName": "Author"},
         // {"field": "item.id"},
         // {"field": "item.name"},
@@ -36,6 +37,7 @@
         "fields": [
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.sortDate", "headerName": "Date"},
+          {"field": "item.tags", "headerName": "Tags"},
           //{"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},
@@ -51,6 +53,7 @@
       "fields": [
         {"field": "item.additionalFields.serviceName", "headerName": "Title",  "linkField": "item.additionalFields.campaignUrl"},
         {"field": "item.dateCreated", "headerName": "Date", "transform": (s) => (s.split("T")[0])},
+        {"field": "item.tags", "headerName": "Tags"},        
         // {"field": "item.author", "headerName": "Author"},
         // {"field": "item.id"},
         // {"field": "item.name"},
@@ -67,6 +70,7 @@
           {"field": "item.additionalFields.title", "headerName": "Title", "linkField": "item.additionalFields.link"},
           {"field": "item.additionalFields.modifiedDate", "headerName": "Date", "transform": (s) => (s.split("T")[0])},
           {"field": "item.author", "headerName": "Author", "transform": (s) => (JSON.parse(s).join(", "))},
+          {"field": "item.tags", "headerName": "Tags"},          
           // {"field": "item.id"},
           // {"field": "item.name"},
           // {"field": "item.author"}          
@@ -81,6 +85,7 @@
         "fields": [
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.postDateTime", "headerName": "Date", "transform": (s) => (s.split("T")[0])},
+          {"field": "item.tags", "headerName": "Tags"},          
           // {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},
@@ -95,6 +100,7 @@
         "fields": [
           {"field": "item.additionalFields.bulletinSubject", "headerName": "Title", "linkField": "item.additionalFields.bulletinSubjectUrl"},
           {"field": "item.additionalFields.bulletinDate", "headerName": "Date"},
+          {"field": "item.tags", "headerName": "Tags"},          
           //{"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},
@@ -109,6 +115,7 @@
         "fields": [
           {"field": "item.additionalFields.contentTitle", "headerName": "Title", "linkField": "item.additionalFields.contentCtaURL"},
           {"field": "item.dateUpdated", "headerName": "Date", "transform": (s) => (s.split("T")[0])},
+          {"field": "item.tags", "headerName": "Tags"},          
           // {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},
@@ -150,6 +157,7 @@
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
           {"field": "item.additionalFields.contentType", "headerName": "Type"},
           {"field": "item.additionalFields.sortDate", "headerName": "Date"},
+          {"field": "item.tags", "headerName": "Tags"},          
         ]
         }
     }    
