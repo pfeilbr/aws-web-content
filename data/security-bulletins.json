@@ -3,6 +3,52 @@
     "items": [
       {
         "item": {
+          "id": "security-bulletins#aws-2022-007",
+          "locale": "en_US",
+          "directoryId": "security-bulletins",
+          "name": "AWS-2022-007",
+          "author": "ivyyclin",
+          "createdBy": "ivyyclin",
+          "lastUpdatedBy": "ivyyclin",
+          "numImpressions": 0,
+          "score": 0,
+          "dateCreated": "2022-07-11T17:17:35+0000",
+          "dateUpdated": "2022-07-11T17:22:11+0000",
+          "additionalFields": {
+            "bulletinDateSort": "2022-07-11",
+            "bulletinId": "AWS-2022-007",
+            "bulletinDate": "11-Jul-22",
+            "bulletinSubjectUrl": "https://aws.amazon.com/security/security-bulletins/AWS-2022-007/",
+            "bulletinSubject": "Reported EKS IAM Authenticator Issue"
+          }
+        },
+        "tags": [
+          {
+            "id": "security-bulletins#year#2022",
+            "locale": "en_US",
+            "tagNamespaceId": "security-bulletins#year",
+            "name": "2022",
+            "description": "<p>2022</p>\n",
+            "createdBy": "jarfaa",
+            "lastUpdatedBy": "jarfaa",
+            "dateCreated": "2022-03-22T17:54:33+0000",
+            "dateUpdated": "2022-03-22T17:54:33+0000"
+          },
+          {
+            "id": "security-bulletins#flag#informational",
+            "locale": "en_US",
+            "tagNamespaceId": "security-bulletins#flag",
+            "name": "informational",
+            "description": "<p>informational</p>\r\n",
+            "createdBy": "stokeand",
+            "lastUpdatedBy": "stokeand",
+            "dateCreated": "2019-09-26T19:05:52+0000",
+            "dateUpdated": "2019-09-26T19:05:52+0000"
+          }
+        ]
+      },
+      {
+        "item": {
           "id": "security-bulletins#aws-2022-006",
           "locale": "en_US",
           "directoryId": "security-bulletins",
@@ -469,7 +515,23 @@
             "dateUpdated": "2019-09-26T19:05:33+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2021-004",
@@ -515,23 +577,7 @@
             "dateUpdated": "2019-09-26T19:05:52+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2021-003",
@@ -956,7 +1002,23 @@
             "dateUpdated": "2019-10-09T04:12:23+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2009-002",
@@ -1002,23 +1064,7 @@
             "dateUpdated": "2019-10-09T04:12:23+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2009-003",
@@ -1421,7 +1467,23 @@
             "dateUpdated": "2019-10-09T04:05:31+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2011-001",
@@ -1467,23 +1529,7 @@
             "dateUpdated": "2019-10-09T04:05:13+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2011-002",
@@ -1897,7 +1943,23 @@
             "dateUpdated": "2019-10-09T04:05:02+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2013-001",
@@ -1943,23 +2005,7 @@
             "dateUpdated": "2019-10-09T04:04:51+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2014-001",
@@ -2373,7 +2419,23 @@
             "dateUpdated": "2019-10-09T04:04:37+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2014-010",
@@ -2419,23 +2481,7 @@
             "dateUpdated": "2019-10-09T04:04:37+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2014-011",
@@ -2849,7 +2895,23 @@
             "dateUpdated": "2019-10-09T04:04:23+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2015-008",
@@ -2895,23 +2957,7 @@
             "dateUpdated": "2019-10-09T04:04:23+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2015-009",
@@ -3325,7 +3371,23 @@
             "dateUpdated": "2019-10-09T04:04:23+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2015-018",
@@ -3371,23 +3433,7 @@
             "dateUpdated": "2019-10-09T04:04:23+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2015-019",
@@ -3801,7 +3847,23 @@
             "dateUpdated": "2019-10-09T04:04:06+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2016-009",
@@ -3847,23 +3909,7 @@
             "dateUpdated": "2019-10-09T04:04:06+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2016-010",
@@ -4277,7 +4323,23 @@
             "dateUpdated": "2019-10-09T04:03:54+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2017-007",
@@ -4323,23 +4385,7 @@
             "dateUpdated": "2019-10-09T04:03:54+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2017-008",
@@ -4753,7 +4799,23 @@
             "dateUpdated": "2019-09-26T19:31:08+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2018-017",
@@ -4799,23 +4861,7 @@
             "dateUpdated": "2019-09-26T19:31:08+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 110
-    },
-    "fieldTypes": {
-      "sortDate": "Text",
-      "bulletinDateSort": "Date",
-      "bulletinId": "Text",
-      "bulletinDate": "Text",
-      "bulletinSubjectUrl": "URL",
-      "bulletinSubject": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "security-bulletins#aws-2018-018",
@@ -5229,7 +5275,23 @@
             "dateUpdated": "2019-09-26T19:30:35+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 111
+    },
+    "fieldTypes": {
+      "sortDate": "Text",
+      "bulletinDateSort": "Date",
+      "bulletinId": "Text",
+      "bulletinDate": "Text",
+      "bulletinSubjectUrl": "URL",
+      "bulletinSubject": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "security-bulletins#aws-2019-007",
@@ -5278,8 +5340,8 @@
       }
     ],
     "metadata": {
-      "count": 10,
-      "totalHits": 110
+      "count": 1,
+      "totalHits": 111
     },
     "fieldTypes": {
       "sortDate": "Text",

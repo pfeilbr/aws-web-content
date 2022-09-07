@@ -107,7 +107,7 @@
         "title": "Media Resources",
         "fields": [
           {"field": "item.additionalFields.contentTitle", "headerName": "Title", "linkField": "item.additionalFields.contentCtaURL"},
-          {"field": "item.dateUpdated", "headerName": "Date"},
+          {"field": "item.dateUpdated", "headerName": "Date", "transform": (s) => (s.split("T")[0])},
           // {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
           // {"field": "item.name"},

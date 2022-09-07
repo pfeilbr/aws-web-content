@@ -3,6 +3,166 @@
     "items": [
       {
         "item": {
+          "id": "free-tier-products#aws-resource-access-manager",
+          "locale": "en_US",
+          "directoryId": "free-tier-products",
+          "name": "AWS-Resource-Access-Manager",
+          "author": "yulo",
+          "createdBy": "yulo",
+          "lastUpdatedBy": "yulo",
+          "dateCreated": "2022-08-02T17:38:24+0000",
+          "dateUpdated": "2022-08-02T21:09:54+0000",
+          "additionalFields": {
+            "serviceType": "Free Tier",
+            "backDescriptionExtra": "Always Free",
+            "backDescription": "<p>Available to all AWS customers at no additional charge</p>\n",
+            "cardColor": "#ffb640",
+            "campaignUrl": "https://aws.amazon.com/ram/?did=ft_card&trk=ft_card",
+            "serviceName": "AWS Resource Access Manager",
+            "frontCtaText": "Learn more about AWS Resource Access Manager",
+            "frontCtaUrl": "https://aws.amazon.com/ram/?did=ft_card&trk=ft_card",
+            "backCtaText": "TRY AWS Resource Access Manager for Free",
+            "calloutLarge": "<p><strong>Unlimited</strong></p>\r\n",
+            "backCtaUrl": "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html",
+            "frontDescription": "<p>Securely share your resources across AWS accounts or within your organization.</p>\r\n",
+            "category": "Security, Identity, & Compliance"
+          }
+        },
+        "tags": [
+          {
+            "id": "free-tier-products#categories#security-identity-compliance",
+            "locale": "en_US",
+            "tagNamespaceId": "free-tier-products#categories",
+            "name": "Security, Identity, and Compliance",
+            "description": "<p>Security, identity, and compliance</p>\n",
+            "createdBy": "jenbar",
+            "lastUpdatedBy": "jenbar",
+            "dateCreated": "2019-08-09T08:16:55+0000",
+            "dateUpdated": "2019-08-09T08:20:30+0000"
+          },
+          {
+            "id": "free-tier-products#tier#always-free",
+            "locale": "en_US",
+            "tagNamespaceId": "free-tier-products#tier",
+            "name": "always-free",
+            "description": "<p>always free</p>\r\n",
+            "createdBy": "jenbar",
+            "lastUpdatedBy": "jenbar",
+            "dateCreated": "2019-08-03T07:39:04+0000",
+            "dateUpdated": "2019-08-09T08:20:19+0000"
+          }
+        ]
+      },
+      {
+        "item": {
+          "id": "free-tier-products#amazon-elasticsearch-service",
+          "locale": "en_US",
+          "directoryId": "free-tier-products",
+          "name": "amazon-opensearch-service",
+          "author": "gregoima",
+          "lastUpdatedBy": "gregoima",
+          "dateCreated": "2017-06-08T19:33:53+0000",
+          "dateUpdated": "2022-06-20T23:25:45+0000",
+          "additionalFields": {
+            "serviceType": "Free Tier",
+            "new": "New",
+            "imageSrcUrl": "https://d1.awsstatic.com/blackfoot/re19_homepage/Homepage/Cards/Services/SiteMerch_Redshift-AQUA_Editorial-reInvent.e699750fadc220b4a9ba398b06ae58d191e8cd40.png",
+            "backDescriptionExtra": "12 Months Free",
+            "backDescription": "<ul>\r\n\t<li><strong>750 hours</strong> per month of a single-AZ t2.small.search or t3.small.search instance</li>\r\n\t<li><strong>10GB</strong> per month of optional EBS storage (Magnetic or General Purpose)</li>\r\n</ul>\r\n",
+            "serviceName": "Amazon OpenSearch Service",
+            "campaignUrl": "https://aws.amazon.com/pm/opensearch/?did=ft_card&trk=ft_card",
+            "SortRank": "8",
+            "frontCtaText": "Learn more about Amazon OpenSearch Service",
+            "frontCtaUrl": "https://aws.amazon.com/opensearch-service/?did=ft_card&trk=ft_card",
+            "calloutSmall": "per month of a single-AZ t2.small.search or t3.small.search instance",
+            "backCtaText": "TRY Amazon OpenSearch Service Free",
+            "calloutLarge": "<p><strong>750</strong> Hours</p>\r\n",
+            "backCtaUrl": "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html",
+            "frontDescription": "<p>Managed service that makes it easy to perform interactive log analytics, real-time application monitoring, website search, and more.</p>\r\n",
+            "category": "Analytics"
+          }
+        },
+        "tags": [
+          {
+            "id": "free-tier-products#categories#analytics",
+            "locale": "en_US",
+            "tagNamespaceId": "free-tier-products#categories",
+            "name": "Analytics",
+            "description": "<p>Analytics</p>",
+            "createdBy": "jenbar",
+            "lastUpdatedBy": "jenbar",
+            "dateCreated": "2019-08-09T08:16:58+0000",
+            "dateUpdated": "2019-08-09T08:20:31+0000"
+          },
+          {
+            "id": "free-tier-products#tier#12monthsfree",
+            "locale": "en_US",
+            "tagNamespaceId": "free-tier-products#tier",
+            "name": "12monthsfree",
+            "description": "<p>12 months free</p>\r\n",
+            "createdBy": "jenbar",
+            "lastUpdatedBy": "jenbar",
+            "dateCreated": "2019-08-03T07:38:53+0000",
+            "dateUpdated": "2019-08-09T08:20:18+0000"
+          }
+        ]
+      },
+      {
+        "item": {
+          "id": "free-tier-products#amazon-comprehend-medical",
+          "locale": "en_US",
+          "directoryId": "free-tier-products",
+          "name": "amazon-comprehend-medical",
+          "author": "gregoima",
+          "lastUpdatedBy": "gregoima",
+          "dateCreated": "2018-11-29T00:00:21+0000",
+          "dateUpdated": "2022-06-17T23:06:24+0000",
+          "additionalFields": {
+            "serviceType": "Free Tier",
+            "imageSrcUrl": "https://d1.awsstatic.com/blackfoot/re19_homepage/Homepage/Cards/Services/SiteMerch_Gix_Editorial-reInvent.a7e01fdd1890d157deafc25d7ae897b55dfe5e7e.png",
+            "backDescriptionExtra": "Free Trial",
+            "backDescription": "<p>85k units of text (8.5M characters) for 1 month from first use of the service</p>\r\n\r\n<p>Can be used for both the Medical Named Entity and Relationship Extraction (NERe) API and the Protected Health Information Data Extraction and Identification (PHId) API.</p>\r\n",
+            "cardColor": "#45b0ff",
+            "serviceName": "Amazon Comprehend Medical",
+            "campaignUrl": "https://aws.amazon.com/comprehend/medical/?did=ft_card&trk=ft_card",
+            "SortRank": "18",
+            "frontCtaText": "Learn more about Amazon Comprehend Medical",
+            "frontCtaUrl": "https://aws.amazon.com/comprehend/medical/?did=ft_card&trk=ft_card",
+            "calloutSmall": "characters",
+            "backCtaText": "Try Amazon Comprehend Medical Free",
+            "calloutLarge": "<p><strong>8.5</strong> Million</p>\r\n",
+            "backCtaUrl": "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html",
+            "frontDescription": "<p>A natural language processing service that makes it easy to use machine learning to extract relevant medical information from unstructured text .</p>\r\n",
+            "category": "Machine Learning"
+          }
+        },
+        "tags": [
+          {
+            "id": "free-tier-products#categories#ai-ml",
+            "locale": "en_US",
+            "tagNamespaceId": "free-tier-products#categories",
+            "name": "AI / ML",
+            "description": "<p>Artificial Intelligence / Machine Learning</p>\n",
+            "createdBy": "jenbar",
+            "lastUpdatedBy": "jenbar",
+            "dateCreated": "2019-08-09T08:16:34+0000",
+            "dateUpdated": "2019-08-09T08:20:24+0000"
+          },
+          {
+            "id": "free-tier-products#tier#trial",
+            "locale": "en_US",
+            "tagNamespaceId": "free-tier-products#tier",
+            "name": "trial",
+            "description": "<p>trial</p>\r\n",
+            "createdBy": "jenbar",
+            "lastUpdatedBy": "jenbar",
+            "dateCreated": "2019-08-03T07:39:13+0000",
+            "dateUpdated": "2019-08-09T08:20:18+0000"
+          }
+        ]
+      },
+      {
+        "item": {
           "id": "free-tier-products#aws-device-farm",
           "locale": "en_US",
           "directoryId": "free-tier-products",
@@ -465,7 +625,35 @@
             "dateUpdated": "2019-08-09T08:20:19+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 108
+    },
+    "fieldTypes": {
+      "serviceType": "Text",
+      "new": "Text",
+      "imageSrcUrl": "URL",
+      "backDescriptionExtra": "Text",
+      "backDescription": "LongText",
+      "cardColor": "Text",
+      "serviceName": "Text",
+      "campaignUrl": "URL",
+      "frontCtaText": "Text",
+      "SortRank": "Number",
+      "frontCtaUrl": "URL",
+      "calloutSmall": "Text",
+      "offerDetail": "Text",
+      "backCtaText": "Text",
+      "calloutLarge": "LongText",
+      "backCtaUrl": "URL",
+      "frontDescription": "LongText",
+      "category": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "free-tier-products#amazon-documentdb",
@@ -523,60 +711,6 @@
       },
       {
         "item": {
-          "id": "free-tier-products#amazon-elasticsearch-service",
-          "locale": "en_US",
-          "directoryId": "free-tier-products",
-          "name": "amazon-opensearch-service",
-          "author": "gregoima",
-          "lastUpdatedBy": "gregoima",
-          "dateCreated": "2017-06-08T19:33:53+0000",
-          "dateUpdated": "2022-01-18T22:25:58+0000",
-          "additionalFields": {
-            "serviceType": "Free Tier",
-            "new": "New",
-            "imageSrcUrl": "https://d1.awsstatic.com/blackfoot/re19_homepage/Homepage/Cards/Services/SiteMerch_Redshift-AQUA_Editorial-reInvent.e699750fadc220b4a9ba398b06ae58d191e8cd40.png",
-            "backDescriptionExtra": "12 Months Free",
-            "backDescription": "<ul>\r\n\t<li><strong>750 hours</strong> per month of a single-AZ t2.small.search or t3.small.search instance</li>\r\n\t<li><strong>10GB</strong> per month of optional EBS storage (Magnetic or General Purpose)</li>\r\n</ul>\r\n",
-            "serviceName": "Amazon OpenSearch Service (successor to Amazon Elasticsearch Service)",
-            "campaignUrl": "https://aws.amazon.com/pm/opensearch/?did=ft_card&trk=ft_card",
-            "SortRank": "8",
-            "frontCtaText": "Learn more about Amazon OpenSearch Service",
-            "frontCtaUrl": "https://aws.amazon.com/opensearch-service/?did=ft_card&trk=ft_card",
-            "calloutSmall": "per month of a single-AZ t2.small.search or t3.small.search instance",
-            "backCtaText": "TRY Amazon OpenSearch Service Free",
-            "calloutLarge": "<p><strong>750</strong> Hours</p>\r\n",
-            "backCtaUrl": "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html",
-            "frontDescription": "<p>Managed service that makes it easy to perform interactive log analytics, real-time application monitoring, website search, and more.</p>\r\n",
-            "category": "Analytics"
-          }
-        },
-        "tags": [
-          {
-            "id": "free-tier-products#categories#analytics",
-            "locale": "en_US",
-            "tagNamespaceId": "free-tier-products#categories",
-            "name": "Analytics",
-            "description": "<p>Analytics</p>",
-            "createdBy": "jenbar",
-            "lastUpdatedBy": "jenbar",
-            "dateCreated": "2019-08-09T08:16:58+0000",
-            "dateUpdated": "2019-08-09T08:20:31+0000"
-          },
-          {
-            "id": "free-tier-products#tier#12monthsfree",
-            "locale": "en_US",
-            "tagNamespaceId": "free-tier-products#tier",
-            "name": "12monthsfree",
-            "description": "<p>12 months free</p>\r\n",
-            "createdBy": "jenbar",
-            "lastUpdatedBy": "jenbar",
-            "dateCreated": "2019-08-03T07:38:53+0000",
-            "dateUpdated": "2019-08-09T08:20:18+0000"
-          }
-        ]
-      },
-      {
-        "item": {
           "id": "free-tier-products#amazon-guardduty",
           "locale": "en_US",
           "directoryId": "free-tier-products",
@@ -628,35 +762,7 @@
             "dateUpdated": "2019-08-09T08:20:18+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 108
-    },
-    "fieldTypes": {
-      "serviceType": "Text",
-      "new": "Text",
-      "imageSrcUrl": "URL",
-      "backDescriptionExtra": "Text",
-      "backDescription": "LongText",
-      "cardColor": "Text",
-      "serviceName": "Text",
-      "campaignUrl": "URL",
-      "frontCtaText": "Text",
-      "SortRank": "Number",
-      "frontCtaUrl": "URL",
-      "calloutSmall": "Text",
-      "offerDetail": "Text",
-      "backCtaText": "Text",
-      "calloutLarge": "LongText",
-      "backCtaUrl": "URL",
-      "frontDescription": "LongText",
-      "category": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "free-tier-products#amazon-redshift",
@@ -1149,7 +1255,35 @@
             "dateUpdated": "2019-08-09T08:20:18+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 108
+    },
+    "fieldTypes": {
+      "serviceType": "Text",
+      "new": "Text",
+      "imageSrcUrl": "URL",
+      "backDescriptionExtra": "Text",
+      "backDescription": "LongText",
+      "cardColor": "Text",
+      "serviceName": "Text",
+      "campaignUrl": "URL",
+      "frontCtaText": "Text",
+      "SortRank": "Number",
+      "frontCtaUrl": "URL",
+      "calloutSmall": "Text",
+      "offerDetail": "Text",
+      "backCtaText": "Text",
+      "calloutLarge": "LongText",
+      "backCtaUrl": "URL",
+      "frontDescription": "LongText",
+      "category": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "free-tier-products#aws-x-ray",
@@ -1256,35 +1390,7 @@
             "dateUpdated": "2019-08-09T08:20:28+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 108
-    },
-    "fieldTypes": {
-      "serviceType": "Text",
-      "new": "Text",
-      "imageSrcUrl": "URL",
-      "backDescriptionExtra": "Text",
-      "backDescription": "LongText",
-      "cardColor": "Text",
-      "serviceName": "Text",
-      "campaignUrl": "URL",
-      "frontCtaText": "Text",
-      "SortRank": "Number",
-      "frontCtaUrl": "URL",
-      "calloutSmall": "Text",
-      "offerDetail": "Text",
-      "backCtaText": "Text",
-      "calloutLarge": "LongText",
-      "backCtaUrl": "URL",
-      "frontDescription": "LongText",
-      "category": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "free-tier-products#aws-step-functions",
@@ -1733,7 +1839,35 @@
             "dateUpdated": "2020-08-06T01:39:44+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 108
+    },
+    "fieldTypes": {
+      "serviceType": "Text",
+      "new": "Text",
+      "imageSrcUrl": "URL",
+      "backDescriptionExtra": "Text",
+      "backDescription": "LongText",
+      "cardColor": "Text",
+      "serviceName": "Text",
+      "campaignUrl": "URL",
+      "frontCtaText": "Text",
+      "SortRank": "Number",
+      "frontCtaUrl": "URL",
+      "calloutSmall": "Text",
+      "offerDetail": "Text",
+      "backCtaText": "Text",
+      "calloutLarge": "LongText",
+      "backCtaUrl": "URL",
+      "frontDescription": "LongText",
+      "category": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "free-tier-products#amazon-ses",
@@ -1839,35 +1973,7 @@
             "dateUpdated": "2019-08-09T08:20:18+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 108
-    },
-    "fieldTypes": {
-      "serviceType": "Text",
-      "new": "Text",
-      "imageSrcUrl": "URL",
-      "backDescriptionExtra": "Text",
-      "backDescription": "LongText",
-      "cardColor": "Text",
-      "serviceName": "Text",
-      "campaignUrl": "URL",
-      "frontCtaText": "Text",
-      "SortRank": "Number",
-      "frontCtaUrl": "URL",
-      "calloutSmall": "Text",
-      "offerDetail": "Text",
-      "backCtaText": "Text",
-      "calloutLarge": "LongText",
-      "backCtaUrl": "URL",
-      "frontDescription": "LongText",
-      "category": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "free-tier-products#amazon-appstream-2-0",
@@ -2358,7 +2464,35 @@
             "dateUpdated": "2019-08-09T08:20:19+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 108
+    },
+    "fieldTypes": {
+      "serviceType": "Text",
+      "new": "Text",
+      "imageSrcUrl": "URL",
+      "backDescriptionExtra": "Text",
+      "backDescription": "LongText",
+      "cardColor": "Text",
+      "serviceName": "Text",
+      "campaignUrl": "URL",
+      "frontCtaText": "Text",
+      "SortRank": "Number",
+      "frontCtaUrl": "URL",
+      "calloutSmall": "Text",
+      "offerDetail": "Text",
+      "backCtaText": "Text",
+      "calloutLarge": "LongText",
+      "backCtaUrl": "URL",
+      "frontDescription": "LongText",
+      "category": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "free-tier-products#aws-data-pipeline",
@@ -2465,35 +2599,7 @@
             "dateUpdated": "2019-08-09T08:20:18+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 108
-    },
-    "fieldTypes": {
-      "serviceType": "Text",
-      "new": "Text",
-      "imageSrcUrl": "URL",
-      "backDescriptionExtra": "Text",
-      "backDescription": "LongText",
-      "cardColor": "Text",
-      "serviceName": "Text",
-      "campaignUrl": "URL",
-      "frontCtaText": "Text",
-      "SortRank": "Number",
-      "frontCtaUrl": "URL",
-      "calloutSmall": "Text",
-      "offerDetail": "Text",
-      "backCtaText": "Text",
-      "calloutLarge": "LongText",
-      "backCtaUrl": "URL",
-      "frontDescription": "LongText",
-      "category": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "free-tier-products#amazon-elastic-block-storage",
@@ -3112,7 +3218,35 @@
             "dateUpdated": "2019-08-09T08:20:17+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 108
+    },
+    "fieldTypes": {
+      "serviceType": "Text",
+      "new": "Text",
+      "imageSrcUrl": "URL",
+      "backDescriptionExtra": "Text",
+      "backDescription": "LongText",
+      "cardColor": "Text",
+      "serviceName": "Text",
+      "campaignUrl": "URL",
+      "frontCtaText": "Text",
+      "SortRank": "Number",
+      "frontCtaUrl": "URL",
+      "calloutSmall": "Text",
+      "offerDetail": "Text",
+      "backCtaText": "Text",
+      "calloutLarge": "LongText",
+      "backCtaUrl": "URL",
+      "frontDescription": "LongText",
+      "category": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "free-tier-products#amazon-ec2",
@@ -3274,35 +3408,7 @@
             "dateUpdated": "2019-08-09T08:20:28+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 108
-    },
-    "fieldTypes": {
-      "serviceType": "Text",
-      "new": "Text",
-      "imageSrcUrl": "URL",
-      "backDescriptionExtra": "Text",
-      "backDescription": "LongText",
-      "cardColor": "Text",
-      "serviceName": "Text",
-      "campaignUrl": "URL",
-      "frontCtaText": "Text",
-      "SortRank": "Number",
-      "frontCtaUrl": "URL",
-      "calloutSmall": "Text",
-      "offerDetail": "Text",
-      "backCtaText": "Text",
-      "calloutLarge": "LongText",
-      "backCtaUrl": "URL",
-      "frontDescription": "LongText",
-      "category": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "free-tier-products#aws-glue",
@@ -3754,7 +3860,35 @@
             "dateUpdated": "2019-08-09T08:20:18+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 108
+    },
+    "fieldTypes": {
+      "serviceType": "Text",
+      "new": "Text",
+      "imageSrcUrl": "URL",
+      "backDescriptionExtra": "Text",
+      "backDescription": "LongText",
+      "cardColor": "Text",
+      "serviceName": "Text",
+      "campaignUrl": "URL",
+      "frontCtaText": "Text",
+      "SortRank": "Number",
+      "frontCtaUrl": "URL",
+      "calloutSmall": "Text",
+      "offerDetail": "Text",
+      "backCtaText": "Text",
+      "calloutLarge": "LongText",
+      "backCtaUrl": "URL",
+      "frontDescription": "LongText",
+      "category": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "free-tier-products#amazon-translate",
@@ -3862,35 +3996,7 @@
             "dateUpdated": "2019-08-09T08:20:18+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 108
-    },
-    "fieldTypes": {
-      "serviceType": "Text",
-      "new": "Text",
-      "imageSrcUrl": "URL",
-      "backDescriptionExtra": "Text",
-      "backDescription": "LongText",
-      "cardColor": "Text",
-      "serviceName": "Text",
-      "campaignUrl": "URL",
-      "frontCtaText": "Text",
-      "SortRank": "Number",
-      "frontCtaUrl": "URL",
-      "calloutSmall": "Text",
-      "offerDetail": "Text",
-      "backCtaText": "Text",
-      "calloutLarge": "LongText",
-      "backCtaUrl": "URL",
-      "frontDescription": "LongText",
-      "category": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "free-tier-products#amazon-workdocs",
@@ -4098,60 +4204,6 @@
             "calloutLarge": "<p><strong>2</strong> Months</p>\r\n",
             "backCtaUrl": "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html",
             "frontDescription": "<p>Build highly-accurate training datasets quickly, while reducing data labeling costs by up to 70% .</p>\r\n",
-            "category": "Machine Learning"
-          }
-        },
-        "tags": [
-          {
-            "id": "free-tier-products#categories#ai-ml",
-            "locale": "en_US",
-            "tagNamespaceId": "free-tier-products#categories",
-            "name": "AI / ML",
-            "description": "<p>Artificial Intelligence / Machine Learning</p>\n",
-            "createdBy": "jenbar",
-            "lastUpdatedBy": "jenbar",
-            "dateCreated": "2019-08-09T08:16:34+0000",
-            "dateUpdated": "2019-08-09T08:20:24+0000"
-          },
-          {
-            "id": "free-tier-products#tier#trial",
-            "locale": "en_US",
-            "tagNamespaceId": "free-tier-products#tier",
-            "name": "trial",
-            "description": "<p>trial</p>\r\n",
-            "createdBy": "jenbar",
-            "lastUpdatedBy": "jenbar",
-            "dateCreated": "2019-08-03T07:39:13+0000",
-            "dateUpdated": "2019-08-09T08:20:18+0000"
-          }
-        ]
-      },
-      {
-        "item": {
-          "id": "free-tier-products#amazon-comprehend-medical",
-          "locale": "en_US",
-          "directoryId": "free-tier-products",
-          "name": "amazon-comprehend-medical",
-          "author": "jarfaa",
-          "lastUpdatedBy": "jarfaa",
-          "dateCreated": "2018-11-29T00:00:21+0000",
-          "dateUpdated": "2022-01-12T19:05:57+0000",
-          "additionalFields": {
-            "serviceType": "Free Tier",
-            "imageSrcUrl": "https://d1.awsstatic.com/blackfoot/re19_homepage/Homepage/Cards/Services/SiteMerch_Gix_Editorial-reInvent.a7e01fdd1890d157deafc25d7ae897b55dfe5e7e.png",
-            "backDescriptionExtra": "Free Trial",
-            "backDescription": "<p>25k units of text (2.5M characters) for the first 3 months from first use of the service</p>\n\n<p>Can be used for both the Medical Named Entity and Relationship Extraction (NERe) API and the Protected Health Information Data Extraction and Identification (PHId) API.</p>",
-            "cardColor": "#45b0ff",
-            "serviceName": "Amazon Comprehend Medical",
-            "campaignUrl": "https://aws.amazon.com/comprehend/medical/?did=ft_card&trk=ft_card",
-            "SortRank": "18",
-            "frontCtaText": "Learn more about Amazon Comprehend Medical",
-            "frontCtaUrl": "https://aws.amazon.com/comprehend/medical/?did=ft_card&trk=ft_card",
-            "calloutSmall": "characters",
-            "backCtaText": "Try Amazon Comprehend Medical Free",
-            "calloutLarge": "<strong>3</strong> Million",
-            "backCtaUrl": "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html",
-            "frontDescription": "A natural language processing service that makes it easy to use machine learning to extract relevant medical information from unstructured text\n.",
             "category": "Machine Learning"
           }
         },
@@ -4426,7 +4478,35 @@
             "dateUpdated": "2019-08-09T08:20:26+0000"
           }
         ]
-      },
+      }
+    ],
+    "metadata": {
+      "count": 10,
+      "totalHits": 108
+    },
+    "fieldTypes": {
+      "serviceType": "Text",
+      "new": "Text",
+      "imageSrcUrl": "URL",
+      "backDescriptionExtra": "Text",
+      "backDescription": "LongText",
+      "cardColor": "Text",
+      "serviceName": "Text",
+      "campaignUrl": "URL",
+      "frontCtaText": "Text",
+      "SortRank": "Number",
+      "frontCtaUrl": "URL",
+      "calloutSmall": "Text",
+      "offerDetail": "Text",
+      "backCtaText": "Text",
+      "calloutLarge": "LongText",
+      "backCtaUrl": "URL",
+      "frontDescription": "LongText",
+      "category": "Text"
+    }
+  },
+  {
+    "items": [
       {
         "item": {
           "id": "free-tier-products#aws-security-hub",
@@ -4491,35 +4571,7 @@
             "dateUpdated": "2019-08-09T08:20:18+0000"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "count": 10,
-      "totalHits": 108
-    },
-    "fieldTypes": {
-      "serviceType": "Text",
-      "new": "Text",
-      "imageSrcUrl": "URL",
-      "backDescriptionExtra": "Text",
-      "backDescription": "LongText",
-      "cardColor": "Text",
-      "serviceName": "Text",
-      "campaignUrl": "URL",
-      "frontCtaText": "Text",
-      "SortRank": "Number",
-      "frontCtaUrl": "URL",
-      "calloutSmall": "Text",
-      "offerDetail": "Text",
-      "backCtaText": "Text",
-      "calloutLarge": "LongText",
-      "backCtaUrl": "URL",
-      "frontDescription": "LongText",
-      "category": "Text"
-    }
-  },
-  {
-    "items": [
+      },
       {
         "item": {
           "id": "free-tier-products#amazon-keyspaces-apachecassandra",
@@ -5051,61 +5103,6 @@
             "lastUpdatedBy": "jenbar",
             "dateCreated": "2019-08-09T08:16:48+0000",
             "dateUpdated": "2019-08-09T08:20:28+0000"
-          }
-        ]
-      },
-      {
-        "item": {
-          "id": "free-tier-products#aws-server-migration-service",
-          "locale": "en_US",
-          "directoryId": "free-tier-products",
-          "name": "AWS-Server-Migration-Service",
-          "author": "jarfaa",
-          "lastUpdatedBy": "jarfaa",
-          "dateCreated": "2020-07-07T16:37:48+0000",
-          "dateUpdated": "2022-01-12T19:05:56+0000",
-          "additionalFields": {
-            "serviceType": "Free Tier",
-            "new": "New",
-            "imageSrcUrl": "https://d1.awsstatic.com/blackfoot/re19_homepage/Homepage/Cards/Services/Site-Merch_Redshift-Federated_Editorial-reInvent.ea59dbc99bee9760262eaa25ef0b88bb8e3039c4.png ",
-            "backDescriptionExtra": "Always Free",
-            "backDescription": "<p>Automate, schedule, and track incremental replications of live server volumes, making it easier to coordinate large-scale server migrations.&nbsp;</p>\r\n",
-            "cardColor": "#45b0ff",
-            "serviceName": "AWS Server Migration Service",
-            "campaignUrl": "https://aws.amazon.com/server-migration-service/?did=ft_card&trk=ft_servermigr",
-            "SortRank": "84",
-            "frontCtaText": "Learn more about AWS Server Migration Service",
-            "frontCtaUrl": "https://aws.amazon.com/server-migration-service/?did=ft_card&trk=ft_servermigr",
-            "calloutSmall": "Migrate an unlimited number of servers to AWS at no charge",
-            "backCtaText": "Try Amazon AWS Server Migration Service for Free",
-            "calloutLarge": "<p><strong>Unlimited</strong></p>\r\n",
-            "backCtaUrl": "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html",
-            "frontDescription": "<p>Agentless service to migrate virtual-only workloads from on-premises infrastructure or from Microsoft Azure to AWS.</p>\r\n",
-            "category": "Migration"
-          }
-        },
-        "tags": [
-          {
-            "id": "free-tier-products#tier#always-free",
-            "locale": "en_US",
-            "tagNamespaceId": "free-tier-products#tier",
-            "name": "always-free",
-            "description": "<p>always free</p>\r\n",
-            "createdBy": "jenbar",
-            "lastUpdatedBy": "jenbar",
-            "dateCreated": "2019-08-03T07:39:04+0000",
-            "dateUpdated": "2019-08-09T08:20:19+0000"
-          },
-          {
-            "id": "free-tier-products#categories#migration",
-            "locale": "en_US",
-            "tagNamespaceId": "free-tier-products#categories",
-            "name": "Migration & Transfer",
-            "description": "<p>Migration&nbsp;&amp; Transfer</p>\r\n",
-            "createdBy": "gregoima",
-            "lastUpdatedBy": "gregoima",
-            "dateCreated": "2020-07-09T01:18:04+0000",
-            "dateUpdated": "2020-07-09T21:05:34+0000"
           }
         ]
       }
