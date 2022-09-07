@@ -197,7 +197,7 @@ import _ from "lodash"
           }
         }
         if (item.tags) {
-          displayItem.tags = item.tags.map(t => t.name).join(',')
+          displayItem.item.tags = item.tags.map(t => t.name).join(',')
         }
         return displayItem;
       }))
