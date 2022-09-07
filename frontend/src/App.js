@@ -11,8 +11,8 @@ const baseURL = `https://raw.githubusercontent.com/pfeilbr/aws-web-content/main`
 const baseIndexURL = `${baseURL}/index`
 const baseDataURL = `${baseURL}/data`
 const directoryMetadataURL = `${baseURL}/metadata.json`
-const indexURLForDirectoryId = (directoryId) => `${baseIndexURL}/${directoryId}.json`
-const dataURLForDirectoryId = (directoryId) => `${baseDataURL}/${directoryId}.display.json`
+const indexURLForDirectoryId = (directoryId) => `${baseIndexURL}/${directoryId.includes('#') ? encodeURIComponent(directoryId) : directoryId}.json`
+const dataURLForDirectoryId = (directoryId) => `${baseDataURL}/${directoryId.includes('#') ? encodeURIComponent(directoryId) : directoryId}.display.json`
 
 const fetchJSON = async (url) => {
   const resp = await fetch(url);

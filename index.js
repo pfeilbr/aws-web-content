@@ -117,6 +117,9 @@ import _ from "lodash"
     const relativeDirPath = "data";
     const fileNames = fs.readdirSync(relativeDirPath);
     for (const fileName of fileNames) {
+      if (fileName.includes('.display.')) {
+        continue
+      }
       const directoryId = getDirectoryIdFromPath(fileName);
       const items = await getEnrichedItemsByDirectoryId(directoryId);
       //l(items)
