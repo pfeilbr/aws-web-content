@@ -71,7 +71,7 @@ import _ from "lodash";
 
         if (!foundNewItems) {
           console.log(`no more items found for directoryId: ${directoryId}`);
-          //break;
+          break;
         }
       } else if (pageIndex < pageIndexes[pageIndexes.length - 1]) {
         // appears max page is 1000.  this is based on "directoryId=blog-posts,action=break,pageIndex=1000,pageIndexes.length=2077""
@@ -192,17 +192,19 @@ import _ from "lodash";
           continue;
         }
         const data = await fetchDirectory(directory.directoryId);
-        const totalItems = data.reduce((previous, current) => {
-          return previous + current.items.length;
-        }, 0);
-        l(
-          `directory.directoryId=${directory.directoryId},totalPages=${data.length},totalItems=${totalItems},itemsPerPage=${data[0].metadata.count}`
-        );
-        //await sleep(1000)
-        fs.writeFileSync(
-          `data/${directory.directoryId}.json`,
-          JSON.stringify(data, null, 2)
-        );
+
+        // uncomment the following if want to generate original `data/${directory.directoryId}.json` instead of new `data/${directory.directoryId}.flat.json`
+        // const totalItems = data.reduce((previous, current) => {
+        //   return previous + current.items.length;
+        // }, 0);
+        // l(
+        //   `directory.directoryId=${directory.directoryId},totalPages=${data.length},totalItems=${totalItems},itemsPerPage=${data[0].metadata.count}`
+        // );
+
+        // fs.writeFileSync(
+        //   `data/${directory.directoryId}.json`,
+        //   JSON.stringify(data, null, 2)
+        // );
       }
     } catch (e) {
       console.log(e);
