@@ -137,6 +137,15 @@ npm run publish
 # download data from api
 node index.js download
 
+# download a specified directory
+node index.js download --directoryId "whats-new"
+
+# flatten nested item arrays into single array of items
+node index.js flatten-data 
+
+# generate data for frontend which contains only a subset of the full data for each item
+node index.js create-data-for-frontend 
+
 # index data into lunr indexes
 node index.js index
 

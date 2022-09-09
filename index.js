@@ -5,8 +5,8 @@ import fetch from "node-fetch";
 import fs from "fs";
 import path from "path";
 import lunr from "lunr";
-import metadata from './metadata.js'
-import _ from "lodash"
+import metadata from "./metadata.js";
+import _ from "lodash";
 
 (async () => {
   //const metadata = JSON.parse(fs.readFileSync('./metadata.json'))
@@ -28,20 +28,51 @@ import _ from "lodash"
   };
 
   const fetchDirectoryMetadata = async (directoryId) => {
-    const metadataURL = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${encodeURIComponent(directoryId)}&item.locale=en_US`;
+    const metadataURL = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${encodeURIComponent(
+      directoryId
+    )}&item.locale=en_US`;
     const data = await fetchJSON(metadataURL);
     return data;
   };
 
   const fetchDirectoryContent = async (directoryId, metadata) => {
-    const urlTemplate = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${encodeURIComponent(directoryId)}&size=${metadata.metadata.count}&sort_by=item.dateCreated&sort_order=desc&item.locale=en_US&page=`;
+    const urlTemplate = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${encodeURIComponent(
+      directoryId
+    )}&size=${
+      metadata.metadata.count
+    }&sort_by=item.dateCreated&sort_order=desc&item.locale=en_US&page=`;
     const pageIndexes = Array.from(Array(metadata.metadata.pageCount).keys());
+
+    const items = JSON.parse(
+      fs.readFileSync(`data/${directoryId}.flat.json`, { encoding: "utf-8" })
+    );
+    items.find((item) => item.item.id);
+
     const pages = [];
+
+    let foundAnyNewItems = false;
     for (const pageIndex of pageIndexes) {
+      let foundNewItems = false;
       const url = urlTemplate + `${pageIndex}`;
       const data = await fetchJSON(url);
       if (data.items.length > 0) {
         pages.push(data);
+
+        for (const item of data.items) {
+          if (!items.find((i) => i.item.id === item.item.id)) {
+            items.unshift(item);
+            foundNewItems = true;
+            foundAnyNewItems = true;
+            console.log(
+              `adding new item (id: ${item.item.id}, dateCreated: ${item.item.dateCreated}`
+            );
+          }
+        }
+
+        if (!foundNewItems) {
+          console.log(`no more items found for directoryId: ${directoryId}`);
+          //break;
+        }
       } else if (pageIndex < pageIndexes[pageIndexes.length - 1]) {
         // appears max page is 1000.  this is based on "directoryId=blog-posts,action=break,pageIndex=1000,pageIndexes.length=2077""
         l(
@@ -50,6 +81,10 @@ import _ from "lodash"
         break;
       }
     }
+    fs.writeFileSync(
+      `data/${directoryId}.flat.json`,
+      JSON.stringify(items, null, 2)
+    );
     return pages;
   };
 
@@ -117,8 +152,8 @@ import _ from "lodash"
     const relativeDirPath = "data";
     const fileNames = fs.readdirSync(relativeDirPath);
     for (const fileName of fileNames) {
-      if (fileName.includes('.display.')) {
-        continue
+      if (fileName.includes(".display.")) {
+        continue;
       }
       const directoryId = getDirectoryIdFromPath(fileName);
       const items = await getEnrichedItemsByDirectoryId(directoryId);
@@ -149,7 +184,11 @@ import _ from "lodash"
   const download = async (options) => {
     try {
       for (const directory of directories /* .slice(0,1) */) {
-        if (options && options.directoryId && options.directoryId !== directory.directoryId) {
+        if (
+          options &&
+          options.directoryId &&
+          options.directoryId !== directory.directoryId
+        ) {
           continue;
         }
         const data = await fetchDirectory(directory.directoryId);
@@ -180,38 +219,58 @@ import _ from "lodash"
     return titleFieldName;
   };
 
-  const flattenData = async(options) => {
+  const flattenData = async (options) => {
     for (const directory of metadata.directories) {
-      const data = JSON.parse(fs.readFileSync(`data/${directory.directoryId}.json`, { encoding: "utf-8" }))
-      const transformedData = data.flatMap(data => data.items.map(item => (item)))
-      fs.writeFileSync(`data/${directory.directoryId}.flat.json`, JSON.stringify(transformedData, null, 2))
-    }    
-  }
+      const data = JSON.parse(
+        fs.readFileSync(`data/${directory.directoryId}.json`, {
+          encoding: "utf-8",
+        })
+      );
+      const transformedData = data.flatMap((data) =>
+        data.items.map((item) => item)
+      );
+      fs.writeFileSync(
+        `data/${directory.directoryId}.flat.json`,
+        JSON.stringify(transformedData, null, 2)
+      );
+    }
+  };
 
   const createDataForFrontend = async () => {
     for (const directory of metadata.directories) {
-      const data = JSON.parse(fs.readFileSync(`data/${directory.directoryId}.flat.json`, { encoding: "utf-8" }))
-      const transformedData = data.map(item => {
-        const displayItem = {}
+      const data = JSON.parse(
+        fs.readFileSync(`data/${directory.directoryId}.flat.json`, {
+          encoding: "utf-8",
+        })
+      );
+      const transformedData = data.map((item) => {
+        const displayItem = {};
         for (const field of directory.displayMetadata.fields) {
-          _.set(displayItem, field.field, _.get(item, field.field))
+          _.set(displayItem, field.field, _.get(item, field.field));
 
           if (field.transform) {
-            _.set(displayItem, field.field, field.transform(_.get(item, field.field), field, item, directory))
+            _.set(
+              displayItem,
+              field.field,
+              field.transform(_.get(item, field.field), field, item, directory)
+            );
           }
 
           if (field.linkField) {
-            _.set(displayItem, field.linkField, _.get(item, field.linkField))
+            _.set(displayItem, field.linkField, _.get(item, field.linkField));
           }
         }
         if (item.tags) {
-          displayItem.item.tags = item.tags.map(t => t.name).join(',')
+          displayItem.item.tags = item.tags.map((t) => t.name).join(",");
         }
         return displayItem;
-      })
-      fs.writeFileSync(`data/${directory.directoryId}.display.json`, JSON.stringify(transformedData))
+      });
+      fs.writeFileSync(
+        `data/${directory.directoryId}.display.json`,
+        JSON.stringify(transformedData)
+      );
     }
-  }
+  };
 
   const search = async (directoryId, query) => {
     const titleFieldName = await getDirectoryTitleFieldNameByDirectoryId(
@@ -256,9 +315,9 @@ import _ from "lodash"
       .action(async (options) => {
         await download(options);
       });
-    program.command("flatten-data").action(async(options) => {
-      await flattenData(options)
-    })
+    program.command("flatten-data").action(async (options) => {
+      await flattenData(options);
+    });
     program.command("index").action(async () => {
       await index();
     });
