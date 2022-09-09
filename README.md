@@ -10,8 +10,13 @@
 > under construction
 
 ```sh
+# development
 cd frontend
 npm start
+
+# publishing - copies to `personal-website`
+cd frontend
+npm run publish
 ```
 
 ---

@@ -17,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "publish": "PUBLIC_URL=\"/apps/awswebcontent/build\" npm run build && cp -r build /Users/pfeilbr/projects/personal-website/static/apps/awswebcontent && cp build/index.html ~/projects/personal-website/layouts/shortcodes/awswebcontent.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
