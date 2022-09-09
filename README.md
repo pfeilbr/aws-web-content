@@ -5,6 +5,17 @@
 * [`index.js`](index.js) - entrypoint
 * [`data/`](data/) - directory items
 
+## Updating AWS Web Content Data
+
+ the downloads new items in each directory and updates the following files
+ 
+ - `data/${directoryId}.flat.json`
+ - `data/${directoryId}.display.json`
+  
+```sh
+npm run fetch-new-items
+```
+
 ## Frontend
 
 > under construction
@@ -144,7 +155,7 @@ node index.js download --directoryId "whats-new"
 node index.js flatten-data 
 
 # generate data for frontend which contains only a subset of the full data for each item
-node index.js create-data-for-frontend 
+node index.js create-data-for-frontend
 
 # index data into lunr indexes
 node index.js index
