@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fetch-new-items": "node index.js download && node index.js create-data-for-frontend"
+    "fetch-new-items": "node index.js download && node index.js create-data-for-frontend",
+    "publish": "pushd frontend && npm run publish && popd"
   },
   "repository": {
     "type": "git",
