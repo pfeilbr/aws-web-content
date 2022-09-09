@@ -45,7 +45,7 @@ function App() {
   const defaultColDef = useMemo( ()=> ({
     sortable: true,
     resizable: true,
-    filter: true
+    filter: true,
   }));
 
   // Example of consuming Grid Event
@@ -118,6 +118,15 @@ function App() {
     setColumnDefs(directory.displayMetadata.fields)
     setRowData(data.directories[index].data)
     setCurrentDirectoryIndex(index)
+
+    const sortField = directory.displayMetadata.fields.find(f => f.sort)
+    if (sortField) {
+      gridRef.current.columnApi.applyColumnState({
+        state: [{ colId: sortField.field, sort: sortField.sort }],
+        defaultState: { sort: null },
+      });
+  
+    }
     
     // TODO: fix hard coded sleep
     setTimeout(() => {
