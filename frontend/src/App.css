@@ -1,4 +1,17 @@
-.App {
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* .grid {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: column;
+  height: 100%;
+} */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

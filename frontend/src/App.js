@@ -143,13 +143,15 @@ function App() {
         { data.metadata.directories.map((d,index) => (<option value={index}>{d.displayMetadata.title}</option>)) }
         </select>
         <input type="text" size="60" placeholder='search ...' onChange={(event) => gridRef.current.api.setQuickFilter(event.target.value) }/>
-        <div className="ag-theme-alpine" style={{width: window.innerWidth, height: 800}}>
+        <div className="ag-theme-alpine" style={{width: window.innerWidth, height: window.innerHeight - 20}}>
+        
         <AgGridReact
             ref={gridRef}
             rowData={rowData}
             columnDefs={columnDefs}
             defaultColDef={defaultColDef}
             animateRows={true}
+            className="grid"
             />
         </div>
       </div> : 'loading ...'}
