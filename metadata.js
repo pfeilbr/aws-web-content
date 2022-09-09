@@ -36,7 +36,7 @@
         "title": "AWS Events Content",
         "fields": [
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
-          {"field": "item.additionalFields.sortDate", "headerName": "Date"},
+          {"field": "item.dateUpdated", "headerName": "Date", "transform": (s) => (s.split("T")[0])},
           {"field": "item.tags", "headerName": "Tags"},
           //{"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
