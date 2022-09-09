@@ -1,0 +1,2595 @@
+[
+  {
+    "item": {
+      "id": "media-resources#publishing-innovation-day-online",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Publishing Innovation Day Online",
+      "author": "patelkir",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "patelkir",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2021-04-01T17:41:34+0000",
+      "dateUpdated": "2021-12-17T19:28:00+0000",
+      "additionalFields": {
+        "FeatureOrder": "1",
+        "contentTitle": "Publishing Innovation Day Online",
+        "Image": "https://d1.awsstatic.com/aws-for-media-and-entertainment/content-hub/publishing-day1600x800.e347b91fd3ef8d160e23c541d9e2bb4a5ef7d0ce.jpg",
+        "contentDescription": "<p>Join this&nbsp;online event to hear how publishers from across the globe have achieved their digital transformation. You&#39;ll learn about their successes, challenges, culture changes, and how the cloud has supported their journey.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-event-OE-Publishing-Innovation-Day-2021-reg-event.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "GLOBAL#use-case#over-top-delivery",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#use-case",
+        "name": "Over-the-Top Delivery",
+        "description": "Over-the-Top Delivery",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-05T06:37:48+0000",
+        "dateUpdated": "2022-02-03T03:35:54+0000"
+      },
+      {
+        "id": "GLOBAL#industry#media-entertainment",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#industry",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:34+0000",
+        "dateUpdated": "2022-02-03T03:32:07+0000"
+      },
+      {
+        "id": "media-resources#segment#content-distribution",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Content Distribution",
+        "description": "<p>old tag - now use Direct-to-Consumer (D2C) &amp; Streaming</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:14:18+0000",
+        "dateUpdated": "2021-12-14T00:12:33+0000"
+      },
+      {
+        "id": "media-resources#segment#d2c-streaming",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "D2C & Streaming",
+        "description": "<p>Direct-to-Consumer &amp; Streaming</p>\r\n",
+        "createdBy": "patelkir",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2021-12-14T00:13:17+0000",
+        "dateUpdated": "2021-12-14T00:13:17+0000"
+      },
+      {
+        "id": "media-resources#segment#media-supply-chain-archive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Media Supply Chain & Archive",
+        "description": "<p>Media Supply Chain &amp; Archive</p>\r\n",
+        "createdBy": "patelkir",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2021-12-14T00:09:38+0000",
+        "dateUpdated": "2021-12-14T00:09:38+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#online-conference",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Online Conference",
+        "description": "<p>Online Conferences</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:50:36+0000",
+        "dateUpdated": "2019-04-23T22:50:36+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#broadcast-transformation-ebook",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Broadcast Transformation ebook",
+      "author": "patelkir",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "patelkir",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2021-04-01T17:24:55+0000",
+      "dateUpdated": "2021-12-14T00:15:02+0000",
+      "additionalFields": {
+        "contentTitle": "Transform your broadcast technology on the cloud",
+        "contentDescription": "<p>In this eBook, examine how the cloud is transforming broadcast. Discover solutions from Amazon Web Services (AWS) and AWS Partners designed to enhance and improve the broadcast workflow, and read how real customers in the broadcast industry are succeeding by modernizing on the cloud.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-multi-IND-Broadcast-Transformation-Ebook-2021-learn.html?trk=el_a134p000006vkPxAAI&trkCampaign=2021_ISC_MAE_broadcast-transformation-ebook&sc_channel=el&sc_campaign=EG_NA_WP_broadcast-ebook-mae-resource-page&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "e-book"
+      }
+    },
+    "tags": [
+      {
+        "id": "GLOBAL#use-case#video-on-demand",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#use-case",
+        "name": "Video-on-Demand Streaming",
+        "description": "Video-on-Demand Streaming",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-05T07:07:04+0000",
+        "dateUpdated": "2022-02-03T03:35:59+0000"
+      },
+      {
+        "id": "GLOBAL#use-case#over-top-delivery",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#use-case",
+        "name": "Over-the-Top Delivery",
+        "description": "Over-the-Top Delivery",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-05T06:37:48+0000",
+        "dateUpdated": "2022-02-03T03:35:54+0000"
+      },
+      {
+        "id": "GLOBAL#industry#media-entertainment",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#industry",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:34+0000",
+        "dateUpdated": "2022-02-03T03:32:07+0000"
+      },
+      {
+        "id": "GLOBAL#content-type#ebook",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#content-type",
+        "name": "eBook",
+        "description": "eBook",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-04-29T05:19:25+0000",
+        "dateUpdated": "2022-02-03T03:31:07+0000"
+      },
+      {
+        "id": "media-resources#segment#content-distribution",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Content Distribution",
+        "description": "<p>old tag - now use Direct-to-Consumer (D2C) &amp; Streaming</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:14:18+0000",
+        "dateUpdated": "2021-12-14T00:12:33+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#e-books",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "E-Book",
+        "description": "<p>Digital books</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:20+0000",
+        "dateUpdated": "2019-04-23T22:50:01+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconnect",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConnect",
+        "description": "<p>AWS Elemental MediaConnect</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:12+0000",
+        "dateUpdated": "2019-10-22T17:04:31+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "GLOBAL#language#english",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#language",
+        "name": "English",
+        "description": "English",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-03-03T06:40:42+0000",
+        "dateUpdated": "2022-02-03T03:31:23+0000"
+      },
+      {
+        "id": "GLOBAL#source#aws",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#source",
+        "name": "Built by AWS",
+        "description": "Built by AWS",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:06+0000",
+        "dateUpdated": "2022-02-03T03:35:16+0000"
+      },
+      {
+        "id": "GLOBAL#year#2021",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#year",
+        "name": "2021",
+        "description": "2021",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-13T00:07:01+0000",
+        "dateUpdated": "2020-06-13T00:07:05+0000"
+      },
+      {
+        "id": "GLOBAL#product#elemental-medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#product",
+        "name": "AWS Elemental MediaLive",
+        "description": "AWS Elemental MediaLive",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-03-02T07:03:15+0000",
+        "dateUpdated": "2022-02-03T03:32:35+0000"
+      },
+      {
+        "id": "GLOBAL#product#elemental-mediaconnect",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#product",
+        "name": "AWS Elemental MediaConnect",
+        "description": "AWS Elemental MediaConnect",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-03-02T07:03:12+0000",
+        "dateUpdated": "2022-02-03T03:32:35+0000"
+      },
+      {
+        "id": "GLOBAL#product#cloudfront",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#product",
+        "name": "Amazon CloudFront",
+        "description": "Amazon CloudFront",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-03-02T07:01:57+0000",
+        "dateUpdated": "2022-02-03T03:32:22+0000"
+      },
+      {
+        "id": "media-resources#segment#broadcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Broadcast",
+        "description": "<p>Broadcast</p>\r\n",
+        "createdBy": "patelkir",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2021-12-13T23:55:49+0000",
+        "dateUpdated": "2021-12-13T23:55:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#machine-learning-for-m-e-ebook",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Machine Learning for M&E ebook",
+      "author": "patelkir",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "patelkir",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2021-03-04T19:28:39+0000",
+      "dateUpdated": "2021-12-14T00:16:59+0000",
+      "additionalFields": {
+        "contentTitle": "Engage your audience with machine learning powered experiences",
+        "contentDescription": "<p>In this eBook, we&rsquo;ll demonstrate how your company can create engaging audience experiences&nbsp;through machine learning-powered solutions&mdash;and provide examples of other businesses in your industry that are creating fascinating, captivating experiences with machine learning today.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/rs/112-TZM-766/images/GEN_machine-learning-for-media-and-entertainment-ebook_Mar-2021.pdf",
+        "contentCategory": "e-book"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#segment#machine-learning-analytics",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Machine Learning & Analytics",
+        "description": "<p>old tag - now use Data Science &amp; Analytics</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:14:35+0000",
+        "dateUpdated": "2021-12-14T00:10:18+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#e-books",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "E-Book",
+        "description": "<p>Digital books</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:20+0000",
+        "dateUpdated": "2019-04-23T22:50:01+0000"
+      },
+      {
+        "id": "GLOBAL#industry#media-entertainment",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#industry",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:34+0000",
+        "dateUpdated": "2022-02-03T03:32:07+0000"
+      },
+      {
+        "id": "GLOBAL#use-case#video-on-demand",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#use-case",
+        "name": "Video-on-Demand Streaming",
+        "description": "Video-on-Demand Streaming",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-05T07:07:04+0000",
+        "dateUpdated": "2022-02-03T03:35:59+0000"
+      },
+      {
+        "id": "GLOBAL#use-case#live-video-streaming",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#use-case",
+        "name": "Live Video Streaming",
+        "description": "Live Video Streaming",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-05T06:37:36+0000",
+        "dateUpdated": "2022-02-03T03:35:46+0000"
+      },
+      {
+        "id": "media-resources#segment#data-science-analytics",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Data Science & Analytics",
+        "description": "<p>Data Science &amp; Analytics</p>\r\n",
+        "createdBy": "patelkir",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2021-12-14T00:10:56+0000",
+        "dateUpdated": "2021-12-14T00:10:56+0000"
+      },
+      {
+        "id": "media-resources#segment#d2c-streaming",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "D2C & Streaming",
+        "description": "<p>Direct-to-Consumer &amp; Streaming</p>\r\n",
+        "createdBy": "patelkir",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2021-12-14T00:13:17+0000",
+        "dateUpdated": "2021-12-14T00:13:17+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#broadcast-in-the-cloud",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Broadcast in the Cloud Webcast",
+      "author": "patelkir",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "patelkir",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2021-02-22T03:25:24+0000",
+      "dateUpdated": "2021-12-17T19:27:21+0000",
+      "additionalFields": {
+        "FeatureOrder": "1",
+        "contentTitle": "Broadcast in the Cloud",
+        "Image": "https://d1.awsstatic.com/aws-for-media-and-entertainment/content-hub/broadcast-in-cloud1600x800.8df1a01547a0c5a254c06e50d6d88c7c7b458d3c.jpg",
+        "contentDescription": "<p>From playout to primary distribution, statistical multiplexing to monitoring, discover how reliable distribution of 24x7 live video originating in AWS is in production today, and see how you can take advantage of the flexibility, agility, and scale of the AWS cloud.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-Broadcast-in-the-Cloud-2020-reg-event.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#segment#content-distribution",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Content Distribution",
+        "description": "<p>old tag - now use Direct-to-Consumer (D2C) &amp; Streaming</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:14:18+0000",
+        "dateUpdated": "2021-12-14T00:12:33+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "GLOBAL#industry#media-entertainment",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#industry",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:34+0000",
+        "dateUpdated": "2022-02-03T03:32:07+0000"
+      },
+      {
+        "id": "GLOBAL#content-type#webinar",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#content-type",
+        "name": "Webinar",
+        "description": "Webinar",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-12T23:28:57+0000",
+        "dateUpdated": "2022-02-03T03:31:11+0000"
+      },
+      {
+        "id": "media-resources#segment#broadcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Broadcast",
+        "description": "<p>Broadcast</p>\r\n",
+        "createdBy": "patelkir",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2021-12-13T23:55:49+0000",
+        "dateUpdated": "2021-12-13T23:55:49+0000"
+      },
+      {
+        "id": "media-resources#segment#d2c-streaming",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "D2C & Streaming",
+        "description": "<p>Direct-to-Consumer &amp; Streaming</p>\r\n",
+        "createdBy": "patelkir",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2021-12-14T00:13:17+0000",
+        "dateUpdated": "2021-12-14T00:13:17+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#video-origination-services-options-trade-offs-how-to-choose",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Video Origination Services: Options, Trade-offs & How to Choose",
+      "author": "ashllund",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "ashllund",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2021-02-22T03:18:36+0000",
+      "dateUpdated": "2021-02-22T03:22:26+0000",
+      "additionalFields": {
+        "contentTitle": "Video Origination Services: Options, Trade-offs & How to Choose",
+        "contentDescription": "<p>Learn about the design considerations, understand how to evaluate the trade-offs, and be confident in picking the right video origination service.&nbsp;&nbsp;</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-Origination-Video-Services-Webcast-2020-reg-event.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "GLOBAL#industry#media-entertainment",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#industry",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:34+0000",
+        "dateUpdated": "2022-02-03T03:32:07+0000"
+      },
+      {
+        "id": "media-resources#segment#content-distribution",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Content Distribution",
+        "description": "<p>old tag - now use Direct-to-Consumer (D2C) &amp; Streaming</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:14:18+0000",
+        "dateUpdated": "2021-12-14T00:12:33+0000"
+      },
+      {
+        "id": "media-resources#services#mediastore",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaStore",
+        "description": "<p>AWS Elemental MediaStore</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:59:27+0000",
+        "dateUpdated": "2019-10-22T17:03:18+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "GLOBAL#content-type#webinar",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#content-type",
+        "name": "Webinar",
+        "description": "Webinar",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-12T23:28:57+0000",
+        "dateUpdated": "2022-02-03T03:31:11+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "media-resources#segment#d2c-streaming",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "D2C & Streaming",
+        "description": "<p>Direct-to-Consumer &amp; Streaming</p>\r\n",
+        "createdBy": "patelkir",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2021-12-14T00:13:17+0000",
+        "dateUpdated": "2021-12-14T00:13:17+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#security-for-content-media-workflows",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Security for Content & Media Workflows",
+      "author": "ashllund",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "ashllund",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2021-02-22T03:10:32+0000",
+      "dateUpdated": "2021-02-22T03:13:59+0000",
+      "additionalFields": {
+        "contentTitle": "Security for Content & Media Workflows",
+        "contentDescription": "<p>In this 3 part webcast series, media and entertainment experts walk you through the questions, different approaches, important considerations, and the best proactive practices for securing your workflows so that the entire process is easy to implement, monitor, and manage.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-OE-Security-for-Media-Webcast-Series-2020-reg-event.html",
+        "contentCategory": "WEBCAST"
+      }
+    },
+    "tags": [
+      {
+        "id": "GLOBAL#use-case#live-video-streaming",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#use-case",
+        "name": "Live Video Streaming",
+        "description": "Live Video Streaming",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-05T06:37:36+0000",
+        "dateUpdated": "2022-02-03T03:35:46+0000"
+      },
+      {
+        "id": "GLOBAL#industry#media-entertainment",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#industry",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:34+0000",
+        "dateUpdated": "2022-02-03T03:32:07+0000"
+      },
+      {
+        "id": "GLOBAL#content-type#webinar",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#content-type",
+        "name": "Webinar",
+        "description": "Webinar",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-12T23:28:57+0000",
+        "dateUpdated": "2022-02-03T03:31:11+0000"
+      },
+      {
+        "id": "media-resources#segment#dam-supply-chain",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "DAM & Supply Chain",
+        "description": "<p>Old tag - now use Media Supply Chain &amp; Archive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:13:20+0000",
+        "dateUpdated": "2021-12-14T00:09:07+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#digital-content-creation-on-aws",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Digital Content Creation on AWS",
+      "author": "ashllund",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "ashllund",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2020-09-11T05:25:13+0000",
+      "dateUpdated": "2020-09-11T05:29:51+0000",
+      "additionalFields": {
+        "contentTitle": "Digital Content Creation on AWS",
+        "contentDescription": "<p>Learn how creative studios can take advantage of the cloud to help with remote work, scale production pipelines, increase artist productivity, and reduce wall clock time to deliver projects. This five part series features presentations&nbsp;from&nbsp;Untold Studios, Hive VFX, Citesite, and a discussion hosted by&nbsp;postPerspective with&nbsp;NVIDIA, Tangent Studio, and AWS.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-OE-Digital-Content-Creation-on-AWS-2020-reg-event.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "GLOBAL#industry#media-entertainment",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#industry",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:34+0000",
+        "dateUpdated": "2022-02-03T03:32:07+0000"
+      },
+      {
+        "id": "media-resources#segment#content-creation",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Content Creation",
+        "description": "<p>Old tag - now use Content Production</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:12:45+0000",
+        "dateUpdated": "2021-12-14T00:07:49+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "GLOBAL#content-type#webinar",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#content-type",
+        "name": "Webinar",
+        "description": "Webinar",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-12T23:28:57+0000",
+        "dateUpdated": "2022-02-03T03:31:11+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#aws-media-insights-webcast-series",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "AWS Media Insights Webcast Series",
+      "author": "ashllund",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "ashllund",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2020-09-11T05:20:27+0000",
+      "dateUpdated": "2020-09-11T05:32:08+0000",
+      "additionalFields": {
+        "contentTitle": "AWS Media Insights Webcast Series",
+        "contentDescription": "<p>Join AWS media tech experts and customers for an online event exploring the latest media and entertainment innovations and solutions for content production, broadcast, OTT, and data science and machine learning. The 5-week series airs every Thursday from&nbsp;October 1 to October 29.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-multi-OE-AWS-Media-Insights-Webcast-Series-2020-reg-event.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "GLOBAL#industry#media-entertainment",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#industry",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:34+0000",
+        "dateUpdated": "2022-02-03T03:32:07+0000"
+      },
+      {
+        "id": "GLOBAL#content-type#webinar",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#content-type",
+        "name": "Webinar",
+        "description": "Webinar",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-12T23:28:57+0000",
+        "dateUpdated": "2022-02-03T03:31:11+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "media-resources#segment#content-creation",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Content Creation",
+        "description": "<p>Old tag - now use Content Production</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:12:45+0000",
+        "dateUpdated": "2021-12-14T00:07:49+0000"
+      },
+      {
+        "id": "media-resources#segment#machine-learning-analytics",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Machine Learning & Analytics",
+        "description": "<p>old tag - now use Data Science &amp; Analytics</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:14:35+0000",
+        "dateUpdated": "2021-12-14T00:10:18+0000"
+      },
+      {
+        "id": "media-resources#segment#content-distribution",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Content Distribution",
+        "description": "<p>old tag - now use Direct-to-Consumer (D2C) &amp; Streaming</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:14:18+0000",
+        "dateUpdated": "2021-12-14T00:12:33+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#aws-media-solutions-webcast-series",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "AWS Media Solutions Webcast Series",
+      "author": "ashllund",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "ashllund",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2020-07-30T17:13:52+0000",
+      "dateUpdated": "2020-09-11T05:29:31+0000",
+      "additionalFields": {
+        "contentTitle": "AWS Media Solutions Webcast Series",
+        "contentDescription": "<p>Watch this eight-part series that presents solutions from APN technology and consulting partners for media workflows. Sessions are organized into four categories: Content Creation, Content Processing, Content Distribution, and the application of AI &amp; Machine Learning for Media.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-multi-OE-ME-virtual-solution-series-2020-reg-event.html?&trk=el_a134p000003ykkLAAQ&trkCampaign=AWS_Media_Solutions_Webcast_Series&sc_channel=el&sc_campaign=EG_NA_EL_aws-media-solutions-webcast-series-directory-card&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#partner-webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Partner Webcast",
+        "description": "<p>Partner Webcast</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-18T19:41:10+0000",
+        "dateUpdated": "2019-10-18T19:41:10+0000"
+      },
+      {
+        "id": "GLOBAL#industry#media-entertainment",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#industry",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-01-16T17:42:34+0000",
+        "dateUpdated": "2022-02-03T03:32:07+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#strategies-for-successful-live-event-streaming-and-how-to-avoid-mistakes",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Strategies for Successful Live Event Streaming and How to Avoid Mistakes ",
+      "author": "ashllund",
+      "createdBy": "ashllund",
+      "lastUpdatedBy": "ashllund",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2020-07-30T17:00:32+0000",
+      "dateUpdated": "2020-07-30T17:05:14+0000",
+      "additionalFields": {
+        "contentTitle": "Strategies for Successful Live Event Streaming and How to Avoid Mistakes ",
+        "contentDescription": "<p>New video technologies make it possible for anyone to set up and run a live streaming video event. In this webcast, experts discuss the latest tools, tips, and considerations that organizations operating in any industry need to know to turn live event streaming concepts into pain-free productions.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-OE-Live-Event-Streaming-best-practices-2020-reg-event.html?&trk=el_a134p000003yki1AAA&trkCampaign=2020_MS_CDO_OT_live-streaming-event-best-practices-webcast&sc_channel=el&sc_campaign=EG_NA_EL_live-best-practices-webcast-directory-card&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "GLOBAL#content-type#webinar",
+        "locale": "en_US",
+        "tagNamespaceId": "GLOBAL#content-type",
+        "name": "Webinar",
+        "description": "Webinar",
+        "createdBy": "jenbar",
+        "lastUpdatedBy": "jenbar",
+        "dateCreated": "2020-06-12T23:28:57+0000",
+        "dateUpdated": "2022-02-03T03:31:11+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#augmenting-full-motion-video-ped-analysis-with-machine-learning",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Augmenting Full-Motion Video PED Analysis with Machine Learning",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-12-04T19:42:03+0000",
+      "dateUpdated": "2020-07-22T18:42:47+0000",
+      "additionalFields": {
+        "contentTitle": "Augmenting Full-Motion Video PED Analysis with Machine Learning",
+        "contentDescription": "<p>Warfighter analysis tools must be mission-critical ready for engagement at all times. Register for this webcast and learn how to extend your video encoding capabilities from ground and air operations to disconnected edge environments and to handheld mobile devices. Learn ways to improve processing, exploitation and dissemination with the latest artificial intelligence and machine learning technologies.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-augmenting-full-motion-video-ped-analysis-ML-2018-reg.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#hevc-migration-fragmented-mp4-and-cmaf",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "HEVC Migration, Fragmented MP4 and CMAF",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-12-04T19:41:19+0000",
+      "dateUpdated": "2020-07-22T18:42:49+0000",
+      "additionalFields": {
+        "contentTitle": "HEVC Migration, Fragmented MP4 and CMAF",
+        "contentDescription": "<p>In this webcast, experts from AWS Elemental will highlight the history of HEVC, the benefits of migrating from AVC to HEVC, and what this transition means for video providers. Gain fundamental knowledge about the convergence of fMP4, CMAF and HEVC and the requirements to make the shift.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-hevc-migration-fragmented-mp4-cmaf-2018-reg.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#hevc-the-past-present-future-explained",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "HEVC: The Past, Present & Future Explained",
+      "author": "stokeand",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "stokeand",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-12-04T19:40:33+0000",
+      "dateUpdated": "2020-07-22T18:42:51+0000",
+      "additionalFields": {
+        "contentTitle": "HEVC: The Past, Present & Future Explained",
+        "contentDescription": "<p>The benefits of leveraging the exceptionally efficient video compression techniques of HEVC / H.265 &ndash; with no sacrifice to video quality &ndash; are well known. But Apple&rsquo;s recent commitment to hardware support raises questions. In this webcast, we&rsquo;ll explain how we got here, discuss the ways AWS Elemental implements HEVC, show you how our customers use it, and look at where HEVC is headed.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-hevc-past-present-future-explained-2018-reg.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#foundational-concepts-video-compression-processing-and-delivery",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Foundational Concepts: Video Compression, Processing and Delivery",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-12-04T19:27:32+0000",
+      "dateUpdated": "2020-07-22T18:42:54+0000",
+      "additionalFields": {
+        "contentTitle": "Foundational Concepts: Video Compression, Processing and Delivery",
+        "contentDescription": "<p>In this webcast, you will learn how to create and deliver video over the internet, walk away with an understanding of video codecs, containers, popular delivery methods and content delivery networks, and learn about the latest trends in video compression and delivery.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-foundational-concepts-video-compression-processing-delivery-2017-reg.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#intro-to-qvbr-quality-defined-variable-bitrate-control",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Intro to QVBR: Quality-Defined Variable Bitrate Control",
+      "author": "ashllund",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "ashllund",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-12-04T19:22:19+0000",
+      "dateUpdated": "2021-02-22T02:54:22+0000",
+      "additionalFields": {
+        "contentTitle": "Intro to QVBR: Quality-Defined Variable Bitrate Control",
+        "contentDescription": "<p>QVBR is your antidote for inconsistent viewing quality caused by video complexity. QVBR saves you up to 50% for both CDN egress and storage. How? It delivers constant video quality and wastes zero bits. It&rsquo;s also easy, simple, and quick to configure. Join us for an in-depth discussion of how QVBR works, its uses, and its advantages.</p>\r\n",
+        "contentCtaURL": "https://www.youtube.com/watch?v=cMnI0gZ9W3w&feature=youtu.be",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#building-resilient-high-quality-live-video-workflow",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Building Resilient, High-Quality Live Video Workflow",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-12-04T19:17:47+0000",
+      "dateUpdated": "2020-07-22T18:43:06+0000",
+      "additionalFields": {
+        "contentTitle": "Building Resilient, High-Quality Live Video Workflow",
+        "contentDescription": "<p>For many viewers, the allure of live streamed events provides the motivation to subscribe and renew. But for many content providers, guaranteeing live streaming success is the most challenging part of media operations.&nbsp; Learn what you need to know to get live streaming right.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-resilient-live-video-workflows-learn.html",
+        "contentCategory": "White Paper"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#white-paper",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "White Paper",
+        "description": "<p>White Papers</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:50:18+0000",
+        "dateUpdated": "2019-04-23T22:50:18+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#machine-learning-fundamentals-for-corporate-streaming-video",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Machine Learning Fundamentals for Corporate Streaming Video",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-12-04T19:16:11+0000",
+      "dateUpdated": "2020-07-22T18:43:08+0000",
+      "additionalFields": {
+        "contentTitle": "Machine Learning Fundamentals for Corporate Streaming Video",
+        "contentDescription": "<p>With minimal effort, companies can use existing, sophisticated solutions to make their corporate streaming video workflows much more efficient, and without additional time, expense, and expertise.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL_IND_elemental-wp-corporate-streaming-using-ML_learn.html",
+        "contentCategory": "White Paper"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#white-paper",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "White Paper",
+        "description": "<p>White Papers</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:50:18+0000",
+        "dateUpdated": "2019-04-23T22:50:18+0000"
+      },
+      {
+        "id": "media-resources#segment#machine-learning-analytics",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#segment",
+        "name": "Machine Learning & Analytics",
+        "description": "<p>old tag - now use Data Science &amp; Analytics</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "patelkir",
+        "dateCreated": "2019-10-22T17:14:35+0000",
+        "dateUpdated": "2021-12-14T00:10:18+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#server-side-ad-insertion",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Server Side Ad Insertion",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-12-04T19:15:02+0000",
+      "dateUpdated": "2020-07-22T18:43:10+0000",
+      "additionalFields": {
+        "contentTitle": "Server Side Ad Insertion",
+        "contentDescription": "<p>Is server-side ad insertion (SSAI) better than client-side ad insertion (CSAI)? How do they differ? Which works best for OTT content monetization? How does the cloud enable more scalable solutions? This white paper answers these questions and more.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-elemental-wp-serverside-ad-insertion-learn.html",
+        "contentCategory": "White Paper"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#white-paper",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "White Paper",
+        "description": "<p>White Papers</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:50:18+0000",
+        "dateUpdated": "2019-04-23T22:50:18+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#achieving-broadcast-grade-low-latency-in-live-streaming",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": " Achieving Broadcast-Grade Low Latency in Live Streaming",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-11-08T23:08:19+0000",
+      "dateUpdated": "2020-07-22T18:43:15+0000",
+      "additionalFields": {
+        "contentTitle": " Achieving Broadcast-Grade Low Latency in Live Streaming",
+        "contentDescription": "<p>For a long time, OTT video streams over the internet have been lagging behind broadcast TV and social media by 15-30 seconds if not more. It&#39;s been a frustrating problem for both viewers and content providers. New knowledge, technologies, and practices are making long-standing video latency problems for live streaming a thing of the past.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL_IND_low-latency-live-video-streaming-learn.html",
+        "contentCategory": "White Paper"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#white-paper",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "White Paper",
+        "description": "<p>White Papers</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:50:18+0000",
+        "dateUpdated": "2019-04-23T22:50:18+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#elemental-live",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental Live",
+        "description": "<p>AWS Elemental Live</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T17:05:11+0000",
+        "dateUpdated": "2019-10-22T17:05:25+0000"
+      },
+      {
+        "id": "media-resources#services#mediastore",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaStore",
+        "description": "<p>AWS Elemental MediaStore</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:59:27+0000",
+        "dateUpdated": "2019-10-22T17:03:18+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#achieving-great-video-quality-without-breaking-the-bank",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Achieving Great Video Quality without breaking the bank",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-11-08T23:06:34+0000",
+      "dateUpdated": "2020-07-22T18:43:17+0000",
+      "additionalFields": {
+        "contentTitle": "Achieving Great Video Quality without breaking the bank",
+        "contentDescription": "<p>Video delivery over the internet or any other channel is more than a matter of getting content from provider to viewer. To your audience, it&#39;s all about the quality of the viewing experience. If your video quality standards aren&#39;t high, your audience immediately knows and may go elsewhere to find it.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-elemental-wp-achieving-great-video-quality-without-breaking-the-bank-learn.html",
+        "contentCategory": "White Paper"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#white-paper",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "White Paper",
+        "description": "<p>White Papers</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:50:18+0000",
+        "dateUpdated": "2019-04-23T22:50:18+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconvert",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConvert",
+        "description": "<p>AWS Elemental MediaConvert</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:30+0000",
+        "dateUpdated": "2019-10-22T17:04:45+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#behind-the-stream",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Behind the Stream",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-10-24T17:51:30+0000",
+      "dateUpdated": "2020-07-22T18:43:19+0000",
+      "additionalFields": {
+        "contentTitle": "Behind the Stream",
+        "contentDescription": "<p>Behind The Stream is an online show designed for sports media broadcasters, athletic teams, and digital rights holders, brought to you by AWS video experts. Tune in to get insights, insider tips, and inspiration about how to use AWS media solutions for your next live streaming event.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-Live-Sports-Webcast-Series-2019-reg.html?&trk=el_a131L0000058XzRQAU&trkCampaign=AWS_Behind_the_Stream&sc_channel=el&sc_campaign=AWS_Behind_the_Stream_-_AWS_Media_Resources&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconnect",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConnect",
+        "description": "<p>AWS Elemental MediaConnect</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:12+0000",
+        "dateUpdated": "2019-10-22T17:04:31+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#launch-an-ott-service-on-aws-in-as-little-as-one-day",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Launch an OTT Service on AWS in as Little as One Day",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-10-18T19:43:58+0000",
+      "dateUpdated": "2020-07-22T18:43:22+0000",
+      "additionalFields": {
+        "contentTitle": "Launch an OTT Service on AWS in as Little as One Day",
+        "contentDescription": "<p>Launching a cloud-based DVR service is seemingly complex and time-consuming, but it is possible to launch a complete, professional cloud-based solution quickly and cost-effectively. Cloud-based DVR solutions can be deployed with traditional on-premises cable or IPTV headends, or with video workloads running entirely on AWS. Learn more from this AWS webinar for senior decision-makers.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL_IND_WEBINAR_launch-ott-service-in-one-day_2019.html?&trk=el_a131L0000058UEJQA2&trkCampaign=Launch_an_OTT_Service_on_AWS_in_as_Little_as_One_Day&sc_channel=el&sc_campaign=Insys_Partner_Webcast_-_AWS_Resources&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#partner-webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Partner Webcast",
+        "description": "<p>Partner Webcast</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-18T19:41:10+0000",
+        "dateUpdated": "2019-10-18T19:41:10+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#cloud-based-dvr-technical-overview",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Cloud-based DVR Technical Overview",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-10-18T19:39:54+0000",
+      "dateUpdated": "2020-07-22T18:43:24+0000",
+      "additionalFields": {
+        "contentTitle": "Cloud-based DVR Technical Overview",
+        "contentDescription": "<p>Governments, public agencies, educational institutions, and other non-media organizations can easily and cost-effectively launch a live streaming solution with the ability to record video for offline viewing. Learn more from this technical AWS webinar.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL_IND_WEBINAR_cloud-based-dvr-technical-overview_2019-registration.html?&trk=el_a131L0000058UE9QAM&trkCampaign=Cloud-Based_DVR_Technical_Overview&sc_channel=el&sc_campaign=Insys_Partner_Technical_DVR_Webcast_-_AWS_Resources&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#partner-webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Partner Webcast",
+        "description": "<p>Partner Webcast</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-18T19:41:10+0000",
+        "dateUpdated": "2019-10-18T19:41:10+0000"
+      },
+      {
+        "id": "media-resources#services#mediastore",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaStore",
+        "description": "<p>AWS Elemental MediaStore</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:59:27+0000",
+        "dateUpdated": "2019-10-22T17:03:18+0000"
+      },
+      {
+        "id": "media-resources#services#mediatailor",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaTailor",
+        "description": "<p>AWS Elemental MediaTailor</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T17:00:27+0000",
+        "dateUpdated": "2019-10-22T17:02:45+0000"
+      },
+      {
+        "id": "media-resources#services#media-services",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental Media Services",
+        "description": "<p>AWS Elemental Media Services</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:29+0000",
+        "dateUpdated": "2019-10-22T17:03:47+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconnect",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConnect",
+        "description": "<p>AWS Elemental MediaConnect</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:12+0000",
+        "dateUpdated": "2019-10-22T17:04:31+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconvert",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConvert",
+        "description": "<p>AWS Elemental MediaConvert</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:30+0000",
+        "dateUpdated": "2019-10-22T17:04:45+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#over-the-top-the-cloud-based-path-to-innovation",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Over-the-Top: The cloud based path to innovation",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-09-30T22:41:43+0000",
+      "dateUpdated": "2020-07-22T18:43:27+0000",
+      "additionalFields": {
+        "contentTitle": "Over-the-Top: The cloud based path to innovation",
+        "contentDescription": "<p>The technology infrastructure you choose influences the degree of success you achieve in the increasingly competitive OTT video market. This e-book discusses the accelerating growth in OTT markets, compares hardware- and cloud-based approaches to creating live and on-demand OTT video workflows, and gives specific examples of companies that use cloud-based OTT video services.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL_IND_elemental_eb_building-a-platform-for-success-in-the-ott-video-market_learn.html",
+        "contentCategory": "E-Book"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#e-books",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "E-Book",
+        "description": "<p>Digital books</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:20+0000",
+        "dateUpdated": "2019-04-23T22:50:01+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconvert",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConvert",
+        "description": "<p>AWS Elemental MediaConvert</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:30+0000",
+        "dateUpdated": "2019-10-22T17:04:45+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#windows-migration-for-media-and-entertainment",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Windows Migration for Media and Entertainment",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-09-05T19:59:36+0000",
+      "dateUpdated": "2020-07-22T18:43:29+0000",
+      "additionalFields": {
+        "contentTitle": "Windows Migration for Media and Entertainment",
+        "contentDescription": "<p>A new IDC report shows AWS remains the no. 1 cloud for Windows workloads. To accelerate your migration process, AWS has a special Windows Jumpstart Migration Assessment for M&amp;E customers. Experts from AWS and Flexera explain the details in this webcast.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-Windows-Migration-for-ME-2019-reg-event.html?&trk=el_a131L00000588YmQAI&trkCampaign=Windows_Migrations_for_Media_&_Entertainment&sc_channel=el&sc_campaign=Windows_Migration_for_M&E_-_AWS_Website&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "media-resources#services#mediastore",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaStore",
+        "description": "<p>AWS Elemental MediaStore</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:59:27+0000",
+        "dateUpdated": "2019-10-22T17:03:18+0000"
+      },
+      {
+        "id": "media-resources#services#mediatailor",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaTailor",
+        "description": "<p>AWS Elemental MediaTailor</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T17:00:27+0000",
+        "dateUpdated": "2019-10-22T17:02:45+0000"
+      },
+      {
+        "id": "media-resources#services#media-services",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental Media Services",
+        "description": "<p>AWS Elemental Media Services</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:29+0000",
+        "dateUpdated": "2019-10-22T17:03:47+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconnect",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConnect",
+        "description": "<p>AWS Elemental MediaConnect</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:12+0000",
+        "dateUpdated": "2019-10-22T17:04:31+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconvert",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConvert",
+        "description": "<p>AWS Elemental MediaConvert</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:30+0000",
+        "dateUpdated": "2019-10-22T17:04:45+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#how-to-monetize-your-ott-video-using-aws-media-solutions",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "How to Monetize Your OTT Video using AWS Media Solutions",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-09-03T22:12:32+0000",
+      "dateUpdated": "2020-07-22T18:43:31+0000",
+      "additionalFields": {
+        "contentTitle": "How to Monetize Your OTT Video using AWS Media Solutions",
+        "contentDescription": "<p>This webcast explains how you can use AWS media solutions to simplify the monetization process, and make money, while saving time, effort, and resources in the process.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-Monetization-Solution-Webcast-2019-reg-event.html?&trk=el_a131L00000588YXQAY&trkCampaign=How_to_Monetize_Your_OTT_Video_using_AWS_Media_Solutions&sc_channel=el&sc_campaign=Monetization_Solution_Webcast_-_AWS_Website&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#services#mediatailor",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaTailor",
+        "description": "<p>AWS Elemental MediaTailor</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T17:00:27+0000",
+        "dateUpdated": "2019-10-22T17:02:45+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#building-implementing-scalable-affordable-vod-solutions",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Building & Implementing Scalable, Affordable VOD Solutions",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-09-03T22:11:15+0000",
+      "dateUpdated": "2020-07-22T18:43:33+0000",
+      "additionalFields": {
+        "contentTitle": "Building & Implementing Scalable, Affordable VOD Solutions",
+        "contentDescription": "<p>In this webcast, you see real-world VOD use cases and customer examples, and learn how to quickly build, adapt, and scale for peak workloads and popularity&mdash;without decreasing video quality, or adding technical or operational complexity.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-VOD-Solution-Webcast-2019-reg-event.html?&trk=el_a131L00000588YNQAY&trkCampaign=Building_&_Implementing_Scalable,_Affordable_VOD_Solutions&sc_channel=el&sc_campaign=VOD_Solution_Webcast_-_AWS_Website&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconvert",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConvert",
+        "description": "<p>AWS Elemental MediaConvert</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:30+0000",
+        "dateUpdated": "2019-10-22T17:04:45+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#how-to-get-the-most-out-of-aws-for-live-streaming-solutions",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "How to Get the Most Out of AWS for Live Streaming Solutions",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-09-03T22:10:41+0000",
+      "dateUpdated": "2020-07-22T18:43:36+0000",
+      "additionalFields": {
+        "contentTitle": "How to Get the Most Out of AWS for Live Streaming Solutions",
+        "contentDescription": "<p>This webcast covers the solutions that minimize the dangers of live streaming, and make dealing with fast-changing live video challenges much easier on your operations, resources, budget, and you.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-Live-Solution-Webcast-2019-reg-event.html?&trk=el_a131L00000588Y8QAI&trkCampaign=How_to_Get_the_Most_Out_of_AWS_for_Live_Streaming_Solutions&sc_channel=el&sc_campaign=Live_Solution_Webcast_-_AWS_Website&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "media-resources#services#mediastore",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaStore",
+        "description": "<p>AWS Elemental MediaStore</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:59:27+0000",
+        "dateUpdated": "2019-10-22T17:03:18+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#modernize-your-media-workloads",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Modernize Your Media Workloads",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-09-03T22:09:53+0000",
+      "dateUpdated": "2020-07-22T18:43:38+0000",
+      "additionalFields": {
+        "contentTitle": "Modernize Your Media Workloads",
+        "contentDescription": "<p>Machine learning for media applications: A powerful way to enhance existing and build new customer experiences, accelerate time to market, and reduce costs. Learn how in this webcast led by AWS ML experts.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-multi-OE-ML-for-Media-Workflows-2019-reg-event.html?&trk=el_a131L00000583vwQAA&trkCampaign=Modernize_Your_Media_Workloads_with_Machine_Learning&sc_channel=el&sc_campaign=ML_for_Media_-_AWS_Website&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#hear-from-video-experts-on-the-latest-trends-learn-how-to-deploy-them-using-aws",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Hear from video experts on the latest trends & learn how to deploy them using AWS",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-07-30T18:46:07+0000",
+      "dateUpdated": "2020-07-22T18:43:40+0000",
+      "additionalFields": {
+        "contentTitle": "Hear from video experts on the latest trends & learn how to deploy them using AWS",
+        "contentDescription": "<p>Most media industry trend reports can provide directional guidance on consumer behavior but miss practical applications for media technologists to solve short- to long-term challenges. In this webcast, we discuss how new video workflow solutions from AWS directly address the changes your business is going through. Learn how to quickly evaluate and take advantage of the right solutions for your specific needs.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/key-video-trends-and-deployment-with-aws.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconnect",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConnect",
+        "description": "<p>AWS Elemental MediaConnect</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:12+0000",
+        "dateUpdated": "2019-10-22T17:04:31+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#3-part-webcast-series-resilient-live-streaming-video",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "3-Part Webcast Series: Resilient Live Streaming Video",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-07-30T18:45:12+0000",
+      "dateUpdated": "2020-07-22T18:43:43+0000",
+      "additionalFields": {
+        "contentTitle": "3-Part Webcast Series: Resilient Live Streaming Video",
+        "contentDescription": "<p>Live content attracts large audiences and drives revenue. Live video streaming is a compelling part of an OTT offering, and when it is, you must ensure your customers get the best experience no matter what, or you risk losing loyalty and money. Learn how the AWS Cloud and AWS Elemental Media Services make building a highly available and reliable live video workflow possible in a new, more cost-effective and scalable way, with monitoring, alerts, and security.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-OE-resiliency-video-streaming-series-2019-reg.html",
+        "contentCategory": "Webcast"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#aws-insights-online-conference",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "AWS Insights Online Conference",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-07-30T18:44:17+0000",
+      "dateUpdated": "2020-07-22T18:43:45+0000",
+      "additionalFields": {
+        "contentTitle": "AWS Insights Online Conference",
+        "contentDescription": "<p>Join AWS Insights for a free half-day online conference designed for media and entertainment leaders and builders, with content creation, media supply chain, and content distribution sessions.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-IND-OE-AWS-Insights-Online-Conference-2019-reg-event.html?&trk=el_a131L000005v3RrQAI&trkCampaign=Elemental-VTEC-AWS_Insights_Online_Conference_May&sc_channel=el&sc_campaign=AWS_Elemental_Webcast_&_Online_Conference_Page&sc_outcome=Industry_Marketing&sc_geo=mult",
+        "contentCategory": "Online Conference"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#online-conference",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Online Conference",
+        "description": "<p>Online Conferences</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:50:36+0000",
+        "dateUpdated": "2019-04-23T22:50:36+0000"
+      },
+      {
+        "id": "media-resources#services#mediastore",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaStore",
+        "description": "<p>AWS Elemental MediaStore</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:59:27+0000",
+        "dateUpdated": "2019-10-22T17:03:18+0000"
+      },
+      {
+        "id": "media-resources#services#mediatailor",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaTailor",
+        "description": "<p>AWS Elemental MediaTailor</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T17:00:27+0000",
+        "dateUpdated": "2019-10-22T17:02:45+0000"
+      },
+      {
+        "id": "media-resources#services#media-services",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental Media Services",
+        "description": "<p>AWS Elemental Media Services</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:29+0000",
+        "dateUpdated": "2019-10-22T17:03:47+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconnect",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConnect",
+        "description": "<p>AWS Elemental MediaConnect</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:12+0000",
+        "dateUpdated": "2019-10-22T17:04:31+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconvert",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConvert",
+        "description": "<p>AWS Elemental MediaConvert</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:30+0000",
+        "dateUpdated": "2019-10-22T17:04:45+0000"
+      },
+      {
+        "id": "media-resources#contentcategory#webcast",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "Webcast",
+        "description": "<p>Webcasts</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:49+0000",
+        "dateUpdated": "2019-04-23T22:49:49+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#the-practical-guide-to-aws-media-services",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "The Practical Guide to AWS Media Services",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-07-30T18:40:44+0000",
+      "dateUpdated": "2020-07-22T18:43:47+0000",
+      "additionalFields": {
+        "contentTitle": "The Practical Guide to AWS Media Services",
+        "contentDescription": "<p>AWS Media Services are designed to give you an easy path to cloud-based video processing and delivery. Virtually limitless capacity, performance to scale, the latest proven video standards, formats and protocols &ndash; and much more. Understand the benefits and learn how to deploy the services for discrete workloads or complete, end-to-end video workflows.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL_IND_practical_guide_whitepaper_2019.html",
+        "contentCategory": "White Paper"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#white-paper",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "White Paper",
+        "description": "<p>White Papers</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:50:18+0000",
+        "dateUpdated": "2019-04-23T22:50:18+0000"
+      },
+      {
+        "id": "media-resources#services#mediastore",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaStore",
+        "description": "<p>AWS Elemental MediaStore</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:59:27+0000",
+        "dateUpdated": "2019-10-22T17:03:18+0000"
+      },
+      {
+        "id": "media-resources#services#mediatailor",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaTailor",
+        "description": "<p>AWS Elemental MediaTailor</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T17:00:27+0000",
+        "dateUpdated": "2019-10-22T17:02:45+0000"
+      },
+      {
+        "id": "media-resources#services#media-services",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental Media Services",
+        "description": "<p>AWS Elemental Media Services</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:29+0000",
+        "dateUpdated": "2019-10-22T17:03:47+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconnect",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConnect",
+        "description": "<p>AWS Elemental MediaConnect</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:12+0000",
+        "dateUpdated": "2019-10-22T17:04:31+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconvert",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConvert",
+        "description": "<p>AWS Elemental MediaConvert</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:30+0000",
+        "dateUpdated": "2019-10-22T17:04:45+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#live-video-delivery-from-the-cloud",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Live Video Delivery from the Cloud",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-07-30T18:38:06+0000",
+      "dateUpdated": "2020-07-22T18:43:50+0000",
+      "additionalFields": {
+        "contentTitle": "Live Video Delivery from the Cloud",
+        "contentDescription": "<p>For broadcasters using traditional video infrastructure, the cost and complexity of maintaining video operations is a necessary evil. But to advocate for a change for the better, broadcasters need sound business reasons. This paper explains how cloud technologies take high costs and complexity off the table, and create mutually beneficial provider and customer relationships.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL_IND_live-video-delivery-cloud_white-paper_2019.html",
+        "contentCategory": "White Paper"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#white-paper",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "White Paper",
+        "description": "<p>White Papers</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:50:18+0000",
+        "dateUpdated": "2019-04-23T22:50:18+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#elemental-live",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental Live",
+        "description": "<p>AWS Elemental Live</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T17:05:11+0000",
+        "dateUpdated": "2019-10-22T17:05:25+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#use-the-cloud-to-deliver-great-fan-experiences",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Use the cloud to deliver great fan experiences",
+      "author": "ashllund",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "ashllund",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-07-30T18:37:00+0000",
+      "dateUpdated": "2020-11-03T20:43:56+0000",
+      "additionalFields": {
+        "contentTitle": "Use the cloud to deliver great fan experiences",
+        "contentDescription": "<p>Nurturing digital relationships with fans means delivering &ldquo;right-now&rdquo; OTT live sports offerings that meet broadcast-grade. The cloud is the great equalizer, allowing anyone to deliver personalized experiences and cutting-edge apps for the superfan. This e-book explains how cloud media services and solutions can help you reduce video production costs, grow revenue, and tailor offerings to your specific audiences.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-ln-IND-live-sports-e-magazine-2020-learn.html",
+        "contentCategory": "E-Book"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#e-books",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "E-Book",
+        "description": "<p>Digital books</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:20+0000",
+        "dateUpdated": "2019-04-23T22:50:01+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#accelerate-your-media-workflows",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Accelerate your Media Workflows",
+      "author": "ashllund",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "ashllund",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-07-30T18:36:06+0000",
+      "dateUpdated": "2020-11-03T20:25:48+0000",
+      "additionalFields": {
+        "contentTitle": "Accelerate your Media Workflows",
+        "contentDescription": "<p>Amazon Web Services (AWS) has designed purpose-built solutions to help you innovate and accelerate your media workflows. Read how existing AWS customers are using solutions across their media value chain, from content production through to asset management and distribution, and get ideas for your own creative studio.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL-ln-DL-innovate-quickly-e-magazine-2020-learn.html",
+        "contentCategory": "E-Book"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#e-books",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "E-Book",
+        "description": "<p>Digital books</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:20+0000",
+        "dateUpdated": "2019-04-23T22:50:01+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconvert",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConvert",
+        "description": "<p>AWS Elemental MediaConvert</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:30+0000",
+        "dateUpdated": "2019-10-22T17:04:45+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      }
+    ]
+  },
+  {
+    "item": {
+      "id": "media-resources#video-processing-and-delivery-moves-to-the-cloud",
+      "locale": "en_US",
+      "directoryId": "media-resources",
+      "name": "Video Processing and Delivery Moves to the Cloud",
+      "author": "narjason",
+      "createdBy": "narjason",
+      "lastUpdatedBy": "narjason",
+      "numImpressions": 0,
+      "score": 0,
+      "dateCreated": "2019-07-30T18:06:21+0000",
+      "dateUpdated": "2020-07-22T18:43:56+0000",
+      "additionalFields": {
+        "contentTitle": "Video Processing and Delivery Moves to the Cloud",
+        "contentDescription": "<p>As video quality, accessibility and utility skyrockets, how video providers create and deliver professional-grade video services changes dramatically. This e-book digs into the details behind the causes and effects of this shift. Learn about the benefits of moving video operations to the cloud, the pros and cons of conventional approaches, and tips for adapting to coming changes.</p>\r\n",
+        "contentCtaURL": "https://pages.awscloud.com/GLOBAL_IND_video-processing-delivery-cloud_ebook-2019.html",
+        "contentCategory": "E-Book"
+      }
+    },
+    "tags": [
+      {
+        "id": "media-resources#contentcategory#e-books",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#contentcategory",
+        "name": "E-Book",
+        "description": "<p>Digital books</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-04-23T22:49:20+0000",
+        "dateUpdated": "2019-04-23T22:50:01+0000"
+      },
+      {
+        "id": "media-resources#services#mediastore",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaStore",
+        "description": "<p>AWS Elemental MediaStore</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:59:27+0000",
+        "dateUpdated": "2019-10-22T17:03:18+0000"
+      },
+      {
+        "id": "media-resources#services#mediatailor",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaTailor",
+        "description": "<p>AWS Elemental MediaTailor</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T17:00:27+0000",
+        "dateUpdated": "2019-10-22T17:02:45+0000"
+      },
+      {
+        "id": "media-resources#services#media-services",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental Media Services",
+        "description": "<p>AWS Elemental Media Services</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:29+0000",
+        "dateUpdated": "2019-10-22T17:03:47+0000"
+      },
+      {
+        "id": "media-resources#services#mediapackage",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaPackage",
+        "description": "<p>AWS Elemental MediaPackage</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:58:43+0000",
+        "dateUpdated": "2019-10-22T17:04:05+0000"
+      },
+      {
+        "id": "media-resources#services#medialive",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaLive",
+        "description": "<p>AWS Elemental MediaLive</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:56:44+0000",
+        "dateUpdated": "2019-10-22T17:04:19+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconnect",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConnect",
+        "description": "<p>AWS Elemental MediaConnect</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:12+0000",
+        "dateUpdated": "2019-10-22T17:04:31+0000"
+      },
+      {
+        "id": "media-resources#services#mediaconvert",
+        "locale": "en_US",
+        "tagNamespaceId": "media-resources#services",
+        "name": "AWS Elemental MediaConvert",
+        "description": "<p>AWS Elemental MediaConvert</p>\r\n",
+        "createdBy": "narjason",
+        "lastUpdatedBy": "narjason",
+        "dateCreated": "2019-10-22T16:57:30+0000",
+        "dateUpdated": "2019-10-22T17:04:45+0000"
+      }
+    ]
+  }
+]

@@ -180,10 +180,18 @@ import _ from "lodash"
     return titleFieldName;
   };
 
-  const createDataForFrontend = async () => {
+  const flattenData = async(options) => {
     for (const directory of metadata.directories) {
       const data = JSON.parse(fs.readFileSync(`data/${directory.directoryId}.json`, { encoding: "utf-8" }))
-      const transformedData = data.flatMap(data => data.items.map(item => {
+      const transformedData = data.flatMap(data => data.items.map(item => (item)))
+      fs.writeFileSync(`data/${directory.directoryId}.flat.json`, JSON.stringify(transformedData, null, 2))
+    }    
+  }
+
+  const createDataForFrontend = async () => {
+    for (const directory of metadata.directories) {
+      const data = JSON.parse(fs.readFileSync(`data/${directory.directoryId}.flat.json`, { encoding: "utf-8" }))
+      const transformedData = data.map(item => {
         const displayItem = {}
         for (const field of directory.displayMetadata.fields) {
           _.set(displayItem, field.field, _.get(item, field.field))
@@ -200,7 +208,7 @@ import _ from "lodash"
           displayItem.item.tags = item.tags.map(t => t.name).join(',')
         }
         return displayItem;
-      }))
+      })
       fs.writeFileSync(`data/${directory.directoryId}.display.json`, JSON.stringify(transformedData))
     }
   }
@@ -248,13 +256,15 @@ import _ from "lodash"
       .action(async (options) => {
         await download(options);
       });
+    program.command("flatten-data").action(async(options) => {
+      await flattenData(options)
+    })
     program.command("index").action(async () => {
       await index();
     });
     program.command("create-data-for-frontend").action(async () => {
       await createDataForFrontend();
     });
-
     program
       .command("search")
       .option("-d, --directoryId <directoryId>", "directoryId")
