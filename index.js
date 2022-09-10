@@ -20,6 +20,13 @@ import _ from "lodash";
     return new Promise((resolve) => setTimeout(resolve, ms));
   };
 
+const getFileType = (url) => {
+  const pathname = (new URL(url)).pathname;
+  const components = pathname.split('.')
+  const extension = components[components.length-1]
+  return extension
+};
+
   const fetchJSON = async (url) => {
     l(`fetchJSON("${url}")`);
     const resp = await fetch(url);
