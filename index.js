@@ -2,7 +2,7 @@
 
 import { program } from "commander";
 import fetch from "node-fetch";
-import fs from "fs";
+import fs from "fs-extra";
 import path from "path";
 import lunr from "lunr";
 import metadata from "./metadata.js";
@@ -20,12 +20,12 @@ import _ from "lodash";
     return new Promise((resolve) => setTimeout(resolve, ms));
   };
 
-const getFileType = (url) => {
-  const pathname = (new URL(url)).pathname;
-  const components = pathname.split('.')
-  const extension = components[components.length-1]
-  return extension
-};
+  const getFileType = (url) => {
+    const pathname = new URL(url).pathname;
+    const components = pathname.split(".");
+    const extension = components[components.length - 1];
+    return extension;
+  };
 
   const fetchJSON = async (url) => {
     l(`fetchJSON("${url}")`);
@@ -50,9 +50,9 @@ const getFileType = (url) => {
     }&sort_by=item.dateCreated&sort_order=desc&item.locale=en_US&page=`;
     const pageIndexes = Array.from(Array(metadata.metadata.pageCount).keys());
 
-    const items = JSON.parse(
-      fs.readFileSync(`data/${directoryId}.flat.json`, { encoding: "utf-8" })
-    );
+    const items = fs.readJSONSync(`data/${directoryId}.flat.json`, {
+      encoding: "utf-8",
+    });
     items.find((item) => item.item.id);
 
     const pages = [];
@@ -88,6 +88,7 @@ const getFileType = (url) => {
         break;
       }
     }
+
     fs.writeFileSync(
       `data/${directoryId}.flat.json`,
       JSON.stringify(items, null, 2)
@@ -140,9 +141,10 @@ const getFileType = (url) => {
   };
 
   const getEnrichedItemsByDirectoryId = async (directoryId) => {
-    const pages = JSON.parse(
-      fs.readFileSync(`data/${directoryId}.json`, { encoding: "utf-8" })
-    );
+    fs.readJSONSync(`data/${directoryId}.json`, { encoding: "utf-8" });
+    const pages = fs.readJSONSync(`data/${directoryId}.json`, {
+      encoding: "utf-8",
+    });
     const items = await getItemsFromPages(pages);
     const enrichedItems = await enrichItems(items, directoryId);
     return enrichedItems;
@@ -230,11 +232,10 @@ const getFileType = (url) => {
 
   const flattenData = async (options) => {
     for (const directory of metadata.directories) {
-      const data = JSON.parse(
-        fs.readFileSync(`data/${directory.directoryId}.json`, {
-          encoding: "utf-8",
-        })
-      );
+      const data = fs.readJSONSync(`data/${directory.directoryId}.json`, {
+        encoding: "utf-8",
+      });
+
       const transformedData = data.flatMap((data) =>
         data.items.map((item) => item)
       );
@@ -247,11 +248,9 @@ const getFileType = (url) => {
 
   const createDataForFrontend = async () => {
     for (const directory of metadata.directories) {
-      const data = JSON.parse(
-        fs.readFileSync(`data/${directory.directoryId}.flat.json`, {
-          encoding: "utf-8",
-        })
-      );
+      const data = fs.readJSONSync(`data/${directory.directoryId}.flat.json`, {
+        encoding: "utf-8",
+      });
       const transformedData = data.map((item) => {
         const displayItem = {};
         for (const field of directory.displayMetadata.fields) {
@@ -286,10 +285,9 @@ const getFileType = (url) => {
       directoryId
     );
     const items = await getEnrichedItemsByDirectoryId(directoryId);
+
     const idx = lunr.Index.load(
-      JSON.parse(
-        fs.readFileSync(`index/${directoryId}.json`, { encoding: "utf-8" })
-      )
+      fs.readJSONSync(`index/${directoryId}.json`, { encoding: "utf-8" })
     );
     const searchResults = idx.search(query);
     const results = searchResults
