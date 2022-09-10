@@ -43,49 +43,53 @@ import _ from "lodash";
   };
 
   const fetchDirectoryContent = async (directoryId, metadata) => {
-    const urlTemplate = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${encodeURIComponent(
-      directoryId
-    )}&size=${
-      metadata.metadata.count
-    }&sort_by=item.dateCreated&sort_order=desc&item.locale=en_US&page=`;
-    const pageIndexes = Array.from(Array(metadata.metadata.pageCount).keys());
 
     const items = fs.readJSONSync(`data/${directoryId}.flat.json`, {
       encoding: "utf-8",
     });
-    items.find((item) => item.item.id);
 
     const pages = [];
 
-    let foundAnyNewItems = false;
-    for (const pageIndex of pageIndexes) {
-      let foundNewItems = false;
-      const url = urlTemplate + `${pageIndex}`;
-      const data = await fetchJSON(url);
-      if (data.items.length > 0) {
-        pages.push(data);
-
-        for (const item of data.items) {
-          if (!items.find((i) => i.item.id === item.item.id)) {
-            items.unshift(item);
-            foundNewItems = true;
-            foundAnyNewItems = true;
-            console.log(
-              `adding new item (id: ${item.item.id}, dateCreated: ${item.item.dateCreated}`
-            );
+    for (const sortOrder of ['desc', 'asc']) {
+      const urlTemplate = `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${encodeURIComponent(
+        directoryId
+      )}&size=${
+        metadata.metadata.count
+      }&sort_by=item.dateCreated&sort_order=${sortOrder}&item.locale=en_US&page=`;
+      const pageIndexes = Array.from(Array(metadata.metadata.pageCount).keys());
+  
+      items.find((item) => item.item.id);
+  
+      let foundAnyNewItems = false;
+      for (const pageIndex of pageIndexes) {
+        let foundNewItems = false;
+        const url = urlTemplate + `${pageIndex}`;
+        const data = await fetchJSON(url);
+        if (data.items.length > 0) {
+          pages.push(data);
+  
+          for (const item of data.items) {
+            if (!items.find((i) => i.item.id === item.item.id)) {
+              items.unshift(item);
+              foundNewItems = true;
+              foundAnyNewItems = true;
+              console.log(
+                `adding new item (id: ${item.item.id}, dateCreated: ${item.item.dateCreated}`
+              );
+            }
           }
-        }
-
-        if (!foundNewItems) {
-          console.log(`no more items found for directoryId: ${directoryId}`);
+  
+          if (!foundNewItems) {
+            console.log(`no more items found for directoryId: ${directoryId}`);
+            break;
+          }
+        } else if (pageIndex < pageIndexes[pageIndexes.length - 1]) {
+          // appears max page is 1000.  this is based on "directoryId=blog-posts,action=break,pageIndex=1000,pageIndexes.length=2077""
+          l(
+            `directoryId=${directoryId},action=break,pageIndex=${pageIndex},pageIndexes.length=${pageIndexes.length}`
+          );
           break;
         }
-      } else if (pageIndex < pageIndexes[pageIndexes.length - 1]) {
-        // appears max page is 1000.  this is based on "directoryId=blog-posts,action=break,pageIndex=1000,pageIndexes.length=2077""
-        l(
-          `directoryId=${directoryId},action=break,pageIndex=${pageIndex},pageIndexes.length=${pageIndexes.length}`
-        );
-        break;
       }
     }
 
