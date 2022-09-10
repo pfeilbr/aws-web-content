@@ -68,7 +68,7 @@
         "title": "Blog Posts",
         "fields": [
           {"field": "item.additionalFields.title", "headerName": "Title", "linkField": "item.additionalFields.link"},
-          {"field": "item.additionalFields.modifiedDate", "headerName": "Date", "transform": (s) => (s.split("T")[0]), "sort": "desc"},
+          {"field": "item.additionalFields.modifiedDate", "headerName": "Date", /* "transform": (s) => (s.split("T")[0]), */ "sort": "desc"},
           {"field": "item.author", "headerName": "Author", "transform": (s) => (JSON.parse(s).join(", "))},
           {"field": "item.tags", "headerName": "Tags"},          
           // {"field": "item.id"},
@@ -84,7 +84,7 @@
         "title": "Whats New",
         "fields": [
           {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
-          {"field": "item.additionalFields.postDateTime", "headerName": "Date", "transform": (s) => (s.split("T")[0]), "sort": "desc"},
+          {"field": "item.additionalFields.postDateTime", "headerName": "Date", /* "transform": (s) => (s.split("T")[0]), */ "sort": "desc"},
           {"field": "item.tags", "headerName": "Tags"},          
           // {"field": "item.author", "headerName": "Author"},
           // {"field": "item.id"},
