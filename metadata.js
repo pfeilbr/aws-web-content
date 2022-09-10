@@ -160,5 +160,19 @@
           {"field": "item.tags", "headerName": "Tags"},          
         ]
         }
-    }    
+    },
+    // {
+    //   "directoryId": "alias#solutions-experience",
+    //   "title": "AWS Quick Starts",
+    //   "displayMetadata": {
+    //     "title": "AWS Quick Starts",
+    //     "fields": [
+    //       {"field": "item.additionalFields.headline", "headerName": "Title", "linkField": "item.additionalFields.headlineUrl"},
+    //       {"field": "item.additionalFields.contentType", "headerName": "Type"},
+    //       {"field": "item.additionalFields.sortDate", "headerName": "Date", "sort": "desc"},
+    //       {"field": "item.tags", "headerName": "Tags"},          
+    //     ]
+    //     }
+    // }
+
   ]}

@@ -130,6 +130,9 @@ npm run publish
 
 ## TODO
 
+* add "AWS Quick Starts" directory https://aws.amazon.com/api/dirs/items/search?item.directoryId=alias%23solutions-experience&sort_by=item.additionalFields.sortDate&sort_order=desc&size=15&item.locale=en_US&tags.id=!GLOBAL%23flag%23archived
+  * stubbed and commented out in [`metadata.js`](metadata.js)
+
 * step fn processing logic - need to figure out how to not download everything each run.  way to download only new or changed items since last run
     * define work by getting metadata for number results via https://...?item.directoryId=${directoryId}&item.locale=en_US&page=0.  generate singe sqs message for each unique URL
     * use returned `metadata.count` for `size` query string parameter
