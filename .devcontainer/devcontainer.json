@@ -21,7 +21,7 @@
 	],
 	"features": {
 		"docker-in-docker": "latest",
-		"github-cli": "latest",
+		//"github-cli": "latest",
 		"homebrew": "latest"
 	},
 
