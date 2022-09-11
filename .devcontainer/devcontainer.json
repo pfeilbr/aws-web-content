@@ -19,10 +19,6 @@
 		"aws-scripting-guy.cform",
 		"4ops.terraform"
 	],
-
-	"mounts": [
-		"source=/home/ec2-user/.aws,target=/root/.aws,type=bind,consistency=cached"
-	],
 	"features": {
 		"docker-in-docker": "latest",
 		"github-cli": "latest",
