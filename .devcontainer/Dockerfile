@@ -6,11 +6,8 @@
 
 # universal codespaces image which include all the common languages
 # see <https://github.com/microsoft/vscode-dev-containers/tree/main/containers/codespaces-linux>
-#FROM mcr.microsoft.com/devcontainers/universal:linux
-#FROM mcr.microsoft.com/devcontainers/universal:2-focal
-#FROM mcr.microsoft.com/vscode/devcontainers/universal:1-focal
-#FROM mcr.microsoft.com/vscode/devcontainers/universal:2-linux
-FROM mcr.microsoft.com/vscode/devcontainers/universal:linux
+#FROM mcr.microsoft.com/vscode/devcontainers/universal:latest
+FROM mcr.microsoft.com/vscode/devcontainers/universal:2-focal
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
