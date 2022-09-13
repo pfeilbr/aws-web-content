@@ -351,6 +351,15 @@ import _ from "lodash";
     // console.log('username:', username);
     // console.log('password:', password);
   };
+  program.command("test")
+          .action(async(options) => {
+            const baseDirectoryPath = `/tmp/${path.basename(process.cwd())}`
+            console.log({baseDirectoryPath})
+            fs.removeSync(baseDirectoryPath)
+            fs.copySync('./', baseDirectoryPath)
+            process.chdir(baseDirectoryPath)
+            await download(options);
+          })
 
   await main();
 })();
