@@ -167,6 +167,13 @@ node index.js index
 node index.js search --directoryId "whats-new" --query "name:*lambda*"
 ```
 
+```sh
+BUCKET_NAME="aws-web-content-s3bucket-1rmdk8t0ols56"
+BUCKET_DOMAIN_NAME="${BUCKET_NAME}.s3.amazonaws.com"
+aws s3 cp data s3://$BUCKET_NAME/data/ --recursive
+aws s3 cp index s3://$BUCKET_NAME/index/ --recursive
+```
+
 ## One-liner to retrieve a list of all AWS products
 
 ```sh

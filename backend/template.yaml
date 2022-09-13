@@ -1,0 +1,73 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  aws-web-content
+
+# Parameters:
+
+
+Globals:
+  Function:
+    Timeout: 60
+
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+      VersioningConfiguration:
+        Status: Enabled
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+      
+
+  BucketPolicy:
+    Type: 'AWS::S3::BucketPolicy'
+    Properties:
+      PolicyDocument:
+        Id: MyPolicy
+        Version: 2012-10-17
+        Statement:
+          - Sid: PublicReadForGetBucketObjects
+            Effect: Allow
+            Principal: '*'
+            Action: 's3:GetObject'
+            Resource: !Join 
+              - ''
+              - - 'arn:aws:s3:::'
+                - !Ref S3Bucket
+                - /*
+      Bucket: !Ref S3Bucket
+
+  UpdateAwsWebContent:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: A Lambda function that logs the payload of messages sent to an associated SQS queue.
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+      Handler: src/handlers/update-aws-web-content.handler
+      Environment:
+        Variables:
+          S3Bucket: !Sub "${S3Bucket}"        
+      Events:
+        CloudWatchEvent:
+          Type: Schedule
+          Properties:
+            Schedule: cron(0/5 * * * ? *)
+      Policies:
+        - S3FullAccessPolicy:
+            BucketName: !Ref S3Bucket
+      MemorySize: 1024
+      Timeout: 900
+
+Outputs:
+  S3Bucket:
+    Value: !Ref S3Bucket
+  DomainName:
+    Value: !GetAtt S3Bucket.DomainName
+  UpdateAwsWebContent:
+    Value: !Ref UpdateAwsWebContent
