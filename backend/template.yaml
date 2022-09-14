@@ -20,6 +20,14 @@ Resources:
         ErrorDocument: error.html
       VersioningConfiguration:
         Status: Enabled
+      CorsConfiguration:
+        CorsRules:
+          - AllowedHeaders:
+              - '*'
+            AllowedMethods:
+              - GET
+            AllowedOrigins:
+              - '*'
     DeletionPolicy: Retain
     UpdateReplacePolicy: Retain
       

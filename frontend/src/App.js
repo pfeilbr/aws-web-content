@@ -7,7 +7,8 @@ import 'ag-grid-community/styles/ag-grid.css'; // Core grid CSS, always needed
 import 'ag-grid-community/styles/ag-theme-alpine.css'; // Optional theme CSS
 import metadata from './metadata.js'
 
-const baseURL = `https://raw.githubusercontent.com/pfeilbr/aws-web-content/main`
+//const baseURL = `https://raw.githubusercontent.com/pfeilbr/aws-web-content/main`
+const baseURL = `https://aws-web-content-s3bucket-1rmdk8t0ols56.s3.us-east-1.amazonaws.com`
 const baseIndexURL = `${baseURL}/index`
 const baseDataURL = `${baseURL}/data`
 const directoryMetadataURL = `${baseURL}/metadata.json`
@@ -17,6 +18,40 @@ const dataURLForDirectoryId = (directoryId) => `${baseDataURL}/${encodeURICompon
 const fetchJSON = async (url) => {
   const resp = await fetch(url);
   return await resp.json()
+  // const resp = await fetch(url, {
+  //   mode: 'no-cors',
+  //   method: "GET",
+  //   headers: {
+  //     "Accept": "application/json"
+  //   }    
+  // })
+  // let json = null;
+  // try {
+  //   json = await resp.text()
+  // } catch (e) {
+  //   console.error(e)
+  //   console.log({url})
+  // }
+
+  // let ret = null;
+  // try {
+  //   ret = JSON.parse(json);
+  // }catch (e) {
+  //   console.error(e)
+  //   console.log({url})
+  //   console.log(json)
+  // }
+
+  // return ret;
+  // const resp = await fetch(url, {
+  //   mode: 'no-cors',
+  //   method: "GET",
+  //   headers: {
+  //      "Content-Type": "application/json"
+  //   }    
+  // })
+  // // return await JSON.parse(await resp.text())
+  // return 
 }
 
 const fetchDirectoryMetadata = async () => {
