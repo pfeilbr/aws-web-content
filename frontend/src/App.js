@@ -18,40 +18,6 @@ const dataURLForDirectoryId = (directoryId) => `${baseDataURL}/${encodeURICompon
 const fetchJSON = async (url) => {
   const resp = await fetch(url);
   return await resp.json()
-  // const resp = await fetch(url, {
-  //   mode: 'no-cors',
-  //   method: "GET",
-  //   headers: {
-  //     "Accept": "application/json"
-  //   }    
-  // })
-  // let json = null;
-  // try {
-  //   json = await resp.text()
-  // } catch (e) {
-  //   console.error(e)
-  //   console.log({url})
-  // }
-
-  // let ret = null;
-  // try {
-  //   ret = JSON.parse(json);
-  // }catch (e) {
-  //   console.error(e)
-  //   console.log({url})
-  //   console.log(json)
-  // }
-
-  // return ret;
-  // const resp = await fetch(url, {
-  //   mode: 'no-cors',
-  //   method: "GET",
-  //   headers: {
-  //      "Content-Type": "application/json"
-  //   }    
-  // })
-  // // return await JSON.parse(await resp.text())
-  // return 
 }
 
 const fetchDirectoryMetadata = async () => {
