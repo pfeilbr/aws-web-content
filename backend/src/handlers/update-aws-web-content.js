@@ -6,6 +6,7 @@ import path from "path";
 import lunr from "lunr";
 import metadata from "./metadata.js";
 import _ from "lodash";
+import glob from "glob"
 
 //const metadata = JSON.parse(fs.readFileSync('./metadata.json'))
 const directories = metadata.directories;
@@ -313,13 +314,72 @@ const search = async (directoryId, query) => {
   l(sortedResultsDesc);
 };
 
+const s3Download = async(bucket, prefix, targetLocalDirectoryPath) => {
+  const s3 = new AWS.S3()
+  const listObjectsV2Resp = await s3.listObjectsV2({Bucket: bucket, Prefix: prefix}).promise()
+  for (const entry of listObjectsV2Resp.Contents) {
+    const localFilePath = `${targetLocalDirectoryPath}/${entry.Key}`
+    const { Body } = await s3.getObject({Bucket: bucket, Key: entry.Key}).promise()
+    fs.mkdirpSync(path.dirname(localFilePath))
+    console.log(`downloading: ${entry.Key}`)
+    await fs.writeFile(localFilePath, Body)    
+    
+  }
+}
+
+const s3Upload =  async (sourceLocalDirectoryPath, bucket, prefix) => {
+  const s3 = new AWS.S3()
+  for (const filePath of glob.sync(`${sourceLocalDirectoryPath}/**`)) {
+    if (fs.lstatSync(filePath).isDirectory()) {
+      continue
+    }
+    const localFilePath = filePath
+    const key = filePath.replace(`${sourceLocalDirectoryPath}/`, "")
+    console.log(`uploading: ${localFilePath} to s3://${bucket}/${key}`)
+    console.log({localFilePath, key})
+    const uploadResp = await s3.upload({Bucket: bucket, Key: key, Body: fs.createReadStream(localFilePath)}).promise()
+  }
+}
+
+const updateContent = async (options) => {
+  const bucket = process.env.S3Bucket || "aws-web-content-s3bucket-1rmdk8t0ols56"
+  const prefix = ""
+
+  //const baseDirectoryPath = `/tmp/${path.basename(process.cwd())}`;
+  const baseDirectoryPath = `/tmp/aws-web-content`;
+  console.log({ baseDirectoryPath });
+  fs.removeSync(baseDirectoryPath);
+  //fs.copySync("./", baseDirectoryPath);
+  fs.mkdirsSync(baseDirectoryPath)
+  process.chdir(baseDirectoryPath);
+
+  const targetLocalDirectoryPath = baseDirectoryPath
+  await s3Download(bucket, prefix, targetLocalDirectoryPath);
+
+  await download(options);
+
+  console.log(`--- createDataForFrontend ---`)
+  await createDataForFrontend();
+
+  const sourceLocalDirectoryPath = baseDirectoryPath;
+  console.log(`--- s3Upload ---`)
+  return await s3Upload(sourceLocalDirectoryPath, bucket, prefix)
+}
+
 const handler = async (event, context) => {
     console.info(JSON.stringify(event));
+
+    try {
+      await updateContent({})
+    } catch (e) {
+      console.error(e)
+    }
+
   };
 
 export { handler }
 
-async () => {
+(async () => {
   const main = async () => {
     program
       .version("0.1.0")
@@ -362,8 +422,13 @@ async () => {
     await download(options);
   });
 
+  program.command("update-content").action(async (options) => {
+    await updateContent(options)
+  });
+
+
   await main();
-}; /* (); */
+}) /*();*/
 
 /*
   var params = {

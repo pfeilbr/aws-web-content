@@ -69,7 +69,7 @@ Resources:
       Policies:
         - S3FullAccessPolicy:
             BucketName: !Ref S3Bucket
-      MemorySize: 1024
+      MemorySize: 4096
       Timeout: 900
 
 Outputs:

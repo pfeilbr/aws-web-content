@@ -172,6 +172,13 @@ BUCKET_NAME="aws-web-content-s3bucket-1rmdk8t0ols56"
 BUCKET_DOMAIN_NAME="${BUCKET_NAME}.s3.amazonaws.com"
 aws s3 cp data s3://$BUCKET_NAME/data/ --recursive
 aws s3 cp index s3://$BUCKET_NAME/index/ --recursive
+
+
+aws lambda invoke \
+    --cli-binary-format raw-in-base64-out \
+    --function-name aws-web-content-UpdateAwsWebContent-xzzE4avkIwN6 \
+    --payload '{}' \
+    tmp/response.json 
 ```
 
 ## One-liner to retrieve a list of all AWS products
