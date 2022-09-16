@@ -342,12 +342,12 @@ const s3Upload =  async (sourceLocalDirectoryPath, bucket, prefix) => {
 }
 
 const updateContent = async (options) => {
-  const bucket = process.env.S3Bucket || "aws-web-content-s3bucket-1rmdk8t0ols56"
+  const bucket = (process.env.S3Bucket && process.env.S3Bucket !== "S3Bucket") ? process.env.S3Bucket : "aws-web-content-s3bucket-1rmdk8t0ols56"
   const prefix = ""
 
   //const baseDirectoryPath = `/tmp/${path.basename(process.cwd())}`;
   const baseDirectoryPath = `/tmp/aws-web-content`;
-  console.log({ baseDirectoryPath });
+  console.log(JSON.stringify({ baseDirectoryPath, bucket, prefix }));
   fs.removeSync(baseDirectoryPath);
   //fs.copySync("./", baseDirectoryPath);
   fs.mkdirsSync(baseDirectoryPath)
@@ -379,7 +379,7 @@ const handler = async (event, context) => {
 
 export { handler }
 
-(async () => {
+
   const main = async () => {
     program
       .version("0.1.0")
@@ -426,9 +426,15 @@ export { handler }
     await updateContent(options)
   });
 
+// if not running in lambda execution environment
+if (!process.env.AWS_LAMBDA_FUNCTION_NAME) {
+  (async () => {
+    await main();
+  })()
+}
 
-  await main();
-}) /*();*/
+  
+
 
 /*
   var params = {
