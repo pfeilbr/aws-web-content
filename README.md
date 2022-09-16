@@ -1,5 +1,9 @@
 # aws-web-content
 
+App URL: <https://brianpfeil.com/apps/awswebcontent/build/index.html>
+
+---
+
 * fetch all aws directory api metadata (arch diagrams, products, blog posts, builders library articles, etc.)
 * based on public data fetched via `https://aws.amazon.com/api/dirs/items/search?item.directoryId=${directoryId}&item.locale=en_US`
 * [`index.js`](index.js) - entrypoint
