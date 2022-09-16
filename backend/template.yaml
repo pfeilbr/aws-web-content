@@ -65,7 +65,7 @@ Resources:
         CloudWatchEvent:
           Type: Schedule
           Properties:
-            Schedule: cron(0/5 * * * ? *)
+            Schedule: cron(0/15 * * * ? *)
       Policies:
         - S3FullAccessPolicy:
             BucketName: !Ref S3Bucket
